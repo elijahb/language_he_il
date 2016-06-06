@@ -1058,6 +1058,7 @@ Qty,כמות,module,Magento_Multishipping
 Actions,פעולות,module,Magento_Multishipping
 "Remove item","הסר פריט",module,Magento_Multishipping
 "Billing Address","כתובת חיוב",module,Magento_Multishipping
+"Edit Items","עריכת פריטים",module,Magento_Multishipping
 "Product Name","שם מוצר",module,Magento_Multishipping
 "Incl. Tax","כולל מס",module,Magento_Multishipping
 "Excl. Tax","למעט מס",module,Magento_Multishipping

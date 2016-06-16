@@ -472,6 +472,7 @@ Action,פעולה,module,Magento_Catalog
 "Unselect All","הסר הכל",module,Magento_Catalog
 "Select Visible","בחר גלוי",module,Magento_Catalog
 "Unselect Visible","ביטול בחירה של גלוי",module,Magento_Catalog
+"Shop By","סנן לפי",module,Magento_Catalog
 "Shopping Options","אפשרויות סינון",module,Magento_Catalog
 "Compare Products","השוואת מוצרים",module,Magento_Catalog
 "Print This Page","הדפס עמוד זה",module,Magento_Catalog
@@ -741,6 +742,7 @@ No,לא,module,Magento_LayeredNavigation
 Position,מיקום,module,Magento_LayeredNavigation
 Previous,הקודם,module,Magento_LayeredNavigation
 "Remove This Item","הסר פריט זה",module,Magento_LayeredNavigation
+"Shop By","סנן לפי",module,Magento_LayeredNavigation
 "Shopping Options","אפשרויות סינון",module,Magento_LayeredNavigation
 Total,"סה""כ",module,Magento_Multishipping
 "Shipping Methods","שיטות המשלוח",module,Magento_Multishipping
@@ -1102,7 +1104,7 @@ Edit,ערוך,module,Magento_Wishlist
 Back,חזור,module,Magento_Wishlist
 "* Required Fields","* שדות חובה",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
-"Shop By","מיין לפי",theme,frontend/Magento/luma
+"Shop By","סנן לפי",theme,frontend/Magento/luma
 Cancel,ביטול,module,Magento_Catalog
 OK,אישור,module,Magento_Catalog
 "Please select items.","אנא בחר פריטים.",module,Magento_Catalog

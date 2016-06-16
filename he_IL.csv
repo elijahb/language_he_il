@@ -638,6 +638,7 @@ Actions,פעולות,module,Magento_Catalog
 "Select Visible","בחר גלוי",module,Magento_Catalog
 "Unselect Visible","ביטול בחירה של גלוי",module,Magento_Catalog
 "Regular Price","מחיר רגיל",module,Magento_Catalog
+"Shop By","סנן לפי",module,Magento_Catalog
 "Shopping Options","אפשרויות סינון",module,Magento_Catalog
 "Compare Products","השוואת מוצרים",module,Magento_Catalog
 "Print This Page","הדפס עמוד זה",module,Magento_Catalog
@@ -1046,6 +1047,7 @@ items,פריטים,module,Magento_LayeredNavigation
 Previous,הקודם,module,Magento_LayeredNavigation
 Remove,הסר,module,Magento_LayeredNavigation
 "Remove This Item","הסר פריט זה",module,Magento_LayeredNavigation
+"Shop By","סנן לפי",module,Magento_LayeredNavigation
 "Shopping Options","אפשרויות סינון",module,Magento_LayeredNavigation
 Database,"בסיס נתונים",module,Magento_MediaStorage
 "See price before order confirmation.","ראה מחיר לפני אישור ההזמנה.",module,Magento_Msrp
@@ -1479,7 +1481,7 @@ Back,חזור,module,Magento_Wishlist
 Previous,הקודם,theme,frontend/Magento/luma
 Remove,הסר,theme,frontend/Magento/luma
 "Remove This Item","הסר פריט זה",theme,frontend/Magento/luma
-"Shop By","מיין לפי",theme,frontend/Magento/luma
+"Shop By","סנן לפי",theme,frontend/Magento/luma
 "Clear All","נקה הכל",theme,frontend/Magento/luma
 "Shopping Options","אפשרויות קניה",theme,frontend/Magento/luma
 Customer:,לקוח:,module,Magento_Checkout

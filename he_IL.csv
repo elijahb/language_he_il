@@ -579,6 +579,7 @@ Catalog,קטלוג,module,Magento_Catalog
 "We can't find an attribute to delete.","איננו יכולים למצוא תכונה למחיקה.",module,Magento_Catalog
 "An attribute set named '%1' already exists.","ערך התכונה בשם '%1' כבר קיימת.",module,Magento_Catalog
 "We can't update the attribute.","איננו יכולים לעדכן את התכונה.",module,Magento_Catalog
+"This product no longer exists.","מוצר זה כבר לא קיים.",module,Magento_Catalog
 Products,מוצרים,module,Magento_Catalog
 "We can't delete this set right now.","איננו יכולים למחוק קבוצה זו ברגע זה.",module,Magento_Catalog
 "You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
@@ -787,9 +788,13 @@ Stores,חנויות,module,Magento_Config
 "Products ""%1"" and %2 have the same set of attribute values.","מוצרי ""%1"" %2 יש את אותו הסט של ערכי התכונות.",module,Magento_ConfigurableProduct
 "You can't add the item to shopping cart.","אינך יכול להוסיף את הפריט לסל הקניות.",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","עליך לבחור את האפשרויות עבור הפריט שלך.",module,Magento_ConfigurableProduct
+"Configurable product ""%1"" do not have sub-products","המוצר ההמורכב ""%1"" ללא תת מוצרים",module,Magento_ConfigurableProduct
 "Select All","בחר הכל",module,Magento_ConfigurableProduct
 "Step 3: Bulk Images, Price, and Quantity","שלב 3: לרשימת תפוצת תמונות, מחיר וכמות",module,Magento_ConfigurableProduct
+"Based on your selections <span class=""new-products-count"" data-bind=""text:countVariations""></span>
+        new products will be created. Use this step to customize images and price for your new products.","בהתבסס על הבחירות שלך <span class=""new-products-count"" data-bind=""text:countVariations""></span> מוצרים חדשים ייווצרו. השתמש בשלב זה כדי להתאים אישית תמונות ומחיר עבור המוצרים החדשים שלך.",module,Magento_ConfigurableProduct
 Images,תמונות,module,Magento_ConfigurableProduct
+"Edit role","עריכת הרשאה",module,Magento_ConfigurableProduct
 Price,מחיר,module,Magento_ConfigurableProduct
 Quantity,כמות,module,Magento_ConfigurableProduct
 Name,שם,module,Magento_ConfigurableProduct
@@ -910,6 +915,12 @@ Customers,לקוחות,module,Magento_Customer
 Global,גלובלי,module,Magento_Customer
 "We can't share customer accounts globally when the accounts share identical email addresses on more than one website.","איננו יכולים לשתף חשבונות של כלל הלקוחות כאשר לחשבונות כתובות הדואר האלקטרוני זהים באתר אחד או יותר.",module,Magento_Customer
 "Billing Address","כתובת חיוב",module,Magento_Customer
+"Please enter a first name.","אנא הזן שם פרטי.",module,Magento_Customer
+"Please enter a last name.","אנא הזן שם משפחה.",module,Magento_Customer
+"Please correct this email address: ""%1"".","אנא תקן את כתובת הדוא""ל ל:""%1"".",module,Magento_Customer
+"Please enter a date of birth.","אנא הזן תאריך לידה.",module,Magento_Customer
+"Please enter a TAX/VAT number.","אנא הכנס את סכום המס/מע""מ.",module,Magento_Customer
+"Please enter a gender.","אנא הזן את את המגדר.",module,Magento_Customer
 label,תווית,module,Magento_Customer
 "Thank you for registering with","תודה על הרשמתך עם",module,Magento_Customer
 Edit,ערוך,module,Magento_Customer
@@ -1665,6 +1676,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (משימות מתוזמנות) - כל הזמנים משוערכים בתור דקות",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","עבור כתובות הURL הנכונים שנוצרו במהלך הcron פועל אנא ודא זאת באמצעות אינטרנט > אבטחה, הURL הבסיס המאובטח והלא מאובטח מוגדרות במפורש.",module,Magento_Cron
 "Recovery Link Expiration Period (days)","תוקף תפוגת הקישור(בימים)",module,Magento_Customer
+"Last Logged In","האחרון שביצע התחברות",module,Magento_Customer
 "First Name","שם פרטי",module,Magento_Customer
 "Last Name","שם משפחה",module,Magento_Customer
 Type,סוג,module,Magento_Customer

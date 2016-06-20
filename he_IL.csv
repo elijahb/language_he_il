@@ -453,6 +453,7 @@ Home,"דף הבית",module,Magento_Catalog
 None,ללא,module,Magento_Catalog
 Categories,קטגוריות,module,Magento_Catalog
 Catalog,קטלוג,module,Magento_Catalog
+"This product no longer exists.","מוצר זה כבר לא קיים.",module,Magento_Catalog
 Products,מוצרים,module,Magento_Catalog
 "You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
 All,הכל,module,Magento_Catalog
@@ -640,6 +641,7 @@ Yes,כן,module,Magento_Customer
 Customers,לקוחות,module,Magento_Customer
 Global,גלובלי,module,Magento_Customer
 "Billing Address","כתובת חיוב",module,Magento_Customer
+"Please correct this email address: ""%1"".","אנא תקן את כתובת הדוא""ל ל:""%1"".",module,Magento_Customer
 label,תווית,module,Magento_Customer
 Edit,ערוך,module,Magento_Customer
 Customer,לקוח,module,Magento_Customer

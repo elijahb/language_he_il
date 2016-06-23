@@ -583,6 +583,7 @@ Catalog,קטלוג,module,Magento_Catalog
 Products,מוצרים,module,Magento_Catalog
 "We can't delete this set right now.","איננו יכולים למחוק קבוצה זו ברגע זה.",module,Magento_Catalog
 "You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
+"%1 items","%1 פריטים",module,Magento_Catalog
 All,הכל,module,Magento_Catalog
 "Sorry, but we can't find the new parent category you selected.","מצטער, אבל אנחנו לא מוצאים את קטגוריית האב החדשה שבחרת.",module,Magento_Catalog
 "Sorry, but we can't find the new category you selected.","מצטערים, אבל אנחנו לא מוצאים את הקטגוריה החדשה שבחרת.",module,Magento_Catalog
@@ -652,6 +653,7 @@ Next,הבא,module,Magento_Catalog
 "We can't find products matching the selection.","איננו מסוגלים למצוא מוצרים תואמים את הבחירה.",module,Magento_Catalog
 "Add to Compare","הוסף להשוואה",module,Magento_Catalog
 "We found other products you might like!","מצאנו מוצרים אחרים שאולי תרצה!",module,Magento_Catalog
+"%1 Items","%1 פריטים",module,Magento_Catalog
 "per page","לכל עמוד",module,Magento_Catalog
 "Sort By","מיון לפי",module,Magento_Catalog
 "More Information","מידע נוסף",module,Magento_Catalog

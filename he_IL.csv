@@ -456,6 +456,7 @@ Catalog,קטלוג,module,Magento_Catalog
 "This product no longer exists.","מוצר זה כבר לא קיים.",module,Magento_Catalog
 Products,מוצרים,module,Magento_Catalog
 "You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
+"%1 items","%1 פריטים",module,Magento_Catalog
 All,הכל,module,Magento_Catalog
 Enabled,פעיל,module,Magento_Catalog
 Disabled,"לא פעיל",module,Magento_Catalog

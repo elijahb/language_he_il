@@ -464,6 +464,7 @@ Categories,קטגוריות,module,Magento_Catalog
 Catalog,קטלוג,module,Magento_Catalog
 Products,מוצרים,module,Magento_Catalog
 "You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
+"%1 items","%1 פריטים",module,Magento_Catalog
 All,הכל,module,Magento_Catalog
 Enabled,פעיל,module,Magento_Catalog
 Disabled,"לא פעיל",module,Magento_Catalog
@@ -492,6 +493,7 @@ Compare,להשוות,module,Magento_Catalog
 Next,הבא,module,Magento_Catalog
 "Add to Compare","הוסף להשוואה",module,Magento_Catalog
 "We found other products you might like!","מצאנו מוצרים אחרים שאולי תרצה!",module,Magento_Catalog
+"%1 Items","%1 פריטים",module,Magento_Catalog
 "per page","לכל עמוד",module,Magento_Catalog
 "Sort By","מיון לפי",module,Magento_Catalog
 "More Information","מידע נוסף",module,Magento_Catalog

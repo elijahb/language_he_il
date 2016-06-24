@@ -513,7 +513,6 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "My Cart (1 item)","העגלה שלי (פריט 1)",module,Magento_Checkout
 "My Cart (%1 items)","העגלה שלי (%1 פריטים)",module,Magento_Checkout
 "My Cart","העגלה שלי",module,Magento_Checkout
-"Minimum order amount is %1","סכום ההזמנה המינימלי הוא %1",module,Magento_Checkout
 "Customer is already registered","לקוח כבר רשום",module,Magento_Checkout
 "You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Checkout
 "Out of stock","אזל מהמלאי",module,Magento_Checkout
@@ -858,7 +857,6 @@ Yes,כן,module,Magento_Payment
 No,לא,module,Magento_Payment
 "Expiration Date","תאריך תפוגה",module,Magento_Payment
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Payment
-"Start Date","תאריך התחלה",module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
 "What is this?","מה זה?",module,Magento_Payment
 "Billing Agreements","הוראות קבע",module,Magento_Paypal
@@ -888,6 +886,8 @@ Price,מחיר,module,Magento_Paypal
 Qty,כמות,module,Magento_Paypal
 Subtotal,"סכום ביניים",module,Magento_Paypal
 or,או,module,Magento_Paypal
+"The product was not found.","המוצר לא נמצא.",module,Magento_ProductAlert
+Price:,מחיר:,module,Magento_ProductAlert
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
@@ -1421,6 +1421,8 @@ Export,ייצוא,module,Magento_OfflineShipping
 Position,מיקום,module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
+Frequency,תדירות,module,Magento_ProductAlert
+"Start Time","שעת התחלה",module,Magento_ProductAlert
 Dashboard,"לוח בקרה",module,Magento_Reports
 Average,ממוצע,module,Magento_Reports
 Guest,אורח,module,Magento_Reports

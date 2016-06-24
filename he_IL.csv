@@ -743,6 +743,7 @@ Inactive,"לא פעיל",module,Magento_Integration
 Active,פעיל,module,Magento_Integration
 No,לא,module,Magento_LayeredNavigation
 Position,מיקום,module,Magento_LayeredNavigation
+"Position of attribute in layered navigation block","מיקום התכונה בבלוק ניווט השכבות",module,Magento_LayeredNavigation
 Previous,הקודם,module,Magento_LayeredNavigation
 "Remove This Item","הסר פריט זה",module,Magento_LayeredNavigation
 "Shop By","סנן לפי",module,Magento_LayeredNavigation
@@ -810,6 +811,8 @@ Edit,ערוך,module,Magento_Paypal
 Price,מחיר,module,Magento_Paypal
 Qty,כמות,module,Magento_Paypal
 Subtotal,"סכום ביניים",module,Magento_Paypal
+"The product was not found.","המוצר לא נמצא.",module,Magento_ProductAlert
+Price:,מחיר:,module,Magento_ProductAlert
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
@@ -1242,6 +1245,8 @@ Export,ייצוא,module,Magento_OfflineShipping
 Position,מיקום,module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
+Frequency,תדירות,module,Magento_ProductAlert
+"Start Time","שעת התחלה",module,Magento_ProductAlert
 Dashboard,"לוח בקרה",module,Magento_Reports
 Average,ממוצע,module,Magento_Reports
 Guest,אורח,module,Magento_Reports
@@ -1264,6 +1269,7 @@ City,עיר,module,Magento_Shipping
 Enabled,פעיל,module,Magento_Sitemap
 Action,פעולה,module,Magento_Sitemap
 "Sort Order","סדר מיון",module,Magento_Ups
+"Live account","חשבון פעיל",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
 Edit,ערוך,module,Magento_UrlRewrite
 "Sort Order","סדר מיון",module,Magento_Usps

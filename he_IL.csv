@@ -698,6 +698,7 @@ Checkout,לקופה,module,Magento_Checkout
 "Shipping address is not set","כתובת למשלוח אינה מוגדרת",module,Magento_Checkout
 "Unable to save address. Please, check input data.","אין אפשרות לשמור את הכתובת. הינכם מתבקשים לבדוק את שדות הקלט.",module,Magento_Checkout
 "Unable to save shipping information. Please, check input data.","אין אפשרות לשמור את מידע המשלוח. הינכם מתבקשים לבדוק את שדות הקלט.",module,Magento_Checkout
+"Cart contains virtual product(s) only. Shipping address is not applicable.","עגלת הקניות מכילה מוצר(ים) לא מוחשי(ים) בלבד. לא ניתן ליישם כתובת למשלוח.",module,Magento_Checkout
 "Invalid data","נתונים לא חוקיים",module,Magento_Checkout
 "The customer address is not valid.","כתובת הלקוח אינה חוקית.",module,Magento_Checkout
 "Invalid shipping method","שיטת המשלוח אינה חוקית",module,Magento_Checkout
@@ -1055,6 +1056,7 @@ Custom,מותאם,module,Magento_Integration
 All,הכל,module,Magento_Integration
 No,לא,module,Magento_LayeredNavigation
 Position,מיקום,module,Magento_LayeredNavigation
+"Position of attribute in layered navigation block","מיקום התכונה בבלוק ניווט השכבות",module,Magento_LayeredNavigation
 item,פריט,module,Magento_LayeredNavigation
 items,פריטים,module,Magento_LayeredNavigation
 Previous,הקודם,module,Magento_LayeredNavigation
@@ -1139,6 +1141,8 @@ Subtotal,"סכום ביניים",module,Magento_Paypal
 or,או,module,Magento_Paypal
 "What's this?","מה זה?",module,Magento_Persistent
 "We can't find the product.","לא ניתן למצוא את המוצר.",module,Magento_ProductAlert
+"The product was not found.","המוצר לא נמצא.",module,Magento_ProductAlert
+Price:,מחיר:,module,Magento_ProductAlert
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
 "Cannot place order.","לא ניתן להזמין.",module,Magento_Quote
@@ -1413,6 +1417,7 @@ Minute,דקה,module,Magento_Theme
 Next,הבא,module,Magento_Ui
 Back,חזור,module,Magento_Ui
 Cancel,ביטול,module,Magento_Ui
+"Sorry, something went wrong. Please try again or contact us and we'll try to help.","ארעה תקלה. אנא נסו שנית או צרו עמנו קשר וננסה לעזור.",module,Magento_Ups
 None,ללא,module,Magento_Ups
 label,תווית,module,Magento_Ups
 Name,שם,module,Magento_UrlRewrite
@@ -1715,6 +1720,8 @@ Export,ייצוא,module,Magento_OfflineShipping
 Position,מיקום,module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
+Frequency,תדירות,module,Magento_ProductAlert
+"Start Time","שעת התחלה",module,Magento_ProductAlert
 Dashboard,"לוח בקרה",module,Magento_Reports
 Average,ממוצע,module,Magento_Reports
 Guest,אורח,module,Magento_Reports
@@ -1747,6 +1754,7 @@ Enabled,פעיל,module,Magento_Sitemap
 Action,פעולה,module,Magento_Sitemap
 Action,פעולה,module,Magento_Ui
 "Sort Order","סדר מיון",module,Magento_Ups
+"Live account","חשבון פעיל",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
 Edit,ערוך,module,Magento_UrlRewrite
 "Sort Order","סדר מיון",module,Magento_Usps

@@ -896,6 +896,7 @@ Yes,כן,module,Magento_Customer
 "The VAT ID is valid.","זיהוי מע""מ שהוזן תקין.",module,Magento_Customer
 "Customer Login","כניסת לקוחות",module,Magento_Customer
 "Create New Customer Account","צור חשבון לקוח חדש",module,Magento_Customer
+"Thank you for registering with %1.","תודה לך על שנרשמת עם %1.",module,Magento_Customer
 "We can't save the customer.","איננו יכולים לשמור את הלקוח הזה.",module,Magento_Customer
 "Account Information","פרטי חשבון",module,Magento_Customer
 "Invalid input","קלט שגוי",module,Magento_Customer

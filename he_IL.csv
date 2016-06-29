@@ -673,6 +673,7 @@ Yes,כן,module,Magento_Customer
 "The VAT ID is valid.","זיהוי מע""מ שהוזן תקין.",module,Magento_Customer
 "Customer Login","כניסת לקוחות",module,Magento_Customer
 "Create New Customer Account","צור חשבון לקוח חדש",module,Magento_Customer
+"Thank you for registering with %1.","תודה לך על שנרשמת עם %1.",module,Magento_Customer
 "Account Information","פרטי חשבון",module,Magento_Customer
 "My Account","החשבון שלי",module,Magento_Customer
 "Invalid login or password.","משתמש או סיסמא שגויים.",module,Magento_Customer

@@ -512,6 +512,7 @@ Search,חפש,module,Magento_CatalogSearch
 "We can't find any items matching these search criteria.","איננו מסוגלים למצוא פריטים התואמים לקריטריוני חיפוש אלה.",module,Magento_CatalogSearch
 "Modify your search","התאם את החיפוש שלך",module,Magento_CatalogSearch
 name,שם,module,Magento_CatalogSearch
+"Your search returned no results.","אין תוצאות לשאילתת חיפוש שלך.",module,Magento_CatalogSearch
 SKU,מק''ט,module,Magento_CatalogWidget
 "Add to Cart","הוסף לסל",module,Magento_CatalogWidget
 "In stock",במלאי,module,Magento_CatalogWidget

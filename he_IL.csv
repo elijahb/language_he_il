@@ -415,6 +415,7 @@ Product,מוצר,module,Magento_CatalogSearch
 Search,חפש,module,Magento_CatalogSearch
 "Advanced Search","חיפוש מתקדם",module,Magento_CatalogSearch
 name,שם,module,Magento_CatalogSearch
+"Your search returned no results.","אין תוצאות לשאילתת חיפוש שלך.",module,Magento_CatalogSearch
 SKU,מק''ט,module,Magento_CatalogWidget
 "Add to Cart","הוסף לסל",module,Magento_CatalogWidget
 "In stock",במלאי,module,Magento_CatalogWidget

@@ -783,6 +783,7 @@ Yes,כן,module,Magento_Config
 %2","XML לא חוקי של קובץ %1:%2",module,Magento_Config
 Delete,מחק,module,Magento_Config
 Stores,חנויות,module,Magento_Config
+"Choose an Option...","בחרו אפשרות...",module,Magento_ConfigurableProduct
 "Requested option doesn't exist","האפשרות המבוקשת אינה קיימת",module,Magento_ConfigurableProduct
 "Requested option doesn't exist: %1","האפשרות המבוקשת אינה קיימת: %1",module,Magento_ConfigurableProduct
 "Could not update option with id ""%1""","לא הייתה אפשרות לעדכן את אפשרות עם מזהה ""%1""",module,Magento_ConfigurableProduct
@@ -938,12 +939,16 @@ Customer,לקוח,module,Magento_Customer
 "Store View","תצוגת חנות",module,Magento_Customer
 "Lifetime Sales","מבצע קבוע",module,Magento_Customer
 "All Store Views","כל תצוגות החנויות",module,Magento_Customer
+"Manage Addresses","נהל כתובות",module,Magento_Customer
 "Default Shipping Address","כתובת ברירת המחדל למשלוח",module,Magento_Customer
 "Contact Information","מידע ליצירת קשר",module,Magento_Customer
 "Change Password","שינוי סיסמה",module,Magento_Customer
 Newsletters,ניוזלטר,module,Magento_Customer
 "You subscribe to ""General Subscription"".","הרשמה כללית",module,Magento_Customer
 or,או,module,Magento_Customer
+"Change Billing Address","שנה כתובת לחיוב",module,Magento_Customer
+"You have no default billing address in your address book.","אין לך כתובת ברירת המחדל לחיוב.",module,Magento_Customer
+"Change Shipping Address","שנה כתובת למשלוח",module,Magento_Customer
 "* Required Fields","* שדות חובה",module,Magento_Customer
 Company,חברה,module,Magento_Customer
 Address,כתובת,module,Magento_Customer
@@ -989,6 +994,7 @@ Error,שגיאה,module,Magento_DownloadableImportExport
 "Provided downloadable link is not related to given product.","הקישור למוצר להורדה אינו מקושר למוצר שניתן.",module,Magento_Downloadable
 "Provided sample information is invalid.","הדוגמא למידע שסופק אינו חוקי.",module,Magento_Downloadable
 "Provided downloadable sample is not related to given product.","הדוגמא למוצר ההורדה שסופק אינו מקושר למוצר שניתן.",module,Magento_Downloadable
+Pending,ממתין,module,Magento_Downloadable
 "Sort Order","סדר מיון",module,Magento_Downloadable
 Price,מחיר,module,Magento_Downloadable
 "Alphanumeric, dash and underscore characters are recommended for filenames. Improper characters are replaced with '_'.","אותיות אלפא-נומריים, מקף ותווים תחתון מומלץ עבור הגדרת שמות קבצים. תווים לא תקין, הוחלפו ב '_'.",module,Magento_Downloadable
@@ -1000,6 +1006,7 @@ SKU,מק''ט,module,Magento_Downloadable
 Availability,זמינות,module,Magento_Downloadable
 "In stock",במלאי,module,Magento_Downloadable
 Status,סטטוס,module,Magento_Downloadable
+"View Order","הצג הזמנה",module,Magento_Downloadable
 Back,חזור,module,Magento_Downloadable
 "Gift Message","הודעת מתנה",module,Magento_Downloadable
 From:,מ:,module,Magento_Downloadable
@@ -1135,6 +1142,7 @@ Custom,מותאם,module,Magento_Paypal
 "--Please Select--","--אנא בחר",module,Magento_Paypal
 Error,שגיאה,module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
+"View Order","הצג הזמנה",module,Magento_Paypal
 Edit,ערוך,module,Magento_Paypal
 Item,פריט,module,Magento_Paypal
 Price,מחיר,module,Magento_Paypal
@@ -1275,10 +1283,12 @@ Invoices,חשבוניות,module,Magento_Sales
 Shipping,משלוח,module,Magento_Sales
 Cancel,ביטול,module,Magento_Sales
 "Billing Address","כתובת חיוב",module,Magento_Sales
+"Payment Method","שיטת התשלום",module,Magento_Sales
 "Account Information","פרטי חשבון",module,Magento_Sales
 From,מ-,module,Magento_Sales
 To,ל-,module,Magento_Sales
 Message,הודעה,module,Magento_Sales
+"Items Ordered","פריטים שהוזמנו",module,Magento_Sales
 Configure,הגדר,module,Magento_Sales
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Sales
 Product,מוצר,module,Magento_Sales
@@ -1288,6 +1298,7 @@ Quantity,כמות,module,Magento_Sales
 "Shopping Cart","עגלת קניות",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
 Invoice,חשבונית,module,Magento_Sales
+"Order Information","פרטי ההזמנה",module,Magento_Sales
 Shipments,משלוחים,module,Magento_Sales
 Transactions,טרנזקציות,module,Magento_Sales
 Any,כל,module,Magento_Sales
@@ -1307,6 +1318,7 @@ Home,"דף בית",module,Magento_Sales
 "Go to Home Page","לעבור לדף הבית",module,Magento_Sales
 "We can't find this wish list.","איננו מוצאים את זה ברשימת המשאלות.",module,Magento_Sales
 Guest,אורח,module,Magento_Sales
+Pending,ממתין,module,Magento_Sales
 Order,הזמנה,module,Magento_Sales
 "Shipping Method:","שיטות המשלוח:",module,Magento_Sales
 Products,מוצרים,module,Magento_Sales
@@ -1345,6 +1357,8 @@ Status,סטטוס,module,Magento_Sales
 Items,פריטים,module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
 Actions,פעולות,module,Magento_Sales
+"View Order","הצג הזמנה",module,Magento_Sales
+"Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
 Close,סגור,module,Magento_Sales
 "Qty Shipped","כמות שנשלחה",module,Magento_Sales
@@ -1480,8 +1494,29 @@ None,ללא,module,Magento_Widget
 All,הכל,module,Magento_Widget
 Apply,החל,module,Magento_Widget
 "My Wish List","Wish List שלי",module,Magento_Wishlist
+"We can't specify a product.","המוצר אינו זמין כעת.",module,Magento_Wishlist
+"We can't add the item to Wish List right now: %1.","לא ניתן להוסיף את הפריט ל-wishlist כעת: %1.",module,Magento_Wishlist
+"We can't add the item to Wish List right now.","לא ניתן להוסיף את המוצר ל-wishlist כעת.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Wishlist
+"We can't add the item to the cart right now.","לא ניתן להוסיף את הפריט לעגלה כעת.",module,Magento_Wishlist
+"We can't load the Wish List item right now.","לא ניתן לטעון את הפריט כעת.",module,Magento_Wishlist
+"We can't configure the product right now.","לא ניתן להגדיר עתה את המוצר.",module,Magento_Wishlist
+"The requested cart item doesn't exist.","הפריט המבוקש אינו קיים.",module,Magento_Wishlist
+"We can't move the item to the wish list.","לא ניתן להעביר את הפריט ל-wishlist.",module,Magento_Wishlist
+"We can't delete the item from Wish List right now because of an error: %1.","לא ניתן למחוק את הפריט מה-wishlist בשל שגיאה: %1.",module,Magento_Wishlist
+"We can't delete the item from the Wish List right now.","לא ניתן למחוק את הפריט מה-wishlist כעת.",module,Magento_Wishlist
+"We can't delete item from Wish List right now.","לא ניתן למחוק את הפריט מה-wishlist כעת.",module,Magento_Wishlist
+"Can't save description %1","התיאור בלתי ניתן לשמירה %1",module,Magento_Wishlist
+"Can't update wish list","לא ניתן לעדכן את ה-wishlist",module,Magento_Wishlist
+"We can't update your Wish List right now.","לא ניתן לעדכן את ה-wishlist כעת.",module,Magento_Wishlist
+"The requested Wish List doesn't exist.","ה-wishlist המבוקש אינו קיים.",module,Magento_Wishlist
+"We can't create the Wish List right now.","לא ניתן ליצור את ה-wishlist כעת.",module,Magento_Wishlist
+"We can't specify a wish list.","ה-wishlist אינו זמין כעת.",module,Magento_Wishlist
 "We can't add this item to your shopping cart right now.","לא ניתן להוסיף פריט זה לסל הקניות שלך כרגע.",module,Magento_Wishlist
+"We couldn't add the following product(s) to the shopping cart: %1.","הוספת המוצר(ים) לעגלת הקניות נכשלה: %1.",module,Magento_Wishlist
+"We can't update the Wish List right now.","לא ניתן לעדכן את ה-wishlist כעת.",module,Magento_Wishlist
+"%1's Wishlist","ה-wishlist של %1",module,Magento_Wishlist
+"We can't specify a wish list item.","הפריט אינו זמין כרגע ב-wishlist.",module,Magento_Wishlist
 Message,הודעה,module,Magento_Wishlist
 "Are you sure you want to remove this item?","האם אתה בטוח שברצונך להסיר פריט זה?",module,Magento_Wishlist
 "Update Wish List","עדכון Wish List",module,Magento_Wishlist
@@ -1497,6 +1532,7 @@ Product,מוצר,module,Magento_Wishlist
 Back,חזור,module,Magento_Wishlist
 "* Required Fields","* שדות חובה",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
+"Are you sure you want to remove this product from your Wish List?","האם את/ה בטוח/ה שברצונך להסיר מוצר זה מה-wishlist?",module,Magento_Wishlist
 "Now Shopping by","כעט ממויין לפי",theme,frontend/Magento/luma
 Previous,הקודם,theme,frontend/Magento/luma
 Remove,הסר,theme,frontend/Magento/luma
@@ -1690,6 +1726,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Last Name","שם משפחה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
 "Account Dashboard","לוח ניהול",module,Magento_Customer
+"Edit Account Information","ערוך את פרטי החשבון",module,Magento_Customer
 "My Dashboard","החשבון שלי",module,Magento_Customer
 "You are signed out.","אתה התנתקת.",module,Magento_Customer
 "Front-end development workflow","תרשים עבודה של פיתוח צד-לקוח",module,Magento_Developer

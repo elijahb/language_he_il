@@ -586,6 +586,7 @@ Website,אתר,module,Magento_Config
 Yes,כן,module,Magento_Config
 Delete,מחק,module,Magento_Config
 Stores,חנויות,module,Magento_Config
+"Choose an Option...","בחרו אפשרות...",module,Magento_ConfigurableProduct
 "You need to choose options for your item.","עליך לבחור את האפשרויות עבור הפריט שלך.",module,Magento_ConfigurableProduct
 "Select All","בחר הכל",module,Magento_ConfigurableProduct
 Images,תמונות,module,Magento_ConfigurableProduct
@@ -696,12 +697,16 @@ Customer,לקוח,module,Magento_Customer
 "Store View","תצוגת חנות",module,Magento_Customer
 "Lifetime Sales","מבצע קבוע",module,Magento_Customer
 "All Store Views","כל תצוגות החנויות",module,Magento_Customer
+"Manage Addresses","נהל כתובות",module,Magento_Customer
 "Default Shipping Address","כתובת ברירת המחדל למשלוח",module,Magento_Customer
 "Contact Information","מידע ליצירת קשר",module,Magento_Customer
 "Change Password","שינוי סיסמה",module,Magento_Customer
 Newsletters,ניוזלטר,module,Magento_Customer
 "You subscribe to ""General Subscription"".","הרשמה כללית",module,Magento_Customer
 or,או,module,Magento_Customer
+"Change Billing Address","שנה כתובת לחיוב",module,Magento_Customer
+"You have no default billing address in your address book.","אין לך כתובת ברירת המחדל לחיוב.",module,Magento_Customer
+"Change Shipping Address","שנה כתובת למשלוח",module,Magento_Customer
 "* Required Fields","* שדות חובה",module,Magento_Customer
 Company,חברה,module,Magento_Customer
 Address,כתובת,module,Magento_Customer
@@ -738,6 +743,7 @@ Error,שגיאה,module,Magento_DownloadableImportExport
 "Provided downloadable link is not related to given product.","הקישור למוצר להורדה אינו מקושר למוצר שניתן.",module,Magento_Downloadable
 "Provided sample information is invalid.","הדוגמא למידע שסופק אינו חוקי.",module,Magento_Downloadable
 "Provided downloadable sample is not related to given product.","הדוגמא למוצר ההורדה שסופק אינו מקושר למוצר שניתן.",module,Magento_Downloadable
+Pending,ממתין,module,Magento_Downloadable
 "Sort Order","סדר מיון",module,Magento_Downloadable
 Price,מחיר,module,Magento_Downloadable
 File,קובץ,module,Magento_Downloadable
@@ -748,6 +754,7 @@ SKU,מק''ט,module,Magento_Downloadable
 Availability,זמינות,module,Magento_Downloadable
 "In stock",במלאי,module,Magento_Downloadable
 Status,סטטוס,module,Magento_Downloadable
+"View Order","הצג הזמנה",module,Magento_Downloadable
 Back,חזור,module,Magento_Downloadable
 "Gift Message","הודעת מתנה",module,Magento_Downloadable
 From:,מ:,module,Magento_Downloadable
@@ -882,6 +889,7 @@ Custom,מותאם,module,Magento_Paypal
 "--Please Select--","--אנא בחר",module,Magento_Paypal
 Error,שגיאה,module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
+"View Order","הצג הזמנה",module,Magento_Paypal
 Edit,ערוך,module,Magento_Paypal
 Item,פריט,module,Magento_Paypal
 Price,מחיר,module,Magento_Paypal
@@ -1020,10 +1028,12 @@ Invoices,חשבוניות,module,Magento_Sales
 Shipping,משלוח,module,Magento_Sales
 Cancel,ביטול,module,Magento_Sales
 "Billing Address","כתובת חיוב",module,Magento_Sales
+"Payment Method","שיטת התשלום",module,Magento_Sales
 "Account Information","פרטי חשבון",module,Magento_Sales
 From,מ-,module,Magento_Sales
 To,ל-,module,Magento_Sales
 Message,הודעה,module,Magento_Sales
+"Items Ordered","פריטים שהוזמנו",module,Magento_Sales
 Configure,הגדר,module,Magento_Sales
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Sales
 Product,מוצר,module,Magento_Sales
@@ -1033,6 +1043,7 @@ Quantity,כמות,module,Magento_Sales
 "Shopping Cart","עגלת קניות",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
 Invoice,חשבונית,module,Magento_Sales
+"Order Information","פרטי ההזמנה",module,Magento_Sales
 Shipments,משלוחים,module,Magento_Sales
 Transactions,טרנזקציות,module,Magento_Sales
 Any,כל,module,Magento_Sales
@@ -1050,6 +1061,7 @@ Sales,מכירות,module,Magento_Sales
 Home,"דף בית",module,Magento_Sales
 "Go to Home Page","לעבור לדף הבית",module,Magento_Sales
 Guest,אורח,module,Magento_Sales
+Pending,ממתין,module,Magento_Sales
 Order,הזמנה,module,Magento_Sales
 "Shipping Method:","שיטות המשלוח:",module,Magento_Sales
 Products,מוצרים,module,Magento_Sales
@@ -1088,6 +1100,8 @@ Status,סטטוס,module,Magento_Sales
 Items,פריטים,module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
 Actions,פעולות,module,Magento_Sales
+"View Order","הצג הזמנה",module,Magento_Sales
+"Print Order","הדפס הזמנה",module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
 Close,סגור,module,Magento_Sales
 "Qty Shipped","כמות שנשלחה",module,Magento_Sales
@@ -1393,6 +1407,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Last Name","שם משפחה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
 "Account Dashboard","לוח ניהול",module,Magento_Customer
+"Edit Account Information","ערוך את פרטי החשבון",module,Magento_Customer
 "My Dashboard","החשבון שלי",module,Magento_Customer
 "Sort Order","סדר מיון",module,Magento_Dhl
 Enabled,פעיל,module,Magento_Directory

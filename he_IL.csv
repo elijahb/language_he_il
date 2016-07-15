@@ -33,7 +33,7 @@ Close,סגור,module,Magento_AdminNotification
 "Major System Messages","הודעות מערכת משעותיות",module,Magento_AdminNotification
 "System messages","הודעות מערכת",module,Magento_AdminNotification
 "You created the order.","יצרת את ההזמנה.",module,Magento_Authorizenet
-"Order saving error: %1","שגיאה בשמירת ההזמנה: %1",module,Magento_Authorizenet
+"Order saving error: %1","שגיאת שמירת הזמנה: %1",module,Magento_Authorizenet
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","כרטיס אשראי: xxxx-%1",module,Magento_Authorizenet
 "amount %1","כמות %1",module,Magento_Authorizenet
@@ -48,7 +48,7 @@ refund,החזר,module,Magento_Authorizenet
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Authorizenet
 "Expiration Date","תאריך תפוגה",module,Magento_Authorizenet
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Authorizenet
-"Invalid Form Key. Please refresh the page.","מפתח לא חוקי. אנא רענן את הדף.",module,Magento_Backend
+"Invalid Form Key. Please refresh the page.","מפתח לא חוקי. אנא רעננו את הדף.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","הזנת מפתח סודי לא חוקי. אנא רענן את הדף.",module,Magento_Backend
 "Cache Storage Management","ניהול אחסון הCache",module,Magento_Backend
 "Flush Magento Cache","נקה Cache של מגנטו",module,Magento_Backend
@@ -328,7 +328,7 @@ Yes,כן,module,Magento_Braintree
 No,לא,module,Magento_Braintree
 Edit,ערוך,module,Magento_Braintree
 "Percent Discount","אחוז הנחה",module,Magento_Bundle
-"-- Select --","-- בחר--",module,Magento_Bundle
+"-- Select --","-- בחר --",module,Magento_Bundle
 Dynamic,דינמי,module,Magento_Bundle
 "Create New Option","צור אפשרות חדשה",module,Magento_Bundle
 "Bundle Items","מוצרי באנדל",module,Magento_Bundle
@@ -382,7 +382,7 @@ Promotions,מבצעים,module,Magento_CatalogRule
 Catalog,קטלוג,module,Magento_CatalogRule
 "Wrong rule specified.","כלל שגוי צויין.",module,Magento_CatalogRule
 Home,"דף הבית",module,Magento_CatalogSearch
-"Go to Home Page","עבור לעמוד הבית",module,Magento_CatalogSearch
+"Go to Home Page","מעבר לעמוד הבית",module,Magento_CatalogSearch
 "Catalog Advanced Search","חיפוש מתקדם בקטלוג",module,Magento_CatalogSearch
 All,הכל,module,Magento_CatalogSearch
 Yes,כן,module,Magento_CatalogSearch
@@ -401,7 +401,7 @@ Root,שורש,module,Magento_Catalog
 "Save Category","שמור בקטגוריה",module,Magento_Catalog
 "Delete Category","מחיקת קטגוריה",module,Magento_Catalog
 Reset,אתחל,module,Magento_Catalog
-"New Subcategory","תת קטגוריה חדשה",module,Magento_Catalog
+"New Subcategory","קטגוריית משנה חדשה",module,Magento_Catalog
 "New Root Category","קטגוריה ראשית חדשה",module,Magento_Catalog
 "Set Root Category for Store","הגדרת קטגוריית אב עבור חנות",module,Magento_Catalog
 "Custom Design","עיצוב מותאם",module,Magento_Catalog
@@ -569,10 +569,10 @@ Cancel,ביטול,module,Magento_ConfigurableProduct
 Name,שם,module,Magento_Contact
 Email,דואר,module,Magento_Contact
 Submit,שלח,module,Magento_Contact
-Reset,אתחל,module,Magento_CurrencySymbol
+Reset,איפוס,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","נא תקן את נתוני נקלט עבור %1 => %2 קצב",module,Magento_CurrencySymbol
 System,מערכת,module,Magento_CurrencySymbol
-"You have not set a default shipping address.","אין לך כתובת משלוח ברירת מחדל.",module,Magento_Customer
+"You have not set a default shipping address.","לא הוגדרה כתובת ברירת מחדל לשילוח.",module,Magento_Customer
 "You have not set a default billing address.","אין לך כתובת ברירת מחדל לתשלום.",module,Magento_Customer
 "Address Book","ספר כתובות",module,Magento_Customer
 "Edit Address","ערוך כתובת",module,Magento_Customer
@@ -687,7 +687,7 @@ Name,שם,module,Magento_Customer
 "Please, specify origin country","אנא ציין ארץ מוצא",module,Magento_Dhl
 None,ללא,module,Magento_Dhl
 State/Province,מדינה/מחוז,module,Magento_Directory
-"--Please Select--","--אנא בחר",module,Magento_Directory
+"--Please Select--","-- נא לבחור --",module,Magento_Directory
 label,תווית,module,Magento_Directory
 "All Files","כל הקבצים",module,Magento_Downloadable
 Pending,ממתין,module,Magento_Downloadable
@@ -713,7 +713,7 @@ None,ללא,module,Magento_Eav
 Email,דואר,module,Magento_Eav
 label,תווית,module,Magento_Eav
 Back,חזור,module,Magento_Email
-Reset,אתחל,module,Magento_Email
+Reset,איפוס,module,Magento_Email
 "Email Templates","תבניות אימייל",module,Magento_Email
 "Zip/Postal Code",מיקוד,module,Magento_Email
 City,עיר,module,Magento_Email
@@ -737,7 +737,7 @@ Name,שם,module,Magento_GroupedProduct
 Availability,זמינות,module,Magento_GroupedProduct
 "In stock",במלאי,module,Magento_GroupedProduct
 Export,ייצוא,module,Magento_ImportExport
-From,מ-,module,Magento_ImportExport
+From,מאת,module,Magento_ImportExport
 To,ל-,module,Magento_ImportExport
 Status,סטטוס,module,Magento_ImportExport
 label,תווית,module,Magento_ImportExport
@@ -769,7 +769,7 @@ Price,מחיר,module,Magento_Multishipping
 Subtotal,"סכום ביניים",module,Magento_Multishipping
 Items,פריטים,module,Magento_Multishipping
 Back,חזור,module,Magento_Newsletter
-Reset,אתחל,module,Magento_Newsletter
+Reset,איפוס,module,Magento_Newsletter
 Message,הודעה,module,Magento_Newsletter
 Cancel,ביטול,module,Magento_Newsletter
 Action,פעולה,module,Magento_Newsletter
@@ -796,7 +796,8 @@ No,לא,module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
 "What is this?","מה זה?",module,Magento_Payment
 "Billing Agreements","הוראות קבע",module,Magento_Paypal
-Email,דואר,module,Magento_Paypal
+ID,מזהה,module,Magento_Paypal
+Email,אימייל,module,Magento_Paypal
 "First Name","שם פרטי",module,Magento_Paypal
 "Last Name","שם משפחה",module,Magento_Paypal
 Status,סטטוס,module,Magento_Paypal
@@ -1105,7 +1106,7 @@ None,ללא,module,Magento_Usps
 Website,אתר,module,Magento_Weee
 Tax,מס,module,Magento_Weee
 Action,פעולה,module,Magento_Weee
-label,תווית,module,Magento_Widget
+label,תוית,module,Magento_Widget
 Close,סגור,module,Magento_Widget
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Widget
 Type,סוג,module,Magento_Widget
@@ -1125,7 +1126,7 @@ Edit,ערוך,module,Magento_Wishlist
 Back,חזור,module,Magento_Wishlist
 "* Required Fields","* שדות חובה",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
-"Shop By","סנן לפי",theme,frontend/Magento/luma
+"Shop By","מיין לפי",theme,frontend/Magento/luma
 Cancel,ביטול,module,Magento_Catalog
 OK,אישור,module,Magento_Catalog
 "Please select items.","אנא בחר פריטים.",module,Magento_Catalog

@@ -31,12 +31,12 @@ Close,סגור,module,Magento_AdminNotification
 "Critical System Messages","הודעות מערכת קריטיים",module,Magento_AdminNotification
 "Major System Messages","הודעות מערכת משעותיות",module,Magento_AdminNotification
 "System messages","הודעות מערכת",module,Magento_AdminNotification
-"Please correct the data sent.","נא תקן את הנתונים שנשלחו.",module,Magento_AdvancedPricingImportExport
+"Please correct the data sent.","אנא תקן את הנתונים שנשלחו.",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","סוג דגם חייב להיות מופע של \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","סוגי המוצרים לא זמינים עבור ייצוא",module,Magento_AdvancedPricingImportExport
-"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","משהו השתבש בזמן קומפילציה של רשימת משאבים מותרים. אתה יכול למצוא את הבעיה ביומן חריגים.",module,Magento_Authorization
+"Something went wrong while compiling a list of allowed resources. You can find out more in the exceptions log.","אירע שיבוש במהלך הקומפילציה של רשימת המשאבים המותרים. פרטים נוספים ניתן למצוא ב-exceptions log.",module,Magento_Authorization
 "You created the order.","יצרת את ההזמנה.",module,Magento_Authorizenet
-"Order saving error: %1","שגיאה בשמירת ההזמנה: %1",module,Magento_Authorizenet
+"Order saving error: %1","שגיאת שמירת הזמנה: %1",module,Magento_Authorizenet
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Authorizenet
 "Credit Card: xxxx-%1","כרטיס אשראי: xxxx-%1",module,Magento_Authorizenet
 "amount %1","כמות %1",module,Magento_Authorizenet
@@ -59,7 +59,7 @@ refund,החזר,module,Magento_Authorizenet
 "AVS Response","תגובת AVS",module,Magento_Authorizenet
 "Card Code Response","תגובת כרטיס קוד",module,Magento_Authorizenet
 "Fraud Filters","מסנני הונאה",module,Magento_Authorizenet
-"Invalid Form Key. Please refresh the page.","מפתח לא חוקי. אנא רענן את הדף.",module,Magento_Backend
+"Invalid Form Key. Please refresh the page.","מפתח לא חוקי. אנא רעננו את הדף.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","הזנת מפתח סודי לא חוקי. אנא רענן את הדף.",module,Magento_Backend
 "Cache Storage Management","ניהול אחסון הCache",module,Magento_Backend
 "Flush Magento Cache","נקה Cache של מגנטו",module,Magento_Backend
@@ -350,7 +350,7 @@ Authorize,אישור,module,Magento_Braintree
 "What is this?","מה זה?",module,Magento_Braintree
 Type,סוג,module,Magento_Braintree
 "Percent Discount","אחוז הנחה",module,Magento_Bundle
-"-- Select --","-- בחר--",module,Magento_Bundle
+"-- Select --","-- בחר --",module,Magento_Bundle
 Dynamic,דינמי,module,Magento_Bundle
 "Create New Option","צור אפשרות חדשה",module,Magento_Bundle
 "Bundle Items","מוצרי באנדל",module,Magento_Bundle
@@ -398,7 +398,7 @@ Product,מוצר,module,Magento_CatalogRule
 Promotions,מבצעים,module,Magento_CatalogRule
 Catalog,קטלוג,module,Magento_CatalogRule
 Home,"דף הבית",module,Magento_CatalogSearch
-"Go to Home Page","עבור לעמוד הבית",module,Magento_CatalogSearch
+"Go to Home Page","מעבר לעמוד הבית",module,Magento_CatalogSearch
 "Catalog Advanced Search","חיפוש מתקדם בקטלוג",module,Magento_CatalogSearch
 All,הכל,module,Magento_CatalogSearch
 Yes,כן,module,Magento_CatalogSearch
@@ -417,7 +417,7 @@ Search,חפש,module,Magento_CatalogSearch
 name,שם,module,Magento_CatalogSearch
 "Your search returned no results.","אין תוצאות לשאילתת חיפוש שלך.",module,Magento_CatalogSearch
 SKU,מק''ט,module,Magento_CatalogWidget
-"Add to Cart","הוסף לסל",module,Magento_CatalogWidget
+"Add to Cart","הוסף לעגלה",module,Magento_CatalogWidget
 "In stock",במלאי,module,Magento_CatalogWidget
 "Add to Wish List","הוסף ל Wish List",module,Magento_CatalogWidget
 "Add to Compare","הוסף להשוואה",module,Magento_CatalogWidget
@@ -598,16 +598,16 @@ Actions,פעולות,module,Magento_ConfigurableProduct
 Cancel,ביטול,module,Magento_ConfigurableProduct
 "Page not found.","העמוד שביקשת לא נמצא.",module,Magento_Contact
 "* Required Fields","* שדות חובה",module,Magento_Contact
-"Write Us","כתוב לנו",module,Magento_Contact
+"Write Us","כתבו לנו",module,Magento_Contact
 Name,שם,module,Magento_Contact
 Email,דואר,module,Magento_Contact
 "Phone Number","מספר טלפון",module,Magento_Contact
 Submit,שלח,module,Magento_Contact
-Reset,אתחל,module,Magento_CurrencySymbol
+Reset,איפוס,module,Magento_CurrencySymbol
 System,מערכת,module,Magento_CurrencySymbol
 "Sign Out",התנתק,module,Magento_Customer
-"Sign In",כניסה,module,Magento_Customer
-"You have not set a default shipping address.","אין לך כתובת משלוח ברירת מחדל.",module,Magento_Customer
+"Sign In",התחברות,module,Magento_Customer
+"You have not set a default shipping address.","לא הוגדרה כתובת ברירת מחדל לשילוח.",module,Magento_Customer
 "You have not set a default billing address.","אין לך כתובת ברירת מחדל לתשלום.",module,Magento_Customer
 "Address Book","ספר כתובות",module,Magento_Customer
 "Edit Address","ערוך כתובת",module,Magento_Customer
@@ -735,7 +735,7 @@ Password,סיסמא,module,Magento_Customer
 Name,שם,module,Magento_Customer
 None,ללא,module,Magento_Dhl
 State/Province,מדינה/מחוז,module,Magento_Directory
-"--Please Select--","--אנא בחר",module,Magento_Directory
+"--Please Select--","-- נא לבחור --",module,Magento_Directory
 label,תווית,module,Magento_Directory
 Error,שגיאה,module,Magento_DownloadableImportExport
 "All Files","כל הקבצים",module,Magento_Downloadable
@@ -772,7 +772,7 @@ None,ללא,module,Magento_Eav
 Email,דואר,module,Magento_Eav
 label,תווית,module,Magento_Eav
 Back,חזור,module,Magento_Email
-Reset,אתחל,module,Magento_Email
+Reset,איפוס,module,Magento_Email
 "Email Templates","תבניות אימייל",module,Magento_Email
 "Zip/Postal Code",מיקוד,module,Magento_Email
 City,עיר,module,Magento_Email
@@ -796,7 +796,7 @@ Name,שם,module,Magento_GroupedProduct
 Availability,זמינות,module,Magento_GroupedProduct
 "In stock",במלאי,module,Magento_GroupedProduct
 Export,ייצוא,module,Magento_ImportExport
-From,מ-,module,Magento_ImportExport
+From,מאת,module,Magento_ImportExport
 To,ל-,module,Magento_ImportExport
 Status,סטטוס,module,Magento_ImportExport
 label,תווית,module,Magento_ImportExport
@@ -842,7 +842,7 @@ Price,מחיר,module,Magento_Multishipping
 Subtotal,"סכום ביניים",module,Magento_Multishipping
 Items,פריטים,module,Magento_Multishipping
 Back,חזור,module,Magento_Newsletter
-Reset,אתחל,module,Magento_Newsletter
+Reset,איפוס,module,Magento_Newsletter
 Message,הודעה,module,Magento_Newsletter
 Cancel,ביטול,module,Magento_Newsletter
 Action,פעולה,module,Magento_Newsletter
@@ -869,7 +869,8 @@ No,לא,module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
 "What is this?","מה זה?",module,Magento_Payment
 "Billing Agreements","הוראות קבע",module,Magento_Paypal
-Email,דואר,module,Magento_Paypal
+ID,מזהה,module,Magento_Paypal
+Email,אימייל,module,Magento_Paypal
 "First Name","שם פרטי",module,Magento_Paypal
 "Last Name","שם משפחה",module,Magento_Paypal
 Status,סטטוס,module,Magento_Paypal
@@ -1226,7 +1227,7 @@ Total,"סה""כ",module,Magento_Weee
 Website,אתר,module,Magento_Weee
 Tax,מס,module,Magento_Weee
 Action,פעולה,module,Magento_Weee
-label,תווית,module,Magento_Widget
+label,תוית,module,Magento_Widget
 Close,סגור,module,Magento_Widget
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Widget
 Type,סוג,module,Magento_Widget
@@ -1255,8 +1256,8 @@ Back,חזור,module,Magento_Wishlist
 "Now Shopping by","כעט ממויין לפי",theme,frontend/Magento/luma
 Previous,הקודם,theme,frontend/Magento/luma
 Remove,הסר,theme,frontend/Magento/luma
-"Remove This Item","הסר פריט זה",theme,frontend/Magento/luma
-"Shop By","סנן לפי",theme,frontend/Magento/luma
+"Remove This Item","הסרת פריט",theme,frontend/Magento/luma
+"Shop By","מיין לפי",theme,frontend/Magento/luma
 "Clear All","נקה הכל",theme,frontend/Magento/luma
 "Shopping Options","אפשרויות קניה",theme,frontend/Magento/luma
 Customer:,לקוח:,module,Magento_Checkout

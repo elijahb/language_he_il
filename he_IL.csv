@@ -491,6 +491,7 @@ Actions,פעולות,module,Magento_Catalog
 "Add to Wish List","הוסף ל Wish List",module,Magento_Catalog
 "You have no items to compare.","אין לך פריטים להשוואה.",module,Magento_Catalog
 Compare,להשוות,module,Magento_Catalog
+"Clear All","נקה הכל",module,Magento_Catalog
 Next,הבא,module,Magento_Catalog
 "Add to Compare","הוסף להשוואה",module,Magento_Catalog
 "We found other products you might like!","מצאנו מוצרים אחרים שאולי תרצה!",module,Magento_Catalog
@@ -815,6 +816,7 @@ No,לא,module,Magento_LayeredNavigation
 Position,מיקום,module,Magento_LayeredNavigation
 item,פריט,module,Magento_LayeredNavigation
 items,פריטים,module,Magento_LayeredNavigation
+"Now Shopping by","מסנן לפי",module,Magento_LayeredNavigation
 Previous,הקודם,module,Magento_LayeredNavigation
 Remove,הסר,module,Magento_LayeredNavigation
 "Remove This Item","הסר פריט זה",module,Magento_LayeredNavigation
@@ -1404,6 +1406,7 @@ Contacts,"אנשי קשר",module,Magento_Contact
 "Email Options","אפשרויות דואר אלקטרוני",module,Magento_Contact
 "Send Emails To","שלח מייל אל",module,Magento_Contact
 "Email Template","תבניות דואר אלקטרוני",module,Magento_Contact
+Phone,טלפון,module,Magento_Customer
 "First Name","שם פרטי",module,Magento_Customer
 "Last Name","שם משפחה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
@@ -1455,6 +1458,7 @@ Dashboard,"לוח בקרה",module,Magento_Sales
 Enabled,פעיל,module,Magento_Sales
 Shipment,משלוח,module,Magento_Sales
 Name,שם,module,Magento_Sales
+Phone,טלפון,module,Magento_Sales
 Website,אתר,module,Magento_Sales
 "All Store Views","כל תצוגות החנויות",module,Magento_Sales
 "Print All","הדפס הכול",module,Magento_Sales

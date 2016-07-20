@@ -299,6 +299,7 @@ Database,"בסיס נתונים",module,Magento_Backup
 "FTP Password","סיסמת FTP",module,Magento_Backup
 "Magento root directory","ספריית הRoot של מג'נטו",module,Magento_Backup
 "Create Backup","צור גיבוי",module,Magento_Backup
+Country,ארץ,module,Magento_Braintree
 "Stored Card","כרטיס שמור",module,Magento_Braintree
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Braintree
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Braintree
@@ -419,12 +420,12 @@ Year,שנה,module,Magento_Catalog
 label,תווית,module,Magento_Catalog
 "Product Attributes","תכונות מוצר",module,Magento_Catalog
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Catalog
-"Not shared with other products","אינו משותף לשאר המוצרים",module,Magento_Catalog
+"Not shared with other products","אינו משותף עם מוצרים אחרים",module,Magento_Catalog
 "Store View","תצוגת חנות",module,Magento_Catalog
 Website,אתר,module,Magento_Catalog
 Global,גלובלי,module,Magento_Catalog
 "Declare attribute value saving scope","הגדר ערכים לתכונה לטווח הבחירה",module,Magento_Catalog
-"Depends on design theme","תלות בתבנית העיצוב",module,Magento_Catalog
+"Depends on design theme","תלוי בערכת הנושא",module,Magento_Catalog
 No,לא,module,Magento_Catalog
 Yes,כן,module,Magento_Catalog
 "Web Site",אתר,module,Magento_Catalog
@@ -641,7 +642,7 @@ Yes,כן,module,Magento_Customer
 "Account Information","פרטי חשבון",module,Magento_Customer
 "Invalid input","קלט שגוי",module,Magento_Customer
 "My Account","החשבון שלי",module,Magento_Customer
-"Invalid login or password.","משתמש או סיסמא שגויים.",module,Magento_Customer
+"Invalid login or password.","משתמש או סיסמה שגויים.",module,Magento_Customer
 Customers,לקוחות,module,Magento_Customer
 Global,גלובלי,module,Magento_Customer
 "Billing Address","כתובת חיוב",module,Magento_Customer
@@ -780,6 +781,7 @@ Newsletter,ניוזלטר,module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
 Subscribe,הירשם,module,Magento_Newsletter
+Country,ארץ,module,Magento_OfflineShipping
 "Zip/Postal Code",מיקוד,module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
@@ -828,6 +830,7 @@ Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
 Tax,מס,module,Magento_Quote
+"New Accounts","חשבונות חדשים",module,Magento_Reports
 Day,יום,module,Magento_Reports
 Month,חודש,module,Magento_Reports
 Year,שנה,module,Magento_Reports
@@ -1115,8 +1118,20 @@ Type,סוג,module,Magento_Widget
 Products,מוצרים,module,Magento_Widget
 All,הכל,module,Magento_Widget
 Apply,החל,module,Magento_Widget
+"Wish List",Wishlist,module,Magento_Wishlist
+"Wish List Sharing","שיתוף wishlist",module,Magento_Wishlist
 "My Wish List","Wish List שלי",module,Magento_Wishlist
+"%1's Wish List","ה-wishlist של %1",module,Magento_Wishlist
 "You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Wishlist
+"This product(s) is out of stock.","המוצר(ים) לא במלאי.",module,Magento_Wishlist
+"%1 has been moved to your wish list.","%1 הועבר ל-wishlist שלך.",module,Magento_Wishlist
+"Message length must not exceed %1 symbols","אורך ההודעה מוגבל ל-%1 תווים",module,Magento_Wishlist
+"Your wish list has been shared.","ה-wishlist שלך שותף.",module,Magento_Wishlist
+"%1 items","%1 פריטים",module,Magento_Wishlist
+"1 item","פריט אחד",module,Magento_Wishlist
+Comment,הערה,module,Magento_Wishlist
+"Display number of items in wish list","הצגת מספר הפריטים ב-wishlist",module,Magento_Wishlist
+"Display item quantities","הצגת כמויות פריטים",module,Magento_Wishlist
 Message,הודעה,module,Magento_Wishlist
 "Update Wish List","עדכון Wish List",module,Magento_Wishlist
 "Add to Cart","הוסף לעגלה",module,Magento_Wishlist
@@ -1243,6 +1258,7 @@ Action,פעולה,module,Magento_Email
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords
 Enable,אפשר,module,Magento_GoogleAnalytics
+"Account Number","מספר חשבון",module,Magento_GoogleAnalytics
 Status,סטטוס,module,Magento_Indexer
 Status,סטטוס,module,Magento_Integration
 Status,סטטוס,module,Magento_Newsletter
@@ -1264,6 +1280,7 @@ Export,ייצוא,module,Magento_OfflineShipping
 Position,מיקום,module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
+Login,כניסה,module,Magento_Paypal
 Frequency,תדירות,module,Magento_ProductAlert
 "Start Time","שעת התחלה",module,Magento_ProductAlert
 Dashboard,"לוח בקרה",module,Magento_Reports
@@ -1292,6 +1309,7 @@ Action,פעולה,module,Magento_Sitemap
 "Live account","חשבון פעיל",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
 Edit,ערוך,module,Magento_UrlRewrite
+"Last login","כניסה אחרונה",module,Magento_User
 "Sort Order","סדר מיון",module,Magento_Usps
 Enabled,פעיל,module,Magento_Wishlist
 "My Wish List Link","קישור ל Wish List שלי",module,Magento_Wishlist

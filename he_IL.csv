@@ -368,20 +368,53 @@ Year,שנה,module,Magento_Braintree
 "Stored Card","כרטיס שמור",module,Magento_Braintree
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Braintree
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Braintree
+"Credit card successfully added","כרטיס האשראי נוסף בהצלחה",module,Magento_Braintree
+"Something went wrong while saving the card.","משהו השתבש תוך שמירת פרטי הכרטיס.",module,Magento_Braintree
+"Credit card does not exist","כרטיס האשראי לא קיים",module,Magento_Braintree
+"Delete Credit Card","מחק את כרטיס אשראי",module,Magento_Braintree
+"There was error deleting the credit card","אירעה שגיאה בעת מחיקת כרטיס האשראי",module,Magento_Braintree
+"Credit card successfully deleted","כרטיס אשראי נמחק בהצלחה",module,Magento_Braintree
+"Edit Credit Card","ערוך כרטיס אשראי",module,Magento_Braintree
+"My Credit Cards","כרטיסי האשראי שלי",module,Magento_Braintree
+"New Credit Card","כרטיס אשראי חדש",module,Magento_Braintree
+"There was error during saving card data","אירעה שגיאה במהלך שמירת נתוני הכרטיס",module,Magento_Braintree
 "We can't initialize checkout.","איננו יכולים לאתחל את הקופה.",module,Magento_Braintree
 "We can't place the order.","איננו יכולים לאשר את ההזמנה.",module,Magento_Braintree
 "Incorrect payment method.","שיטת התשלום שגויה.",module,Magento_Braintree
 "We can't initialize checkout review.","איננו יכולים לאתחיל את הביקורת על הקופה.",module,Magento_Braintree
 "We can't update shipping method.","אנחנו יכולים לעדכן את שיטת המשלוח.",module,Magento_Braintree
+"The processor declined your transaction, please re-enter your payment information","המערכת דחתה את העסקה שלך, אנא הזן בשנית את פרטי התשלום שלך",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","העסקה נדחתה על ידי שירות הסליקה: נא בדוק את פרטי כרטיס או נסה כרטיס אחר",module,Magento_Braintree
+"The processor responded with an unknown error","המערכת החזירה שגיאה לא ידועה",module,Magento_Braintree
+"Credit card type is not allowed for your country.","סוג כרטיס האשראי אינו מורשה עבור המדינה שלך.",module,Magento_Braintree
+"Credit card type is not allowed for this payment method.","סוג כרטיס האשראי אינו מותר עבור שיטת התשלום הנוכחית.",module,Magento_Braintree
+"Selected payment type is not allowed for billing country.","סוג התשלום שנבחר אינו מאושר עבור המדינה בפרטי התשלום.",module,Magento_Braintree
+"Incomplete payment information.","פרטי התשלום לא הוזנו במלואם.",module,Magento_Braintree
 "Please try again later","אנא נסה שוב מאוחר יותר",module,Magento_Braintree
+"Can not find original authorization transaction for partial capture","איננו יכולנו למצוא את האימות המקורי עבור סליקה זאת",module,Magento_Braintree
+"There was an error capturing the transaction: %1.","אירעה שגיאה בעת ביצוע הסליקה: %1.",module,Magento_Braintree
+"This refund is for a partial amount but the Transaction has not settled.","החזר זה הוא עבור סכום חלקי אך הסליקה איננה אושרה.",module,Magento_Braintree
+"Please wait 24 hours before trying to issue a partial refund.","אנא המתן 24 שעות לפני בקשת החזר כספי.",module,Magento_Braintree
+"There was an error refunding the transaction: %1.","אירעה שגיאה החזר הכספי כתוצאה מהסליקה: %1.",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","חלק מהסליקות כבר אושרו או ריקות, ולכן אין אפשרות לבטלם.",module,Magento_Braintree
+"Voided capture.","סליקות ללא תוקף.",module,Magento_Braintree
+"There was an error voiding the transaction: %1.","אירעה שגיאה בסליקה הריקה: %1.",module,Magento_Braintree
 Invoice,חשבונית,module,Magento_Braintree
 Shipment,משלוח,module,Magento_Braintree
 Authorize,אישור,module,Magento_Braintree
 "--Please Select--","--אנא בחר",module,Magento_Braintree
+"Invalid Customer ID provided","מזהה לקוח לא חוקי הוכנס",module,Magento_Braintree
+"some error",תקלה,module,Magento_Braintree
 "a,b,c","א, ב, ג",module,Magento_Braintree
 "Something went wrong while processing.","משהו השתבש בזמן העיבוד.",module,Magento_Braintree
+error,שגיאה,module,Magento_Braintree
+exception,חריגה,module,Magento_Braintree
+"Payment Information","פרטי תשלום",module,Magento_Braintree
+"Add new card","הוסף כרטיס חדש",module,Magento_Braintree
+"Please Select","אנא בחר",module,Magento_Braintree
 "Expiration Date","תאריך תפוגה",module,Magento_Braintree
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Braintree
+"Save this card for future use","שמור את פרטי הכרטיס הנוכחי לשימוש בקניות הבאות",module,Magento_Braintree
 or,או,module,Magento_Braintree
 "Please confirm that you want to delete this credit card","בבקשה אשר כי ברצונך למחוק את כרטיס האשראי הזה",module,Magento_Braintree
 "Cardholder Name","שם בעל הכרטיס",module,Magento_Braintree
@@ -389,6 +422,7 @@ Delete,מחק,module,Magento_Braintree
 Back,חזור,module,Magento_Braintree
 "* Required Fields","* שדות חובה",module,Magento_Braintree
 "Credit Card","כרטיס אשראי",module,Magento_Braintree
+"Card Verification Number Visual Reference","מדריך כיצד לאמת את מספר הכרטיס",module,Magento_Braintree
 "What is this?","מה זה?",module,Magento_Braintree
 "Make Default","הפוך לברירת המחדל",module,Magento_Braintree
 "Billing Address","כתובת חיוב",module,Magento_Braintree
@@ -506,6 +540,7 @@ Relevance,רלוונטיות,module,Magento_CatalogSearch
 "up to %1","עד %1",module,Magento_CatalogSearch
 Category,קטגוריה,module,Magento_CatalogSearch
 "%1 and above","%1 ומעלה",module,Magento_CatalogSearch
+"Bucket do not exists","הסל אינו קיים",module,Magento_CatalogSearch
 Product,מוצר,module,Magento_CatalogSearch
 "Search Settings","הגדרות חיפוש",module,Magento_CatalogSearch
 Search,חפש,module,Magento_CatalogSearch
@@ -1020,26 +1055,54 @@ Qty,כמות,module,Magento_Downloadable
 Subtotal,"סכום ביניים",module,Magento_Downloadable
 "Discount Amount","סכום הנחה",module,Magento_Downloadable
 "Qty Invoiced","כמות שחויבה",module,Magento_Downloadable
+"This is used internally. Make sure you don't use spaces or more than %1 symbols.","זהו מידע לשימוש פנימי. ודאו שאינכם משתמשים ברווחים או ביותר מ-%1 תווים.",module,Magento_Eav
+"Not shared with other products","אינו משותף עם מוצרים אחרים",module,Magento_Eav
 Yes,כן,module,Magento_Eav
 No,לא,module,Magento_Eav
 System,מערכת,module,Magento_Eav
 None,ללא,module,Magento_Eav
 Email,דואר,module,Magento_Eav
+"The attribute code '%1' is reserved by system. Please try another attribute code","הקוד תכונה '%1' שמור על-ידי המערכת. אנא נסה קוד תכונה נוסף",module,Magento_Eav
+"Attribute %1 doesn't work with options","תכונה %1 לא עובד עם אפשרויות",module,Magento_Eav
+"Attribute %1 doesn't have any option","תכונה %1 אין אפשרות",module,Magento_Eav
 label,תווית,module,Magento_Eav
 Back,חזור,module,Magento_Email
 Reset,איפוס,module,Magento_Email
+"We can't delete email template data right now. Please review log and try again.","איינו יכולים למחוק נתונים בתבנית המיילים עכשיו. נא בדוק את הקובץ הלוג ונסה שוב.",module,Magento_Email
+"We can't find an email template to delete.","אינני יכולים למצוא את התבנית המייל למחיקה.",module,Magento_Email
 "Email Templates","תבניות אימייל",module,Magento_Email
 "Zip/Postal Code",מיקוד,module,Magento_Email
 City,עיר,module,Magento_Email
+"Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey
+"Encryption Key","מפתח ההצפנה",module,Magento_EncryptionKey
+"New Encryption Key","מפתח ההצפנה החדש",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","מפתח ההצפנה משמש כדי להגן על סיסמאות ונתונים רגישים אחרים.",module,Magento_EncryptionKey
+"Auto-generate a Key","צור מפתח רנדומלי",module,Magento_EncryptionKey
 No,לא,module,Magento_EncryptionKey
 Yes,כן,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.","המפתח שנוצר יוצג לאחר שינוי.",module,Magento_EncryptionKey
+"New Key","מפתח חדש",module,Magento_EncryptionKey
+"Deployment configuration file is not writable.","קובץ של פריסה אינו ניתן לכתיבה.",module,Magento_EncryptionKey
+"Please enter an encryption key.","הזן בבקשה את מפתח ההצפנה.",module,Magento_EncryptionKey
+"The encryption key has been changed.","מפתח ההצפנה שונה.",module,Magento_EncryptionKey
+"This is your new encryption key: <span style=""font-family:monospace;"">%1</span>. Be sure to write it down and take good care of it!",". זה מפתח ההצפנה החדש שלך: <span style=""font-family:monospace;"">%1</span>. הקפד לכתוב את זה, שמור עליו!",module,Magento_EncryptionKey
+"For some reason we can't retrieve tracking info right now.","מסיבה כלשהי אנחנו אין אפשרות לשחזר את מספר החבילה עכשיו.",module,Magento_Fedex
 None,ללא,module,Magento_Fedex
+"Gift Messages is not applicable for empty cart","הודעות המתנה אינה ישימה עבור עגלה ריקה",module,Magento_GiftMessage
+"Gift Messages is not applicable for virtual products","הודעות המתנה אינה ישימה עבור מוצרים וירטואליים",module,Magento_GiftMessage
+"There is no item with provided id in the order or gift message isn't allowed","אין פריט אשר סופק עם מספר סידורי עבור ההזמנה או הודעת מתנה שאינה מאושרת",module,Magento_GiftMessage
+"There is no order with provided id or gift message isn't allowed","אן שום הזמנה שסופקה עם מזהה או הודעת מתנה שאינה מורשת",module,Magento_GiftMessage
+"Gift Messages is not applicable for empty order","הודעות המתנה אינה ישימה עבור הזמנה ריקה",module,Magento_GiftMessage
 From,מ-,module,Magento_GiftMessage
 To,ל-,module,Magento_GiftMessage
 Message,הודעה,module,Magento_GiftMessage
 Cancel,ביטול,module,Magento_GiftMessage
 OK,אישור,module,Magento_GiftMessage
 "Gift Message","הודעת מתנה",module,Magento_GiftMessage
+"Leave this box blank if you don't want to leave a gift message for the entire order.","תשאיר תיבה זו ריקה, אם אתה לא רוצה להשאיר הודעה מתנה עבור ההזמנה כולה.",module,Magento_GiftMessage
+"Leave a box blank if you don't want to add a gift message for that item.","השאר תיבה ריקה אם אינך רוצה להוסיף הודעת מתנה עבור פריט זה.",module,Magento_GiftMessage
+"You can leave this box blank if you don't want to add a gift message for this address.","באפשרותך להשאיר את התיבה זה ריקה, אם אתה לא רוצה להוסיף הודעה מתנה עבור כתובת זו.",module,Magento_GiftMessage
+"You can leave this box blank if you don't want to add a gift message for the item.","באפשרותך להשאיר את התיבה זה ריקה, אם אתה לא רוצה להוסיף הודעה מתנה עבור כתובת זו.",module,Magento_GiftMessage
 Dynamic,דינמי,module,Magento_GoogleAdwords
 "Please specify the quantity of product(s).","נא לציין את כמות מוצרים.",module,Magento_GroupedProduct
 Availability:,זמינות:,module,Magento_GroupedProduct
@@ -1097,6 +1160,7 @@ Edit,ערוך,module,Magento_Multishipping
 Price,מחיר,module,Magento_Multishipping
 Subtotal,"סכום ביניים",module,Magento_Multishipping
 Items,פריטים,module,Magento_Multishipping
+"Thanks for your order. We'll email you order details and tracking information.","תודה על הזמנתך. אנחנו בדוק באיימל את פרטי ההזמנה, מידע, ומעקב משלוח.",module,Magento_Multishipping
 Back,חזור,module,Magento_Newsletter
 Reset,איפוס,module,Magento_Newsletter
 Message,הודעה,module,Magento_Newsletter
@@ -1106,12 +1170,15 @@ Action,פעולה,module,Magento_Newsletter
 "Newsletter Queue","ניוזלטר - תור",module,Magento_Newsletter
 "Newsletter Subscribers","ניוזלטר - מנויים",module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
+"We can't delete this template right now.","איננו יכולים למחוק את התבנית הזו ברגע זה.",module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
 Subscribe,הירשם,module,Magento_Newsletter
 Country,ארץ,module,Magento_OfflineShipping
 "Zip/Postal Code",מיקוד,module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
+"We couldn't import this file because of these errors: %1","איננו יכולים לייבא קובץ זה בגלל שגיאות אלה: %1",module,Magento_OfflineShipping
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
 Month,חודש,module,Magento_Payment
 Year,שנה,module,Magento_Payment
@@ -1159,6 +1226,8 @@ or,או,module,Magento_Paypal
 "We can't find the product.","לא ניתן למצוא את המוצר.",module,Magento_ProductAlert
 "The product was not found.","המוצר לא נמצא.",module,Magento_ProductAlert
 Price:,מחיר:,module,Magento_ProductAlert
+"Add video","הוסף וידאו",module,Magento_ProductVideo
+"Click here or drag and drop to add images.","לחץ כאן כדי לגרור ולהוסיף תמונות.",module,Magento_ProductVideo
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
 "Cannot place order.","לא ניתן להזמין.",module,Magento_Quote
@@ -1485,6 +1554,7 @@ None,ללא,module,Magento_Usps
 No,לא,module,Magento_Variable
 Yes,כן,module,Magento_Variable
 Message,הודעה,module,Magento_Webapi
+"We found a duplicate of website, country and state fields for a fixed product tax","מצאנו כפילות של האתר, מדינה ואזור שדות עבור מס קבוע למוצר",module,Magento_Weee
 "Excl. Tax","למעט מס",module,Magento_Weee
 Total,"סה""כ",module,Magento_Weee
 "Incl. Tax","כולל מס",module,Magento_Weee
@@ -1616,6 +1686,7 @@ OK,אישור,module,Magento_Catalog
 "We don't recognize or support this file extension type.","איננו מזהים או תומכים בסוג זה של סיומת קובץ.",module,Magento_ConfigurableProduct
 "Please, select attribute(s)","אנא בחר תכונה או תכונות",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_Customer
+"We can't complete your order because you don't have a payment method set up.","אין אפשרות להשלים את ההזמנה שלך כי אין לך שיטת תשלום מוגדרת.",module,Magento_Multishipping
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Multishipping
 Save,שמור,module,Magento_ProductVideo
 Cancel,ביטול,module,Magento_ProductVideo
@@ -1704,6 +1775,7 @@ Action,פעולה,module,Magento_Backup
 "Your Kount ID","מזהה הKnout שלך",module,Magento_Braintree
 "Use Cache","השתמש בcache",module,Magento_Braintree
 "Sort Order","סדר מיון",module,Magento_Braintree
+"Edit My Credit Cards","ערוך את כרטיסי האשראי שלי",module,Magento_Braintree
 "Display products availability in stock on Storefront.","הצגת מלאי המוצרים הזמינים החנות.",module,Magento_CatalogInventory
 Quantity,כמות,module,Magento_CatalogInventory
 Rule,כלל,module,Magento_CatalogRule
@@ -1756,6 +1828,11 @@ Type,סוג,module,Magento_Customer
 "Front-end development workflow","תרשים עבודה של פיתוח צד-לקוח",module,Magento_Developer
 "Sort Order","סדר מיון",module,Magento_Dhl
 Enabled,פעיל,module,Magento_Directory
+"Entity types declaration cache.","הגדרת סוגי יישות עבור מטמון.",module,Magento_Eav
+Emails,אימיילים,module,Magento_Email
+"Allowed file types: jpg, jpeg, gif, png. To optimize logo for high-resolution displays, upload an image that is 3x normal size and then specify 1x dimensions in width/height fields below.","סוגי סיומות קבצים מותרים: jpg, jpeg, gif, png. כדי למטב את לוגו בתצוגות ברזולוציה גבוהה, בצע העלאה של תמונה בגודל רגיל כפול 3 ולאחר מכן ציין ממדים בגודל המקורי בשדות רוחב/גובה, להלן.",module,Magento_Email
+"Only necessary if image has been uploaded above. Enter number of pixels, without appending ""px"".","חובה רק אם התמונה הועלתה. הזן מספר פיקסלים, ללא אמת מידה ""px"".",module,Magento_Email
+"Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית המייל הנבחר בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_Email
 Action,פעולה,module,Magento_Email
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords
@@ -1763,6 +1840,7 @@ Enable,אפשר,module,Magento_GoogleAnalytics
 "Account Number","מספר חשבון",module,Magento_GoogleAnalytics
 Status,סטטוס,module,Magento_Indexer
 Status,סטטוס,module,Magento_Integration
+"Default \"What's This\" Text Message","ברירת מחדל \"What's This\" הודעת טקסט",module,Magento_Msrp
 General,כללי,module,Magento_NewRelicReporting
 Status,סטטוס,module,Magento_Newsletter
 Delete,מחק,module,Magento_Newsletter

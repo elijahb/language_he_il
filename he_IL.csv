@@ -779,8 +779,19 @@ Reset,איפוס,module,Magento_Email
 "Email Templates","תבניות אימייל",module,Magento_Email
 "Zip/Postal Code",מיקוד,module,Magento_Email
 City,עיר,module,Magento_Email
+"Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey
+"Encryption Key","מפתח ההצפנה",module,Magento_EncryptionKey
+"New Encryption Key","מפתח ההצפנה החדש",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","מפתח ההצפנה משמש כדי להגן על סיסמאות ונתונים רגישים אחרים.",module,Magento_EncryptionKey
+"Auto-generate a Key","צור מפתח רנדומלי",module,Magento_EncryptionKey
 No,לא,module,Magento_EncryptionKey
 Yes,כן,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.","המפתח שנוצר יוצג לאחר שינוי.",module,Magento_EncryptionKey
+"New Key","מפתח חדש",module,Magento_EncryptionKey
+"Deployment configuration file is not writable.","קובץ של פריסה אינו ניתן לכתיבה.",module,Magento_EncryptionKey
+"Please enter an encryption key.","הזן בבקשה את מפתח ההצפנה.",module,Magento_EncryptionKey
+"The encryption key has been changed.","מפתח ההצפנה שונה.",module,Magento_EncryptionKey
+"This is your new encryption key: %1. Be sure to write it down and take good care of it!",". זה מפתח ההצפנה החדש שלך: %1. הקפד לכתוב את זה, שמור עליו!",module,Magento_EncryptionKey
 None,ללא,module,Magento_Fedex
 From,מ-,module,Magento_GiftMessage
 To,ל-,module,Magento_GiftMessage

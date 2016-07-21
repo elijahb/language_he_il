@@ -303,9 +303,26 @@ Country,ארץ,module,Magento_Braintree
 "Stored Card","כרטיס שמור",module,Magento_Braintree
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Braintree
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Braintree
+"Credit card successfully added","כרטיס האשראי נוסף בהצלחה",module,Magento_Braintree
+"Delete Credit Card","מחק את כרטיס אשראי",module,Magento_Braintree
+"Credit card successfully deleted","כרטיס אשראי נמחק בהצלחה",module,Magento_Braintree
+"Edit Credit Card","ערוך כרטיס אשראי",module,Magento_Braintree
+"My Credit Cards","כרטיסי האשראי שלי",module,Magento_Braintree
+"There was error during saving card data","אירעה שגיאה במהלך שמירת נתוני הכרטיס",module,Magento_Braintree
+"Transaction declined by gateway: Check card details or try another card","העסקה נדחתה על ידי שירות הסליקה: נא בדוק את פרטי כרטיס או נסה כרטיס אחר",module,Magento_Braintree
+"Credit card type is not allowed for your country.","סוג כרטיס האשראי אינו מורשה עבור המדינה שלך.",module,Magento_Braintree
+"Credit card type is not allowed for this payment method.","סוג כרטיס האשראי אינו מותר עבור שיטת התשלום הנוכחית.",module,Magento_Braintree
+"Selected payment type is not allowed for billing country.","סוג התשלום שנבחר אינו מאושר עבור המדינה בפרטי התשלום.",module,Magento_Braintree
 "Please try again later","אנא נסה שוב מאוחר יותר",module,Magento_Braintree
+"Please wait 24 hours before trying to issue a partial refund.","אנא המתן 24 שעות לפני בקשת החזר כספי.",module,Magento_Braintree
+"Some transactions are already settled or voided and cannot be voided.","חלק מהסליקות כבר אושרו או ריקות, ולכן אין אפשרות לבטלם.",module,Magento_Braintree
+"Invalid Customer ID provided","מזהה לקוח לא חוקי הוכנס",module,Magento_Braintree
+"Payment Information","פרטי תשלום",module,Magento_Braintree
+"Add new card","הוסף כרטיס חדש",module,Magento_Braintree
+"Please Select","אנא בחר",module,Magento_Braintree
 "Expiration Date","תאריך תפוגה",module,Magento_Braintree
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Braintree
+"Save this card for future use","שמור את פרטי הכרטיס הנוכחי לשימוש בקניות הבאות",module,Magento_Braintree
 "Please confirm that you want to delete this credit card","בבקשה אשר כי ברצונך למחוק את כרטיס האשראי הזה",module,Magento_Braintree
 "Cardholder Name","שם בעל הכרטיס",module,Magento_Braintree
 Delete,מחק,module,Magento_Braintree
@@ -708,6 +725,7 @@ From:,מ:,module,Magento_Downloadable
 To:,ל:,module,Magento_Downloadable
 Message:,הודעה:,module,Magento_Downloadable
 Qty,כמות,module,Magento_Downloadable
+"Not shared with other products","אינו משותף עם מוצרים אחרים",module,Magento_Eav
 Yes,כן,module,Magento_Eav
 No,לא,module,Magento_Eav
 System,מערכת,module,Magento_Eav
@@ -719,8 +737,17 @@ Reset,איפוס,module,Magento_Email
 "Email Templates","תבניות אימייל",module,Magento_Email
 "Zip/Postal Code",מיקוד,module,Magento_Email
 City,עיר,module,Magento_Email
+"Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey
+"Encryption Key","מפתח ההצפנה",module,Magento_EncryptionKey
+"New Encryption Key","מפתח ההצפנה החדש",module,Magento_EncryptionKey
+"The encryption key is used to protect passwords and other sensitive data.","מפתח ההצפנה משמש כדי להגן על סיסמאות ונתונים רגישים אחרים.",module,Magento_EncryptionKey
+"Auto-generate a Key","צור מפתח רנדומלי",module,Magento_EncryptionKey
 No,לא,module,Magento_EncryptionKey
 Yes,כן,module,Magento_EncryptionKey
+"The generated key will be displayed after changing.","המפתח שנוצר יוצג לאחר שינוי.",module,Magento_EncryptionKey
+"New Key","מפתח חדש",module,Magento_EncryptionKey
+"Please enter an encryption key.","הזן בבקשה את מפתח ההצפנה.",module,Magento_EncryptionKey
+"The encryption key has been changed.","מפתח ההצפנה שונה.",module,Magento_EncryptionKey
 None,ללא,module,Magento_Fedex
 From,מ-,module,Magento_GiftMessage
 To,ל-,module,Magento_GiftMessage
@@ -784,6 +811,7 @@ Subscribe,הירשם,module,Magento_Newsletter
 Country,ארץ,module,Magento_OfflineShipping
 "Zip/Postal Code",מיקוד,module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
+"Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
 Month,חודש,module,Magento_Payment
 Year,שנה,module,Magento_Payment
@@ -826,6 +854,7 @@ Qty,כמות,module,Magento_Paypal
 Subtotal,"סכום ביניים",module,Magento_Paypal
 "The product was not found.","המוצר לא נמצא.",module,Magento_ProductAlert
 Price:,מחיר:,module,Magento_ProductAlert
+"Add video","הוסף וידאו",module,Magento_ProductVideo
 Shipping,משלוח,module,Magento_Quote
 Subtotal,"סכום ביניים",module,Magento_Quote
 Discount,הנחה,module,Magento_Quote
@@ -1107,6 +1136,7 @@ All,הכל,module,Magento_User
 Yes,כן,module,Magento_Usps
 No,לא,module,Magento_Usps
 None,ללא,module,Magento_Usps
+"We found a duplicate of website, country and state fields for a fixed product tax","מצאנו כפילות של האתר, מדינה ואזור שדות עבור מס קבוע למוצר",module,Magento_Weee
 Website,אתר,module,Magento_Weee
 Tax,מס,module,Magento_Weee
 Action,פעולה,module,Magento_Weee
@@ -1254,6 +1284,7 @@ Type,סוג,module,Magento_Customer
 "Front-end development workflow","תרשים עבודה של פיתוח צד-לקוח",module,Magento_Developer
 "Sort Order","סדר מיון",module,Magento_Dhl
 Enabled,פעיל,module,Magento_Directory
+"Entity types declaration cache.","הגדרת סוגי יישות עבור מטמון.",module,Magento_Eav
 Action,פעולה,module,Magento_Email
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords

@@ -813,6 +813,7 @@ Export,ייצוא,module,Magento_ImportExport
 From,מאת,module,Magento_ImportExport
 To,ל-,module,Magento_ImportExport
 Status,סטטוס,module,Magento_ImportExport
+"Following Error(s) has been occurred during importing process:","כבר אירעו שגיאות במהלך תהליך הייבוא:",module,Magento_ImportExport
 label,תווית,module,Magento_ImportExport
 Delete,מחק,module,Magento_ImportExport
 Save,שמור,module,Magento_Integration
@@ -897,6 +898,7 @@ Order,הזמנה,module,Magento_Paypal
 Configure,הגדר,module,Magento_Paypal
 Close,סגור,module,Magento_Paypal
 "Incl. Tax","כולל מס",module,Magento_Paypal
+"PayPal response hasn't required fields.","תגובת PayPal אינם שדות חובה.",module,Magento_Paypal
 Active,פעיל,module,Magento_Paypal
 Dynamic,דינמי,module,Magento_Paypal
 Yes,כן,module,Magento_Paypal
@@ -1244,15 +1246,62 @@ Total,"סה""כ",module,Magento_Weee
 Website,אתר,module,Magento_Weee
 Tax,מס,module,Magento_Weee
 Action,פעולה,module,Magento_Weee
+"Widget Insertion","הכנסת ווידגט",module,Magento_Widget
+"Insert Widget","הכנס ווידגט",module,Magento_Widget
 label,תוית,module,Magento_Widget
+Choose...,בחר...,module,Magento_Widget
 Close,סגור,module,Magento_Widget
+"Not Selected","לא נבחר",module,Magento_Widget
+Widget,ווידגט,module,Magento_Widget
+"Widget Type","סוג ווידגט",module,Magento_Widget
+"-- Please Select --","-- אנא בחר --",module,Magento_Widget
+"Manage Widget Instances","ניהול מופעי ווידגט",module,Magento_Widget
+"Add Widget","הוסף ווידגט",module,Magento_Widget
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Widget
+"Widget ""%1""","ווידגט ""%1""",module,Magento_Widget
+"New Widget Instance","הוסף מופע חדש של ווידגט",module,Magento_Widget
+"Custom Layouts","סידורים מותאמים אישית",module,Magento_Widget
+"Page Layouts","סידורי עמוד",module,Magento_Widget
+"Please Select Container First","אנא בחר מיכל קודם",module,Magento_Widget
+"Storefront Properties","מאפייני תצוגת חנות",module,Magento_Widget
 Type,סוג,module,Magento_Widget
+"Design Package/Theme","חבילות/תבניות מעוצבות",module,Magento_Widget
+"Widget Title","כותרת ווידגט",module,Magento_Widget
+"Assign to Store Views","התאם לתצוגות החנות",module,Magento_Widget
 "Sort Order","סדר מיון",module,Magento_Widget
+"Sort Order of widget instances in the same container","סדר מיון של מופעי הווידגט במיכל הנוכחי",module,Magento_Widget
+"Layout Updates","עדכוני סידורים",module,Magento_Widget
+Categories,קטגוריות,module,Magento_Widget
+"Anchor Categories","קטוגריות עם קישור",module,Magento_Widget
+"Non-Anchor Categories","קטגוריות ללא קישור",module,Magento_Widget
+"All Product Types","כל סוגי המוצרים",module,Magento_Widget
 Products,מוצרים,module,Magento_Widget
+"Generic Pages","עמודים כלליים",module,Magento_Widget
+"All Pages","כל העמודים",module,Magento_Widget
+"Specified Page","עמוד ספציפי",module,Magento_Widget
+"Add Layout Update","הוסף עדכון סידור",module,Magento_Widget
+"Remove Layout Update","הסר עדכוני סידורים",module,Magento_Widget
+"Widget Options","אפשרויות ווידגט",module,Magento_Widget
+Settings,הגדרות,module,Magento_Widget
+"Design Theme","עיצוב תבנית",module,Magento_Widget
+Continue,המשך,module,Magento_Widget
+"Please specify a Widget Type.","אנא ציין סוג ווידגט.",module,Magento_Widget
+"Please specify a correct widget.","אנא ציין את הווידגט הנכון.",module,Magento_Widget
+"The widget instance has been deleted.","המופע של הווידגט נמחק.",module,Magento_Widget
+"New Widget","ווידגט חדש",module,Magento_Widget
+Widgets,ווידגטים,module,Magento_Widget
+"The widget instance has been saved.","מופע הווידגט נשמר.",module,Magento_Widget
+name,שם,module,Magento_Widget
+description,תיאור,module,Magento_Widget
+"We cannot create the widget instance because it is missing required information.","אין לנו את אפשרות ליצור מופע של רכיב ווידגט מכיוון שחסר המידע הנדרש.",module,Magento_Widget
 None,ללא,module,Magento_Widget
+Container,מיכל,module,Magento_Widget
+Template,תבנית,module,Magento_Widget
 All,הכל,module,Magento_Widget
+"Specific %1","%1 ספציפי",module,Magento_Widget
+"Open Chooser","פתח בוחר",module,Magento_Widget
 Apply,החל,module,Magento_Widget
+Page,דף,module,Magento_Widget
 "Wish List",Wishlist,module,Magento_Wishlist
 "Wish List Sharing","שיתוף wishlist",module,Magento_Wishlist
 "My Wish List","Wish List שלי",module,Magento_Wishlist
@@ -1515,7 +1564,20 @@ Edit,ערוך,module,Magento_UrlRewrite
 "Last login","כניסה אחרונה",module,Magento_User
 "Sort Order","סדר מיון",module,Magento_Usps
 Name,שם,module,Magento_Variable
+"Orders and Returns","הזמנות והחזרות",module,Magento_Widget
+"Orders and Returns Search Form","טופס חיפוש של הזמנות והחזרות",module,Magento_Widget
+"Anchor Custom Title","כותרת מותאמת אישית מקושרת",module,Magento_Widget
+"CMS Page Link Block Template","קישור לבלוק של של דפי תוכן",module,Magento_Widget
+"CMS Page Link Inline Template","תבנית קישור שורתי של דפי תוכן",module,Magento_Widget
+"Display a Link to Loading a Spreadsheet","הצג קישור לטעינת גיליון",module,Magento_Widget
+"Defines whether a link to My Account","הגדר לינק לחשבבון שלי",module,Magento_Widget
+"Link Text","טקסט לקישור",module,Magento_Widget
+"The text of the link to the My Account &gt; Order by SKU page","הטקסט של הקישור לחשבון שלי &gt; סדר לפי דף מק״ט",module,Magento_Widget
+"Load a list of SKUs","טען את רשימת מק״טים",module,Magento_Widget
 Product,מוצר,module,Magento_Widget
+"Select Product...","בחר מוצר...",module,Magento_Widget
+Conditions,תנאים,module,Magento_Widget
+"Widget ID","מספר מזהה של ווידגט",module,Magento_Widget
 Enabled,פעיל,module,Magento_Wishlist
 "My Wish List Link","קישור ל Wish List שלי",module,Magento_Wishlist
 "Product Name","שם מוצר",module,Magento_Wishlist

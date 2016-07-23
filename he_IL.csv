@@ -1198,17 +1198,25 @@ None,ללא,module,Magento_OfflineShipping
 "We couldn't import this file because of these errors: %1","איננו יכולים לייבא קובץ זה בגלל שגיאות אלה: %1",module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
+"Built-in Application (Not Recommended for Production Use)","אפליקציות מובנות(לא מומלץ לשימוש בפרודקשן)",module,Magento_PageCache
+"Varnish Caching","מטמון של Varnish",module,Magento_PageCache
 Month,חודש,module,Magento_Payment
 Year,שנה,module,Magento_Payment
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Payment
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Payment
 Discount,הנחה,module,Magento_Payment
 Shipping,משלוח,module,Magento_Payment
+"You can't use the payment type you selected to make payments to the billing country.","אינך יכול להשתמש בסוג התשלום שבחרת לבצע תשלומים בארץ שהוזנה בחשבון החיוב.",module,Magento_Payment
+"The credit card number doesn't match the credit card type.","מספר כרטיס האשראי אינו תואם את סוג כרטיס האשראי.",module,Magento_Payment
+"%1 class doesn't implement \Magento\Payment\Model\MethodInterface","%1 מחלקה אינו מיישם \Magento\Payment\Model\MethodInterface",module,Magento_Payment
 Yes,כן,module,Magento_Payment
 No,לא,module,Magento_Payment
 "Expiration Date","תאריך תפוגה",module,Magento_Payment
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Payment
+"Switch/Solo/Maestro Only","החלפה/סולו/מאסטרו בלבד",module,Magento_Payment
+"Issue Number","מספר מקרה",module,Magento_Payment
 "Start Date","תאריך התחלה",module,Magento_Payment
+"We'll ask for your payment details before you place an order.","אנו נבקש את פרטי התשלום שלך לפני שאתה מבצע הזמנה.",module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
 "What is this?","מה זה?",module,Magento_Payment
 "Billing Agreements","הוראות קבע",module,Magento_Paypal
@@ -1242,9 +1250,18 @@ Dynamic,דינמי,module,Magento_Paypal
 Yes,כן,module,Magento_Paypal
 No,לא,module,Magento_Paypal
 "We'll authorize the amount of %1 as soon as the payment gateway approves it.","אנו נאשר את כמות %1 ברגע שספק התשלום יאשר זאת.",module,Magento_Paypal
+"PayPal can't process orders with a zero balance due. To finish your purchase, please go through the standard checkout process.","PayPal יכול לעבד הזמנות עם יתרת חוב של אפס. כדי לסיים את הרכישה, נא לעבור תהליך סליקה רגיל.",module,Magento_Paypal
+"This customer didn't include a confirmed address.","לקוח זה לא אימת את הכתובת.",module,Magento_Paypal
+"The merchant holds a non-U.S. account and doesn't have a withdrawal mechanism.","הסוחר מחזיק חשבון מחוץ לארה ב, אין מנגנון נסיגה.",module,Magento_Paypal
+"The payment currency doesn't match any of the merchant's balances currency.","המטבע אשר מוגדר לתשלום אינו תואם למאזן המטבע של הסוחר.",module,Magento_Paypal
+"Buyer's Tax ID","מספר מזהה של המס של הקונה",module,Magento_Paypal
+"Buyer's Tax ID Type","סוג מספר מזהה מס של הקונה",module,Magento_Paypal
+"Invalid method %1::%2(%3)","שיטה לא חוקית %1::%2(%3)",module,Magento_Paypal
+"We can't issue a refund transaction because there is no capture transaction.","אנחנו לא יכולים לטבל בהחזר על הטרנזקציה מכיוון שאין פעולת ביצעו של טרנזקציה.",module,Magento_Paypal
 "Start Date","תאריך התחלה",module,Magento_Paypal
 Custom,מותאם,module,Magento_Paypal
 "--Please Select--","--אנא בחר",module,Magento_Paypal
+"We can't create a billing agreement for this order.","איננו יכולים ליצור הסכם חיוב עבור הזמנה זו.",module,Magento_Paypal
 Error,שגיאה,module,Magento_Paypal
 Customer,לקוח,module,Magento_Paypal
 "View Order","הצג הזמנה",module,Magento_Paypal
@@ -1610,10 +1627,28 @@ No,לא,module,Magento_Usps
 "For some reason we can't retrieve tracking info right now.","מסיבה כלשהי אנחנו אין אפשרות לשחזר את מספר החבילה עכשיו.",module,Magento_Usps
 "Sorry, something went wrong. Please try again or contact us and we'll try to help.","ארעה תקלה. אנא נסו שנית או צרו עמנו קשר וננסה לעזור.",module,Magento_Usps
 None,ללא,module,Magento_Usps
+"Custom Variables","משתנים מותאמים אישית",module,Magento_Variable
+"Add New Variable","הוסף משתנה חדש",module,Magento_Variable
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Variable
+"Custom Variable ""%1""","משתנה מותאם אישית ""%1""",module,Magento_Variable
+"New Custom Variable","משתנה מותאם אישית חדש",module,Magento_Variable
+Variable,משתנה,module,Magento_Variable
+"Variable Code","קוד משתנה",module,Magento_Variable
+"Variable Name","שם משתנה",module,Magento_Variable
+"Use Default Variable Values","השתמש בערכי ברירת המחדל של משתנה",module,Magento_Variable
 No,לא,module,Magento_Variable
 Yes,כן,module,Magento_Variable
+"Variable HTML Value","ערך ה-HTML של המשתנה",module,Magento_Variable
+"Variable Plain Value","ערך משתנה פשוט",module,Magento_Variable
+"You deleted the custom variable.","מחקת את המשתנה מותאם אישית.",module,Magento_Variable
+"You saved the custom variable.",". שמרת את המשתנה מותאם אישית.",module,Magento_Variable
+"Variable Code must be unique.","קוד משתנה חייב להיות ייחודי.",module,Magento_Variable
+"Validation has failed.","האימות נכשל.",module,Magento_Variable
+"Insert Variable...","הוסף משתנה...",module,Magento_Variable
 Message,הודעה,module,Magento_Webapi
+"Add Tax","הוסף מס",module,Magento_Weee
+"Delete Tax","מחק מס",module,Magento_Weee
+"All Websites","כל האתרים",module,Magento_Weee
 "We found a duplicate of website, country and state fields for a fixed product tax","מצאנו כפילות של האתר, מדינה ואזור שדות עבור מס קבוע למוצר",module,Magento_Weee
 "Excl. Tax","למעט מס",module,Magento_Weee
 Total,"סה""כ",module,Magento_Weee
@@ -1756,10 +1791,12 @@ Password:,סיסמא:,theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","שכחת את הסיסמה לחשבון שלך? לחץ <a href=""%reset_url""> כאן</a> כדי לאפס אותה.",theme,frontend/Magento/luma
 "When you sign in to your account, you will be able to:","כאשר תבצע כניסה לחשבון שלך, ניתן יהיה:",theme,frontend/Magento/luma
 "Quick Checkout","צ'ק אאוט מהיר",theme,frontend/Magento/luma
+"Proceed through checkout faster","המשך לקופה מהר יותר",theme,frontend/Magento/luma
 "Order Status","סטטוס הזמנה",theme,frontend/Magento/luma
 "Check the status of orders","בדוק את מצב הזמנות",theme,frontend/Magento/luma
 "Manage Addresses","נהל כתובות",theme,frontend/Magento/luma
 "Store alternative addresses","שמור כתובות חלופיות",theme,frontend/Magento/luma
+"For shipping to multiple family members and friends","עבור שילוח למספר חברים או בני משפחה",theme,frontend/Magento/luma
 "Order History","היסטורית הזמנות",theme,frontend/Magento/luma
 "View past orders","הצג את ההזמנות הקודמות",theme,frontend/Magento/luma
 "About Us",אודותינו,theme,frontend/Magento/luma
@@ -1769,6 +1806,7 @@ Password:,סיסמא:,theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",theme,frontend/Magento/luma
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך על-ידי <a href=""%account_url""> כניסה לחשבון שלך</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","אם יש לך שאלות לגבי ההזמנות שלך, אתה יכול שלח לנו דוא ל- <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
+"Your Credit Memo #%creditmemo_id for Order #%order_id","תזכיר האשראי שלך #%creditmemo_id עבור הזמנה #%order_id",theme,frontend/Magento/luma
 "Billing Info","פרטי חיוב",theme,frontend/Magento/luma
 "Shipping Info","פרטי משלוח",theme,frontend/Magento/luma
 "Payment Method","שיטת תשלום",theme,frontend/Magento/luma
@@ -1800,6 +1838,7 @@ OK,אישור,module,Magento_Catalog
 Save,שמור,module,Magento_ProductVideo
 Cancel,ביטול,module,Magento_ProductVideo
 Delete,מחק,module,Magento_ProductVideo
+"This won't take long . . .","זה לא ייקח הרבה זמן.",module,Magento_Rule
 "Add Products","הוסף מוצרים",module,Magento_Sales
 "Please enter a valid email address (Ex: johndoe@domain.com).","הקלד כתובת אימייל תקינה (לדוגמא: johndoe@domain.com).",module,Magento_Ui
 "Please enter 6 or more characters. Leading or trailing spaces will be ignored.","אנא הכנס 6 תווים או יותר. רווחים וסימני פיסוק לא יילקחו בחשבון.",module,Magento_Ui
@@ -1972,8 +2011,13 @@ Price,מחיר,module,Magento_OfflineShipping
 "Sort Order","סדר מיון",module,Magento_OfflineShipping
 Type,סוג,module,Magento_OfflineShipping
 Export,ייצוא,module,Magento_OfflineShipping
+"IPs access list separated with ',' that can purge Varnish configuration for config file generation.
+                            If field is empty default value localhost will be saved.","רשימת IP מורשים מופרדים באמצעות ',' יכולים לקבל אפשרויות ליצירה מחודשת של קבצי קונפיגורציה. אם השדה ריק אז ערך ברירת המחדל בסביבה המקומית יישמר.",module,Magento_PageCache
+"Full page caching.","מטמון של Full page.",module,Magento_PageCache
+"Sandbox Credentials","אישור סביבת הדמה",module,Magento_Paypal
 "Home Page","דף הבית",module,Magento_Paypal
 Position,מיקום,module,Magento_Paypal
+"It is recommended to set this value to ""Magento_Paypal"" per store views.","מומלץ לקבוע ערך זה ל- ""Magento_Paypal"" לכל תצוגות החנויות.",module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
 Login,כניסה,module,Magento_Paypal
@@ -2021,6 +2065,7 @@ Edit,ערוך,module,Magento_UrlRewrite
 "Reset Password Template","תבנית לאיפוס סיסמא",module,Magento_User
 "Last login","כניסה אחרונה",module,Magento_User
 "Sort Order","סדר מיון",module,Magento_Usps
+"Variable ID","מספר מזהה של משתנה",module,Magento_Variable
 Name,שם,module,Magento_Variable
 "Orders and Returns","הזמנות והחזרות",module,Magento_Widget
 "Orders and Returns Search Form","טופס חיפוש של הזמנות והחזרות",module,Magento_Widget

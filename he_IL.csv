@@ -815,6 +815,8 @@ Country,ארץ,module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
 "Duplicate Row #%1 (Country ""%2"", Region/State ""%3"", Zip ""%4"" and Value ""%5"")","ערך כפול #%1 (מדינה ""%2"", אזור/מדינה ""%3"", מיקוד ""%4"", ערך ""%5"")",module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
+"Built-in Application (Not Recommended for Production Use)","אפליקציות מובנות(לא מומלץ לשימוש בפרודקשן)",module,Magento_PageCache
+"Varnish Caching","מטמון של Varnish",module,Magento_PageCache
 Month,חודש,module,Magento_Payment
 Year,שנה,module,Magento_Payment
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Payment
@@ -825,6 +827,8 @@ Yes,כן,module,Magento_Payment
 No,לא,module,Magento_Payment
 "Expiration Date","תאריך תפוגה",module,Magento_Payment
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Payment
+"Switch/Solo/Maestro Only","החלפה/סולו/מאסטרו בלבד",module,Magento_Payment
+"Issue Number","מספר מקרה",module,Magento_Payment
 "Start Date","תאריך התחלה",module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
 "What is this?","מה זה?",module,Magento_Payment
@@ -1140,6 +1144,13 @@ All,הכל,module,Magento_User
 Yes,כן,module,Magento_Usps
 No,לא,module,Magento_Usps
 None,ללא,module,Magento_Usps
+"Custom Variables","משתנים מותאמים אישית",module,Magento_Variable
+"Variable Code must be unique.","קוד משתנה חייב להיות ייחודי.",module,Magento_Variable
+"Validation has failed.","האימות נכשל.",module,Magento_Variable
+"Insert Variable...","הוסף משתנה...",module,Magento_Variable
+"Add Tax","הוסף מס",module,Magento_Weee
+"Delete Tax","מחק מס",module,Magento_Weee
+"All Websites","כל האתרים",module,Magento_Weee
 "We found a duplicate of website, country and state fields for a fixed product tax","מצאנו כפילות של האתר, מדינה ואזור שדות עבור מס קבוע למוצר",module,Magento_Weee
 Website,אתר,module,Magento_Weee
 Tax,מס,module,Magento_Weee
@@ -1357,8 +1368,11 @@ Price,מחיר,module,Magento_OfflineShipping
 "Sort Order","סדר מיון",module,Magento_OfflineShipping
 Type,סוג,module,Magento_OfflineShipping
 Export,ייצוא,module,Magento_OfflineShipping
+"Full page caching.","מטמון של Full page.",module,Magento_PageCache
+"Sandbox Credentials","אישור סביבת הדמה",module,Magento_Paypal
 "Home Page","דף הבית",module,Magento_Paypal
 Position,מיקום,module,Magento_Paypal
+"It is recommended to set this value to ""Magento_Paypal"" per store views.","מומלץ לקבוע ערך זה ל- ""Magento_Paypal"" לכל תצוגות החנויות.",module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
 Login,כניסה,module,Magento_Paypal

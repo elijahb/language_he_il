@@ -591,11 +591,13 @@ Submit,שלח,module,Magento_Contact
 Reset,איפוס,module,Magento_CurrencySymbol
 "Please correct the input data for %1 => %2 rate","נא תקן את נתוני נקלט עבור %1 => %2 קצב",module,Magento_CurrencySymbol
 System,מערכת,module,Magento_CurrencySymbol
+"You subscribe to our newsletter.","נרשמת לניוזלטר החודשי שלנו.",module,Magento_Customer
 "You have not set a default shipping address.","לא הוגדרה כתובת ברירת מחדל לשילוח.",module,Magento_Customer
 "You have not set a default billing address.","אין לך כתובת ברירת מחדל לתשלום.",module,Magento_Customer
 "Address Book","ספר כתובות",module,Magento_Customer
 "Edit Address","ערוך כתובת",module,Magento_Customer
 "Add New Address","הוסף כתובת חדשה",module,Magento_Customer
+region,אזור,module,Magento_Customer
 "Create Order","צור הזמנה",module,Magento_Customer
 "Save Customer","שמור לקוח",module,Magento_Customer
 "Delete Customer","מחק לקוח",module,Magento_Customer
@@ -612,12 +614,16 @@ Total,"סה""כ",module,Magento_Customer
 Action,פעולה,module,Magento_Customer
 Configure,הגדר,module,Magento_Customer
 Delete,מחק,module,Magento_Customer
+"Shopping Cart from %1","עגלת הקניות של %1",module,Magento_Customer
 Newsletter,ניוזלטר,module,Magento_Customer
 "Newsletter Information","מידע ניוזלטר",module,Magento_Customer
+"Subscribed to Newsletter","הירשם לניוזלטר",module,Magento_Customer
 "Last Date Subscribed","תאריך אחרון לרישום",module,Magento_Customer
 "Last Date Unsubscribed","תאריך אחרון לביטול הרשמה",module,Magento_Customer
 "No Newsletter Found","לא נמצאו הודעות ניוזלטר",module,Magento_Customer
+"Start date","תאריך התחלה",module,Magento_Customer
 "End Date","תאריך סיום",module,Magento_Customer
+"Receive Date","תאריך קבלה",module,Magento_Customer
 Subject,נושא,module,Magento_Customer
 Status,סטטוס,module,Magento_Customer
 Sent,נשלח,module,Magento_Customer
@@ -631,16 +637,26 @@ Order,הזמנה,module,Magento_Customer
 "Bill-to Name","שלח חיוב לשם",module,Magento_Customer
 "Ship-to Name","נשלח אל שם",module,Magento_Customer
 "Order Total","סה""כ להזמנה",module,Magento_Customer
+"Purchase Point","נקודת רכישה",module,Magento_Customer
 "Customer View","תצוגת לקוח",module,Magento_Customer
 Qty,כמות,module,Magento_Customer
 Confirmed,מאושר,module,Magento_Customer
+"Confirmation Required","דרוש אישור",module,Magento_Customer
+"Confirmation Not Required","לא דרוש אישור",module,Magento_Customer
+Indeterminate,"לא מוגדר",module,Magento_Customer
 "The customer does not have default billing address.","אין ללקוח כתובת חיוב ברירת מחדל.",module,Magento_Customer
 Offline,אוף-ליין,module,Magento_Customer
 Never,"לעולם לא",module,Magento_Customer
 "Deleted Stores","חנויות שנמחקו",module,Magento_Customer
+"Add Locale","הוסף אזור",module,Magento_Customer
+"Add Date","הוספת תאריך",module,Magento_Customer
 "Days in Wish List","ימים ב Wish List",module,Magento_Customer
 No,לא,module,Magento_Customer
 Yes,כן,module,Magento_Customer
+"Delete File","מחק קובץ",module,Magento_Customer
+Download,הורדה,module,Magento_Customer
+"Delete Image","מחיקת תמונה",module,Magento_Customer
+"View Full Size","תצוגה בגודל מלא",module,Magento_Customer
 "All countries","כל המדינות",module,Magento_Customer
 "Customer Groups","קבוצת לקוחות",module,Magento_Customer
 "Add New Customer Group","קבוצת לקוחות חדשה",module,Magento_Customer
@@ -653,11 +669,24 @@ Yes,כן,module,Magento_Customer
 "Maximum length must be less then %1 symbols","האורך המקסימלי חייב להיות פחות מ-%1 סמלים",module,Magento_Customer
 "Tax Class","מחלקת/מדרגת מס",module,Magento_Customer
 "Would you like to change the Customer Group for this order?","תרצה לשנות את קבוצת הלקוחות להזמנה זו?",module,Magento_Customer
+"The VAT ID is valid. The current Customer Group will be used.","מזהה מע""מ בתוקף לקבוצת הלקוחות הנוכחית.",module,Magento_Customer
+"Validate VAT Number","אימות מספר מע״מ",module,Magento_Customer
 "Customer Login","כניסת לקוחות",module,Magento_Customer
 "Create New Customer Account","צור חשבון לקוח חדש",module,Magento_Customer
+"Date of Birth","תאריך לידה",module,Magento_Customer
+"Bad request.","בקשה שגויה.",module,Magento_Customer
+"This confirmation key is invalid or has expired.","מספר אישור זה אינו חוקי או שפג תוקפו.",module,Magento_Customer
+"There was an error confirming the account","אירעה שגיאה באימות החשבון",module,Magento_Customer
 "Thank you for registering with %1.","תודה לך על שנרשמת עם %1.",module,Magento_Customer
+"This email does not require confirmation.","האימייל הזה אינו מחייב אישור.",module,Magento_Customer
+"Wrong email.","הדוא""ל שגוי.",module,Magento_Customer
+"Your password reset link has expired.","הקישור איפוס הסיסמה פג.",module,Magento_Customer
+"There is already an account with this email address. If you are sure that it is your email address, <a href=""%1"">click here</a> to get your password and access your account.","קיים כבר חשבון עם כתובת הדוא״ל. אם אתה בטוח כי זה כתובת הדואר האלקטרוני שלך, <a href=""%1""> לחץ כאן</a> כדי לקבל את הסיסמה שלך כדי לגשת לחשבון שלך.",module,Magento_Customer
 "Account Information","פרטי חשבון",module,Magento_Customer
 "Invalid input","קלט שגוי",module,Magento_Customer
+"Please correct the email address.","נא תקן את כתובת הדוא״ל.",module,Magento_Customer
+"Please enter your email.","הזן את כתובת הדוא""ל שלך.",module,Magento_Customer
+"If there is an account associated with %1 you will receive an email with a link to reset your password.","אם יש חשבון המשויך %1 תקבל הודעת דוא״ל עם קישור לאיפוס הסיסמה שלך.",module,Magento_Customer
 "My Account","החשבון שלי",module,Magento_Customer
 "Invalid login or password.","משתמש או סיסמה שגויים.",module,Magento_Customer
 Customers,לקוחות,module,Magento_Customer
@@ -1106,6 +1135,8 @@ Close,סגור,module,Magento_Theme
 Time,זמן,module,Magento_Theme
 Hour,שעה,module,Magento_Theme
 Minute,דקה,module,Magento_Theme
+"Dictionary (Translation on Storefront side)","מילון (תרגום בצד החזית של החנות)",module,Magento_Translation
+"Embedded (Translation on Admin side)","מוטמע (תרגום בצד ממשק הניהול)",module,Magento_Translation
 None,ללא,module,Magento_Ups
 label,תווית,module,Magento_Ups
 Name,שם,module,Magento_UrlRewrite
@@ -1402,6 +1433,10 @@ City,עיר,module,Magento_Shipping
 "Shipping Methods","שיטות המשלוח",module,Magento_Shipping
 Enabled,פעיל,module,Magento_Sitemap
 Action,פעולה,module,Magento_Sitemap
+"Translation Strategy","תרגום אסטרטגיה",module,Magento_Translation
+Translations,תרגומים,module,Magento_Translation
+"Log JS Errors to Session Storage","קובץ לוג שגיאות JS לאחסון הפעלה",module,Magento_Ui
+"Log JS Errors to Session Storage Key","קובץ לוג שגיאות JS כדי מפתח הפעלה אחסון",module,Magento_Ui
 "Sort Order","סדר מיון",module,Magento_Ups
 "Live account","חשבון פעיל",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite

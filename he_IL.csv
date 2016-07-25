@@ -25,12 +25,18 @@ major,משמעותי,module,Magento_AdminNotification
 minor,מינורי,module,Magento_AdminNotification
 notice,"שים לב",module,Magento_AdminNotification
 "Wrong message type","סוג ההודעה אינו נכון",module,Magento_AdminNotification
+"Wrong notification ID specified.","התראה לא נכונה של הID המצוין.",module,Magento_AdminNotification
+"{{base_url}} is not recommended to use in a production environment to declare the Base Unsecure URL / Base Secure URL. We highly recommend changing this value in your Magento <a href=""%1"">configuration</a>.","{{base_url}} אינו מומלץ לשימוש בסביבת פרודקשן להכרזה על כתובת בסיס לא-מאובטחת /כתובת בסיס מאבטחת. מומלץ מאוד לשנות ערך זה ב<a href=""%1""> הגדרות</a> מג'נטו.",module,Magento_AdminNotification
 "Please go to <a href=""%1"">Cache Management</a> and refresh cache types.","בבקשה ללכת <a href=""%1""> ניהול cacge</a> ולרענן את סוגי הcache.",module,Magento_AdminNotification
+"We were unable to synchronize one or more media files. Please refer to the log file for details.","לא הצלחנו לסינכרון קובץ מדיה אחד או יותר. נא עיין בקובץ הlog לקבלת פרטים.",module,Magento_AdminNotification
 "Synchronization of media storages has been completed.","סינכרון של תיקיית מדיה הושלמה.",module,Magento_AdminNotification
+"Your web server is set up incorrectly and allows unauthorized access to sensitive files. Please contact your hosting provider.","שרת האינטרנט שלך הוגדר באופן שגוי ומאפשר גישה בלתי מורשית לקבצים רגישים. ' ' אנא פנה לחברת האחסון שלך.",module,Magento_AdminNotification
 Close,סגור,module,Magento_AdminNotification
+"System Messages:","הודעות מערכת:",module,Magento_AdminNotification
 "Critical System Messages","הודעות מערכת קריטיים",module,Magento_AdminNotification
 "Major System Messages","הודעות מערכת משעותיות",module,Magento_AdminNotification
 "System messages","הודעות מערכת",module,Magento_AdminNotification
+"See All (","ראה הכל (",module,Magento_AdminNotification
 "Please correct the data sent.","אנא תקן את הנתונים שנשלחו.",module,Magento_AdvancedPricingImportExport
 "Entity type model must be an instance of \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType","סוג דגם חייב להיות מופע של \Magento\CatalogImportExport\Model\Export\Product\Type\AbstractType",module,Magento_AdvancedPricingImportExport
 "There are no product types available for export","סוגי המוצרים לא זמינים עבור ייצוא",module,Magento_AdvancedPricingImportExport
@@ -252,7 +258,7 @@ Username,"שם משתמש",module,Magento_Backend
 "user name","שם משתמש",module,Magento_Backend
 Password,סיסמא,module,Magento_Backend
 password,סיסמה,module,Magento_Backend
-"Sign in",כניסה,module,Magento_Backend
+"Sign in",התחברות,module,Magento_Backend
 "Select Range:","בחר טווח:",module,Magento_Backend
 "No Data Found","לא נמצאו נתונים",module,Magento_Backend
 "Last Orders","הזמנות אחרונות",module,Magento_Backend
@@ -572,6 +578,9 @@ Status,סטטוס,module,Magento_Cms
 Enabled,פעיל,module,Magento_Cms
 Disabled,"לא פעיל",module,Magento_Cms
 Content,תוכן,module,Magento_Cms
+"Add New Page","הוספת דף חדש",module,Magento_Cms
+"Save Page","שמירת דף",module,Magento_Cms
+"Delete Page","מחיקת דף",module,Magento_Cms
 Action,פעולה,module,Magento_Cms
 Home,"דף הבית",module,Magento_Cms
 "Please correct the data sent.","נא תקן את הנתונים שנשלחו.",module,Magento_Cms
@@ -608,7 +617,7 @@ Submit,שלח,module,Magento_Contact
 Reset,איפוס,module,Magento_CurrencySymbol
 System,מערכת,module,Magento_CurrencySymbol
 "Sign Out",התנתק,module,Magento_Customer
-"Sign In",התחברות,module,Magento_Customer
+"Sign In",כניסה,module,Magento_Customer
 "You subscribe to our newsletter.","נרשמת לניוזלטר החודשי שלנו.",module,Magento_Customer
 "You have not set a default shipping address.","לא הוגדרה כתובת ברירת מחדל לשילוח.",module,Magento_Customer
 "You have not set a default billing address.","אין לך כתובת ברירת מחדל לתשלום.",module,Magento_Customer
@@ -773,7 +782,7 @@ Password,סיסמא,module,Magento_Customer
 "Forgot Your Password?","שכחת סיסמה?",module,Magento_Customer
 "General Subscription","הרשמה כללית",module,Magento_Customer
 "Sign Up for Newsletter","הרשמה לניוזלטר",module,Magento_Customer
-"Sign-in Information","פרטי כניסה",module,Magento_Customer
+"Sign-in Information","פרטי התחברות",module,Magento_Customer
 "Confirm Password","אימות סיסמא",module,Magento_Customer
 "Create an Account","צור חשבון",module,Magento_Customer
 "You have signed out and will go to our homepage in 5 seconds.","תהליך התנתקות. אתה תועבר לדף הבית בעוד 5 שניות.",module,Magento_Customer
@@ -879,6 +888,7 @@ Previous,הקודם,module,Magento_LayeredNavigation
 Remove,הסר,module,Magento_LayeredNavigation
 "Remove This Item","הסר פריט זה",module,Magento_LayeredNavigation
 "Shop By","סנן לפי",module,Magento_LayeredNavigation
+"Clear All","נקה הכל",module,Magento_LayeredNavigation
 "Shopping Options","אפשרויות סינון",module,Magento_LayeredNavigation
 Database,"בסיס נתונים",module,Magento_MediaStorage
 "See price before order confirmation.","ראה מחיר לפני אישור ההזמנה.",module,Magento_Msrp
@@ -1067,6 +1077,7 @@ Summary,סיכום,module,Magento_Review
 "Average Customer Rating","ממוצע דירוג הלקוחות",module,Magento_Review
 "Product Rating:","דירוג מוצר:",module,Magento_Review
 "Back to Product Reviews","חזור אל חוות דעת על המוצר",module,Magento_Review
+"Page not found.","העמוד לא נמצא.",module,Magento_Rss
 Apply,החל,module,Magento_Rule
 Remove,הסר,module,Magento_Rule
 "Cart Price Rules","כללי קניות - כללי מחיר",module,Magento_SalesRule
@@ -1155,7 +1166,9 @@ Subtotal:,"סך ביניים:",module,Magento_Sales
 "Subscribe to Newsletter","הירשם לעדכונים",module,Magento_Sales
 Refresh,רענן,module,Magento_Sales
 Item,פריט,module,Magento_Sales
+"No items","אין פריטים",module,Magento_Sales
 "Discount Amount","סכום הנחה",module,Magento_Sales
+"No Items","אין פריטים",module,Magento_Sales
 "Gift Message","הודעת מתנה",module,Magento_Sales
 From:,מ:,module,Magento_Sales
 To:,ל:,module,Magento_Sales
@@ -1177,6 +1190,7 @@ Search,חפש,module,Magento_Search
 No,לא,module,Magento_Search
 Yes,כן,module,Magento_Search
 "Search entire store here...","חיפוש בכל החנות...",module,Magento_Search
+"Page not found.","העמוד לא נמצא.",module,Magento_SendFriend
 Remove,הסר,module,Magento_SendFriend
 Name,שם,module,Magento_SendFriend
 Email,דואר,module,Magento_SendFriend
@@ -1228,6 +1242,7 @@ General,כללי,module,Magento_Theme
 label,תווית,module,Magento_Theme
 Message,הודעה,module,Magento_Theme
 Remove,הסר,module,Magento_Theme
+Page,עמוד,module,Magento_Theme
 Previous,הקודם,module,Magento_Theme
 Next,הבא,module,Magento_Theme
 "per page","לכל עמוד",module,Magento_Theme
@@ -1375,7 +1390,7 @@ Apply,החל,module,Magento_Widget
 Page,דף,module,Magento_Widget
 "Wish List",Wishlist,module,Magento_Wishlist
 "Wish List Sharing","שיתוף wishlist",module,Magento_Wishlist
-"My Wish List","Wish List שלי",module,Magento_Wishlist
+"My Wish List","ה-Wishlist שלי",module,Magento_Wishlist
 "%1's Wish List","ה-wishlist של %1",module,Magento_Wishlist
 "Page not found.","העמוד לא נמצא.",module,Magento_Wishlist
 "You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Wishlist
@@ -1392,22 +1407,54 @@ Page,דף,module,Magento_Widget
 Comment,הערה,module,Magento_Wishlist
 "Display number of items in wish list","הצגת מספר הפריטים ב-wishlist",module,Magento_Wishlist
 "Display item quantities","הצגת כמויות פריטים",module,Magento_Wishlist
+"An item option with code %1 already exists.","אופציית הפריט עם קוד %1 כבר קיימת.",module,Magento_Wishlist
+"Cannot specify product.","אין אפשרות לציין מוצר.",module,Magento_Wishlist
+"Product is not salable.","המוצר אינו למכירה.",module,Magento_Wishlist
+"Invalid item option format.","הפורמט של הפריט אינו חוקי.",module,Magento_Wishlist
+"%1 for ""%2"".","%1 על ""%2"".",module,Magento_Wishlist
+"%1 product(s) have been added to shopping cart: %2.","%1 מוצרים נוספו לסל הקניות: %2.",module,Magento_Wishlist
+Comment:,הערה:,module,Magento_Wishlist
+"We cannot retrieve the Wish List.","אין לנו אפשרות לשחזר את ה-Wishlist.",module,Magento_Wishlist
+"The product does not exist.","המוצר אינו קיים.",module,Magento_Wishlist
+"Test Phrase","בחן ביטוי",module,Magento_Wishlist
+message,הודעה,module,Magento_Wishlist
 Message,הודעה,module,Magento_Wishlist
+error-message,"הודעת שגיאה",module,Magento_Wishlist
+"Product Exception.","מוצר חורג.",module,Magento_Wishlist
+"Localized Exception.","חריגת שפה.",module,Magento_Wishlist
 "Are you sure you want to remove this item?","האם אתה בטוח שברצונך להסיר פריט זה?",module,Magento_Wishlist
+"Share Wish List","שתף Wishlist",module,Magento_Wishlist
+"Add All to Cart","הוסף הכל לעגלה",module,Magento_Wishlist
 "Update Wish List","עדכון Wish List",module,Magento_Wishlist
 "Move to Wishlist","העבר ל Wish List",module,Magento_Wishlist
+"View Product","הצג מוצר",module,Magento_Wishlist
 Qty,כמות,module,Magento_Wishlist
 "Add to Cart","הוסף לעגלה",module,Magento_Wishlist
 Availability,זמינות,module,Magento_Wishlist
 "In stock",במלאי,module,Magento_Wishlist
+"Out of stock","אזל מהמלאי",module,Magento_Wishlist
 Edit,ערוך,module,Magento_Wishlist
+"Remove Item","הסר פריט",module,Magento_Wishlist
 "Remove item","הסר פריט",module,Magento_Wishlist
+"Add to Compare","הוסף להשוואה",module,Magento_Wishlist
+"This Wish List has no Items","ב-Wishlist הזה אין פריטים",module,Magento_Wishlist
+"See Details","ראה פרטים",module,Magento_Wishlist
+"Options Details","אפשרויות פרטים",module,Magento_Wishlist
+"RSS link to %1's wishlist","קישור RSS למועדפים של %1",module,Magento_Wishlist
+"RSS Feed","עדכוני RSS",module,Magento_Wishlist
 Product,מוצר,module,Magento_Wishlist
 "Add to Wish List","הוסף ל Wish List",module,Magento_Wishlist
 Back,חזור,module,Magento_Wishlist
+"Wish List is empty now.","ה-Wishlist ריק עכשיו.",module,Magento_Wishlist
 "* Required Fields","* שדות חובה",module,Magento_Wishlist
+"Sharing Information","שיתוף מידע",module,Magento_Wishlist
+"Email addresses, separated by commas","כתובות דוא""ל, מופרדים באמצעות פסיקים",module,Magento_Wishlist
+"Check here to link an RSS feed to your Wish List.","בדוק כאן את הקישור להזנת לעדכוני RSS ל-Wishlist.",module,Magento_Wishlist
+"Last Added Items","פריטים אחרונים שנוספו",module,Magento_Wishlist
+"Remove This Item","הסרת פריט זה",module,Magento_Wishlist
+"Go to Wish List","עבור ל-Wishlist",module,Magento_Wishlist
 "You have no items in your wish list.","אין לך פריטים ב Wish List.",module,Magento_Wishlist
-"Now Shopping by","כעט ממויין לפי",theme,frontend/Magento/luma
+"Now Shopping by","מסנן לפי",theme,frontend/Magento/luma
 Previous,הקודם,theme,frontend/Magento/luma
 Remove,הסר,theme,frontend/Magento/luma
 "Remove This Item","הסרת פריט",theme,frontend/Magento/luma
@@ -1418,13 +1465,18 @@ Customer:,לקוח:,module,Magento_Checkout
 Items,פריטים,module,Magento_Checkout
 "Payment Method:","שיטת תשלום:",module,Magento_Checkout
 Password:,סיסמא:,module,Magento_Customer
+"When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",module,Magento_Sales
+"%customer_name wants to share this Wish List from %store_name with you:","%customer_name רוצה לשתף אתכם ב-Wishlist של %store_name:",module,Magento_Wishlist
+"Message from %customer_name:","הודעה מ-%customer_name:",module,Magento_Wishlist
+"View all Wish List items","הצגת את כל פרטי ה-Wishlist",module,Magento_Wishlist
 "Welcome to %store_name.","ברוכים הבאים ל%store_name.",theme,frontend/Magento/luma
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","כדי להיכנס לאתר שלנו, השתמש בפרטי חיבור אלה במהלך הצ'ק אאוט או בדף <a href=""%customer_url""> החשבון שלי</a>:",theme,frontend/Magento/luma
 Email:,"דואר אלקטרוני:",theme,frontend/Magento/luma
 Password:,סיסמא:,theme,frontend/Magento/luma
 "Password you set when creating account","הסיסמה שהגדרת בעת יצירת חשבון",theme,frontend/Magento/luma
 "Forgot your account password? Click <a href=""%reset_url"">here</a> to reset it.","שכחת את הסיסמה לחשבון שלך? לחץ <a href=""%reset_url""> כאן</a> כדי לאפס אותה.",theme,frontend/Magento/luma
-"When you sign in to your account, you will be able to:","כאשר תבצע כניסה לחשבון שלך, ניתן יהיה:",theme,frontend/Magento/luma
+"When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",theme,frontend/Magento/luma
 "Quick Checkout","צ'ק אאוט מהיר",theme,frontend/Magento/luma
 "Proceed through checkout faster","המשך לקופה מהר יותר",theme,frontend/Magento/luma
 "Order Status","סטטוס הזמנה",theme,frontend/Magento/luma
@@ -1439,7 +1491,7 @@ Password:,סיסמא:,theme,frontend/Magento/luma
 "<a href=""tel:%store_phone"">%store_phone</a>","<a href=""tel:%store_phone""> %store_phone</a>",theme,frontend/Magento/luma
 "Hours of Operation:<br /><span class=""no-link"">%store_hours</span>.","שעות פעילות: < br / > <span class=""no-link"">%store_hours</span>.",theme,frontend/Magento/luma
 "Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",theme,frontend/Magento/luma
-"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך על-ידי <a href=""%account_url""> כניסה לחשבון שלך</a>.",theme,frontend/Magento/luma
+"You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",theme,frontend/Magento/luma
 "If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>.","אם יש לך שאלות לגבי ההזמנות שלך, אתה יכול שלח לנו דוא ל- <a href=""mailto:%store_email""> %store_email</a>.",theme,frontend/Magento/luma
 "Your Credit Memo #%creditmemo_id for Order #%order_id","תזכיר האשראי שלך #%creditmemo_id עבור הזמנה #%order_id",theme,frontend/Magento/luma
 "Billing Info","פרטי חיוב",theme,frontend/Magento/luma
@@ -1667,13 +1719,28 @@ Product,מוצר,module,Magento_Widget
 "Select Product...","בחר מוצר...",module,Magento_Widget
 Conditions,תנאים,module,Magento_Widget
 "Widget ID","מספר מזהה של ווידגט",module,Magento_Widget
+"Share Options","אפשרויות שיתוף",module,Magento_Wishlist
+"Email Sender","שולח דוא""ל",module,Magento_Wishlist
+"Email Template","תבנית דואר אלקטרוני",module,Magento_Wishlist
+"Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית המייל הנבחר בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_Wishlist
+"Max Emails Allowed to be Sent","מקסימום מיילים מותרים לשילוח",module,Magento_Wishlist
+"Email Text Length Limit","מגבלת אורך הטקסט לדוא""ל",module,Magento_Wishlist
+"General Options","אפשרויות כלליות",module,Magento_Wishlist
 Enabled,פעיל,module,Magento_Wishlist
 "My Wish List Link","קישור ל Wish List שלי",module,Magento_Wishlist
+"Display Wish List Summary","תצוגת סיכום ל-Wishlist",module,Magento_Wishlist
+"Enable RSS","אפשר RSS",module,Magento_Wishlist
+"No Items Found","אין פריטים שנמצאו",module,Magento_Wishlist
 "Product Name","שם מוצר",module,Magento_Wishlist
+"User Description","תיאור משתמש",module,Magento_Wishlist
 Quantity,כמות,module,Magento_Wishlist
+"Add Locale","הוסף אזור",module,Magento_Wishlist
+"Add Date","הוספת תאריך",module,Magento_Wishlist
+"Days in Wish List","ימים ב-Wishlist",module,Magento_Wishlist
 Action,פעולה,module,Magento_Wishlist
 Configure,הגדר,module,Magento_Wishlist
 Delete,מחק,module,Magento_Wishlist
+"Product Details and Comment","פרטי המוצר והערה",module,Magento_Wishlist
 Summary,סיכום,theme,frontend/Magento/blank
 "Account Dashboard","לוח בקרה של החשבון",theme,frontend/Magento/blank
 "Account Information","פרטי חשבון",theme,frontend/Magento/blank

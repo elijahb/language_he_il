@@ -222,7 +222,7 @@ Order,הזמנה,module,Magento_Backend
 "Order #%1","הזמנה #%1",module,Magento_Backend
 "Access denied","גישה נדחתה",module,Magento_Backend
 "If you continue to receive this message, please contact the store owner.","אם הנך ממשיך לקבל הודעה זו, אנא צור קשר עם בעל החנות.",module,Magento_Backend
-"Welcome, please sign in","ברוכים הבאים, נא להירשם",module,Magento_Backend
+"Welcome, please sign in","ברוכים הבאים, נא להתחבר",module,Magento_Backend
 "user name","שם משתמש",module,Magento_Backend
 password,סיסמה,module,Magento_Backend
 "Sign in",התחברות,module,Magento_Backend
@@ -605,7 +605,7 @@ region,אזור,module,Magento_Customer
 "Create Order","צור הזמנה",module,Magento_Customer
 "Save Customer","שמור לקוח",module,Magento_Customer
 "Delete Customer","מחק לקוח",module,Magento_Customer
-"Reset Password","איפוס סיסמא",module,Magento_Customer
+"Reset Password","איפוס סיסמה",module,Magento_Customer
 "New Customer","לקוח חדש",module,Magento_Customer
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Customer
 Back,חזור,module,Magento_Customer
@@ -723,12 +723,12 @@ State/Province,מדינה/מחוז,module,Magento_Customer
 "Zip/Postal Code",מיקוד,module,Magento_Customer
 Email,"דוא""ל",module,Magento_Customer
 "Current Password","סיסמא נוכחית",module,Magento_Customer
-"New Password","סיסמא חדשה",module,Magento_Customer
+"New Password","סיסמה חדשה",module,Magento_Customer
 "Confirm New Password","אימות סיסמא חדשה",module,Magento_Customer
 Save,שמור,module,Magento_Customer
 Submit,שלח,module,Magento_Customer
 "Registered Customers","לקוחות רשומים",module,Magento_Customer
-Password,סיסמא,module,Magento_Customer
+Password,סיסמה,module,Magento_Customer
 Login,כניסה,module,Magento_Customer
 "Forgot Your Password?","שכחת סיסמה?",module,Magento_Customer
 "General Subscription","הרשמה כללית",module,Magento_Customer

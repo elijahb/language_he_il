@@ -827,9 +827,44 @@ System,מערכת,module,Magento_Eav
 None,ללא,module,Magento_Eav
 Email,דואר,module,Magento_Eav
 label,תווית,module,Magento_Eav
+"Add New Template","להוסיף תבנית חדשה",module,Magento_Email
+"Transactional Emails","מיילים של עסקאות",module,Magento_Email
 Back,חזור,module,Magento_Email
 Reset,איפוס,module,Magento_Email
+"Delete Template","למחוק תבנית",module,Magento_Email
+"Convert to Plain Text","המר לטקסט רגיל",module,Magento_Email
+"Return Html Version","החזר את גרסת Html",module,Magento_Email
+"Preview Template","תצוגה מקדימה של תבנית",module,Magento_Email
+"Save Template","שמירת תבנית",module,Magento_Email
+"Load Template","טעינת תבנית",module,Magento_Email
+"Edit Email Template","ערוך תבנית דואר אלקטרוני",module,Magento_Email
+"New Email Template","תבנית דואר אלקטרוני החדשה",module,Magento_Email
+"Default Config","תצורת ברירת מחדל",module,Magento_Email
+"Template Information","מידע אודות התבנית",module,Magento_Email
+"Currently Used For","כיום משמש",module,Magento_Email
+"Template Name","שם תבנית",module,Magento_Email
+"Template Subject","נושא תבנית",module,Magento_Email
+"Insert Variable...","הוסף משתנה...",module,Magento_Email
+"Template Content","תוכן התבנית",module,Magento_Email
+"Template Styles","סטייל תבנית",module,Magento_Email
+Preview,"תצוגה מקדימה",module,Magento_Email
+Unknown,"לא ידוע",module,Magento_Email
+"You deleted the email template.","מחקת את תבנית הדואר האלקטרוני.",module,Magento_Email
+"The email template is currently being used.","תבנית הדואר האלקטרוני נמצא כעת בשימוש.",module,Magento_Email
+"Edit Template","ערוך תבנית",module,Magento_Email
+"Edit System Template","עריכת תבנית מערכת",module,Magento_Email
+"New Template","תבנית חדשה",module,Magento_Email
+"New System Template","תבנית מערכת חדשה",module,Magento_Email
 "Email Templates","תבניות אימייל",module,Magento_Email
+"Email Preview","תצוגה מקדימה של דואר אלקטרוני",module,Magento_Email
+"An error occurred. The email template can not be opened for preview.","אירעה שגיאה. לא ניתן לפתוח את תבנית הדואר האלקטרוני עבור תצוגה מקדימה.",module,Magento_Email
+"This email template no longer exists.","תבנית דואר אלקטרוני זו כבר לא קיימת.",module,Magento_Email
+"You saved the email template.","שמרת את תבנית דואר אלקטרוני.",module,Magento_Email
+"Area is already set","האזור כבר הוגדר",module,Magento_Email
+"Design config must have area and store.","עיצוב ההגדרות חייב להיות עם אזור וחנות.",module,Magento_Email
+"Base Unsecure URL","כתובת URL בסיסית לא מאובטחת",module,Magento_Email
+"Base Secure URL","כתובת URL בסיסית מאובטחת",module,Magento_Email
+"General Contact Name","שם איש קשר כללי",module,Magento_Email
 "Zip/Postal Code",מיקוד,module,Magento_Email
 City,עיר,module,Magento_Email
 "Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey

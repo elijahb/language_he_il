@@ -1361,12 +1361,20 @@ Message,הודעה,module,Magento_Webapi
 "Add Tax","הוסף מס",module,Magento_Weee
 "Delete Tax","מחק מס",module,Magento_Weee
 "All Websites","כל האתרים",module,Magento_Weee
+"Including FPT only","כולל FPT בלבד",module,Magento_Weee
+"Including FPT and FPT description","כולל תיאור FPT ו- FPT",module,Magento_Weee
+"Excluding FPT. Including FPT description and final price","למעט FPT. כולל תיאור FPT והמחיר הסופי",module,Magento_Weee
+"Excluding FPT","למעט FPT",module,Magento_Weee
+"Fixed Product Tax","מס מוצר קבוע",module,Magento_Weee
 "Excl. Tax","למעט מס",module,Magento_Weee
 Total,"סה""כ",module,Magento_Weee
 "Incl. Tax","כולל מס",module,Magento_Weee
+"Total Incl. Tax","סה״כ כולל מס",module,Magento_Weee
 Website,אתר,module,Magento_Weee
+Country/State,ארץ/מדינה,module,Magento_Weee
 Tax,מס,module,Magento_Weee
 Action,פעולה,module,Magento_Weee
+"Final Price","המחיר הסופי",module,Magento_Weee
 "Widget Insertion","הכנסת ווידגט",module,Magento_Widget
 "Insert Widget","הכנס ווידגט",module,Magento_Widget
 label,תוית,module,Magento_Widget
@@ -1740,6 +1748,14 @@ Edit,ערוך,module,Magento_UrlRewrite
 "Sort Order","סדר מיון",module,Magento_Usps
 "Variable ID","מספר מזהה של משתנה",module,Magento_Variable
 Name,שם,module,Magento_Variable
+"Fixed Product Taxes","מיסים של מוצר קבוע",module,Magento_Weee
+"Enable FPT","אפשר FPT",module,Magento_Weee
+"Display Prices In Product Lists","הצגת מחירים ברשימות המוצר",module,Magento_Weee
+"Display Prices On Product View Page","הצגת מחירים בעמוד תצוגת המוצר",module,Magento_Weee
+"Display Prices In Sales Modules","הצגת מחירים במודולים מכירות",module,Magento_Weee
+"Display Prices In Emails","הצגת מחירים באיימלים",module,Magento_Weee
+"Apply Tax To FPT","החל מס על FPT",module,Magento_Weee
+"Include FPT In Subtotal","כלול FPT בסך ביניים",module,Magento_Weee
 "Orders and Returns","הזמנות והחזרות",module,Magento_Widget
 "Orders and Returns Search Form","טופס חיפוש של הזמנות והחזרות",module,Magento_Widget
 "Anchor Custom Title","כותרת מותאמת אישית מקושרת",module,Magento_Widget

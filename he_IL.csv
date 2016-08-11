@@ -1220,7 +1220,13 @@ None,ללא,module,Magento_Usps
 "Delete Tax","מחק מס",module,Magento_Weee
 "All Websites","כל האתרים",module,Magento_Weee
 "We found a duplicate of website, country and state fields for a fixed product tax","מצאנו כפילות של האתר, מדינה ואזור שדות עבור מס קבוע למוצר",module,Magento_Weee
+"Including FPT only","כולל FPT בלבד",module,Magento_Weee
+"Including FPT and FPT description","כולל תיאור FPT ו- FPT",module,Magento_Weee
+"Excluding FPT. Including FPT description and final price","למעט FPT. כולל תיאור FPT והמחיר הסופי",module,Magento_Weee
+"Excluding FPT","למעט FPT",module,Magento_Weee
+"Fixed Product Tax","מס מוצר קבוע",module,Magento_Weee
 Website,אתר,module,Magento_Weee
+Country/State,ארץ/מדינה,module,Magento_Weee
 Tax,מס,module,Magento_Weee
 Action,פעולה,module,Magento_Weee
 "Widget Insertion","הכנסת ווידגט",module,Magento_Widget
@@ -1503,6 +1509,14 @@ Edit,ערוך,module,Magento_UrlRewrite
 "Reset Password Template","תבנית לאיפוס סיסמא",module,Magento_User
 "Last login","כניסה אחרונה",module,Magento_User
 "Sort Order","סדר מיון",module,Magento_Usps
+"Fixed Product Taxes","מיסים של מוצר קבוע",module,Magento_Weee
+"Enable FPT","אפשר FPT",module,Magento_Weee
+"Display Prices In Product Lists","הצגת מחירים ברשימות המוצר",module,Magento_Weee
+"Display Prices On Product View Page","הצגת מחירים בעמוד תצוגת המוצר",module,Magento_Weee
+"Display Prices In Sales Modules","הצגת מחירים במודולים מכירות",module,Magento_Weee
+"Display Prices In Emails","הצגת מחירים באיימלים",module,Magento_Weee
+"Apply Tax To FPT","החל מס על FPT",module,Magento_Weee
+"Include FPT In Subtotal","כלול FPT בסך ביניים",module,Magento_Weee
 "Widget ID","מספר מזהה של ווידגט",module,Magento_Widget
 "Share Options","אפשרויות שיתוף",module,Magento_Wishlist
 "Email Sender","שולח דוא""ל",module,Magento_Wishlist

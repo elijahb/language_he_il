@@ -865,6 +865,7 @@ Unknown,"לא ידוע",module,Magento_Email
 "Base Unsecure URL","כתובת URL בסיסית לא מאובטחת",module,Magento_Email
 "Base Secure URL","כתובת URL בסיסית מאובטחת",module,Magento_Email
 "General Contact Name","שם איש קשר כללי",module,Magento_Email
+"General Contact Email","דואר אלקטרוני של איש קשר כללי",module,Magento_Email
 "Zip/Postal Code",מיקוד,module,Magento_Email
 City,עיר,module,Magento_Email
 "Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey

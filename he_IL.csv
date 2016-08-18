@@ -504,6 +504,7 @@ Compare,להשוות,module,Magento_Catalog
 "Clear All","נקה הכל",module,Magento_Catalog
 Next,הבא,module,Magento_Catalog
 "Add to Compare","הוסף להשוואה",module,Magento_Catalog
+"Items %1-%2 of %3","פריטים %1-%2 מ%3",module,Magento_Catalog
 "per page","לכל עמוד",module,Magento_Catalog
 "Sort By","מיון לפי",module,Magento_Catalog
 "* Required Fields","* שדות חובה",module,Magento_Catalog

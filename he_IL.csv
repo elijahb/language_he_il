@@ -38,12 +38,22 @@ Close,סגור,module,Magento_AdminNotification
 "Credit Card: xxxx-%1","כרטיס אשראי: xxxx-%1",module,Magento_Authorizenet
 "amount %1","כמות %1",module,Magento_Authorizenet
 authorize,מאושר,module,Magento_Authorizenet
+"authorize and capture","אושר ונקלט",module,Magento_Authorizenet
+capture,לכידה,module,Magento_Authorizenet
 refund,החזר,module,Magento_Authorizenet
+void,ריק,module,Magento_Authorizenet
+"Gateway error: %1","שגיאה בשער: %1",module,Magento_Authorizenet
 "Something went wrong in the payment gateway.","משהו השתבש בהתקשרות עם שיטת התשלום.",module,Magento_Authorizenet
+"Invalid amount for capture.","כמות לא חוקית עבור לכידה.",module,Magento_Authorizenet
+"Payment capturing error.","שגיאת לכידת תשלום.",module,Magento_Authorizenet
 "Invalid transaction ID.","ID טרנזקציה לא חוקית.",module,Magento_Authorizenet
+"Payment voiding error.","שגיאת תשלום ריק.",module,Magento_Authorizenet
 "Invalid amount for refund.","כמות לא תקינה עבור זיכוי.",module,Magento_Authorizenet
 "Payment refunding error.","שגיאה בקבלת זיכוי.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","הטרנזקציה נדחתה מכיוון התגובת האימות של ה-hash נכשלה.",module,Magento_Authorizenet
+"There was a payment authorization error.","אירעה שגיאה באישור התשלום.",module,Magento_Authorizenet
 "Authorize Only","מורשים בלבד",module,Magento_Authorizenet
+"Authorize and Capture","אושר ונקלט",module,Magento_Authorizenet
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Authorizenet
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Authorizenet
 "Expiration Date","תאריך תפוגה",module,Magento_Authorizenet
@@ -53,6 +63,7 @@ refund,החזר,module,Magento_Authorizenet
 "Cache Storage Management","ניהול אחסון הCache",module,Magento_Backend
 "Flush Magento Cache","נקה Cache של מגנטו",module,Magento_Backend
 "Flush Cache Storage","מחיקת Cache",module,Magento_Backend
+Invalidated,מבוטל,module,Magento_Backend
 Orders,הזמנות,module,Magento_Backend
 Amounts,כמויות,module,Magento_Backend
 Bestsellers,"הנמכרים ביותר",module,Magento_Backend
@@ -114,6 +125,7 @@ Delete,מחק,module,Magento_Backend
 "Are you sure?","האם אתה בטוח?",module,Magento_Backend
 Save,שמור,module,Magento_Backend
 "Edit Design Change","ערוך שינוי עיצוב",module,Magento_Backend
+"New Store Design Change","שינוי עיצוב חנות חדש",module,Magento_Backend
 "General Settings","הגדרות כלליות",module,Magento_Backend
 Store,חנות,module,Magento_Backend
 "-- Please Select --","-- אנא בחר --",module,Magento_Backend
@@ -1342,7 +1354,26 @@ Severity,חומרה,module,Magento_AdminNotification
 "Date Added","תאריך הוספה",module,Magento_AdminNotification
 Message,הודעה,module,Magento_AdminNotification
 Actions,פעולות,module,Magento_AdminNotification
+"Authorize.net Direct Post","פוסט ישיר של Authorize.net",module,Magento_Authorizenet
 Enabled,פעיל,module,Magento_Authorizenet
+"Payment Action","פעולת תשלום",module,Magento_Authorizenet
+Title,כותרת,module,Magento_Authorizenet
+"API Login ID","מזהה הכניסה API",module,Magento_Authorizenet
+"Transaction Key","מזהה העברה",module,Magento_Authorizenet
+"Merchant MD5","סוחר MD5",module,Magento_Authorizenet
+"New Order Status","סטטוס הזמנה חדשה",module,Magento_Authorizenet
+"Test Mode","מצב בדיקה",module,Magento_Authorizenet
+"Gateway URL","כתובת שער",module,Magento_Authorizenet
+"Accepted Currency","המטבע המקובל",module,Magento_Authorizenet
+Debug,דיבאג,module,Magento_Authorizenet
+"Email Customer","דואר אלקטרוני של לקוח",module,Magento_Authorizenet
+"Merchant's Email","דואל אלקטרוני של הסוחר",module,Magento_Authorizenet
+"Credit Card Types","סוג כרטיסי אשראי",module,Magento_Authorizenet
+"Credit Card Verification","אימות כרטיס האשראי",module,Magento_Authorizenet
+"Payment from Applicable Countries","תשלום ממדינות מאושרות",module,Magento_Authorizenet
+"Payment from Specific Countries","תשלום ממדינות ספציפיות",module,Magento_Authorizenet
+"Minimum Order Total","סך הכל מינימום",module,Magento_Authorizenet
+"Maximum Order Total","סך ההזמנה המרבי",module,Magento_Authorizenet
 "Sort Order","סדר מיון",module,Magento_Authorizenet
 Services,שירותים,module,Magento_Backend
 Advanced,מתקדם,module,Magento_Backend

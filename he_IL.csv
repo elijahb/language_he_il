@@ -50,12 +50,25 @@ failed.,נכשל.,module,Magento_Authorizenet
 successful.,"עבר בהצלחה.",module,Magento_Authorizenet
 "Authorize.Net Transaction ID %1.","Authorize.Net טרנזקציה ל- id %1.",module,Magento_Authorizenet
 authorize,מאושר,module,Magento_Authorizenet
+"authorize and capture","אושר ונקלט",module,Magento_Authorizenet
+capture,לכידה,module,Magento_Authorizenet
 refund,החזר,module,Magento_Authorizenet
+void,ריק,module,Magento_Authorizenet
+"Gateway error: %1","שגיאה בשער: %1",module,Magento_Authorizenet
 "Something went wrong in the payment gateway.","משהו השתבש בהתקשרות עם שיטת התשלום.",module,Magento_Authorizenet
+"Invalid amount for capture.","כמות לא חוקית עבור לכידה.",module,Magento_Authorizenet
+"Payment capturing error.","שגיאת לכידת תשלום.",module,Magento_Authorizenet
 "Invalid transaction ID.","ID טרנזקציה לא חוקית.",module,Magento_Authorizenet
+"Payment voiding error.","שגיאת תשלום ריק.",module,Magento_Authorizenet
 "Invalid amount for refund.","כמות לא תקינה עבור זיכוי.",module,Magento_Authorizenet
 "Payment refunding error.","שגיאה בקבלת זיכוי.",module,Magento_Authorizenet
+"The transaction was declined because the response hash validation failed.","הטרנזקציה נדחתה מכיוון התגובת האימות של ה-hash נכשלה.",module,Magento_Authorizenet
+"There was a payment authorization error.","אירעה שגיאה באישור התשלום.",module,Magento_Authorizenet
+"Please enter a transaction ID to authorize this payment.","הזינו בבקשה את מזהה הטרנזקציה כדי לאשר את התשלום.",module,Magento_Authorizenet
+"Transaction %1 has been approved. Amount %2. Transaction status is ""%3""","%1 העסקה אושרה. כמות %2. מצב הטרנזקציה הוא ""%3""",module,Magento_Authorizenet
+"Transaction %1 has been voided/declined. Transaction status is ""%2"". Amount %3.","עסקת %1 כבר בוטל/נדחה. מצב טרנזקציה היא ""%2"". כמות %3.",module,Magento_Authorizenet
 "Authorize Only","מורשים בלבד",module,Magento_Authorizenet
+"Authorize and Capture","אושר ונקלט",module,Magento_Authorizenet
 "Unable to get transaction details. Try again later.","אין אפשרות לקבל את פרטי העסקה. נסה שוב מאוחר יותר.",module,Magento_Authorizenet
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Authorizenet
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Authorizenet
@@ -64,6 +77,7 @@ refund,החזר,module,Magento_Authorizenet
 "FDS Filter Action","פעולת סינון FDS",module,Magento_Authorizenet
 "AVS Response","תגובת AVS",module,Magento_Authorizenet
 "Card Code Response","תגובת כרטיס קוד",module,Magento_Authorizenet
+"CAVV Response","תגובה CAVV",module,Magento_Authorizenet
 "Fraud Filters","מסנני הונאה",module,Magento_Authorizenet
 "Invalid Form Key. Please refresh the page.","מפתח לא חוקי. אנא רעננו את הדף.",module,Magento_Backend
 "You entered an invalid Secret Key. Please refresh the page.","הזנת מפתח סודי לא חוקי. אנא רענן את הדף.",module,Magento_Backend
@@ -71,6 +85,7 @@ refund,החזר,module,Magento_Authorizenet
 "Flush Magento Cache","נקה Cache של מגנטו",module,Magento_Backend
 "The cache storage may contain additional data. Are you sure that you want to flush it?","האחסון בcache יכול להכיל נתונים נוספים. האם אתה בטוח כי ברצונך לנקות את הcache?",module,Magento_Backend
 "Flush Cache Storage","מחיקת Cache",module,Magento_Backend
+Invalidated,מבוטל,module,Magento_Backend
 Orders,הזמנות,module,Magento_Backend
 Amounts,כמויות,module,Magento_Backend
 Bestsellers,"הנמכרים ביותר",module,Magento_Backend
@@ -132,6 +147,7 @@ Delete,מחק,module,Magento_Backend
 "Are you sure?","האם אתה בטוח?",module,Magento_Backend
 Save,שמור,module,Magento_Backend
 "Edit Design Change","ערוך שינוי עיצוב",module,Magento_Backend
+"New Store Design Change","שינוי עיצוב חנות חדש",module,Magento_Backend
 "General Settings","הגדרות כלליות",module,Magento_Backend
 Store,חנות,module,Magento_Backend
 "-- Please Select --","-- אנא בחר --",module,Magento_Backend
@@ -182,6 +198,7 @@ Home,"דף הבית",module,Magento_Backend
 Reset,אתחל,module,Magento_Backend
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_Backend
 "Add New Image","הוסף תמונה חדשה",module,Magento_Backend
+"Export block for grid %1 is not defined","ייצוא בלוק עבור תצוגת רשת %1 לא מוגדר",module,Magento_Backend
 "Reset Filter","איפוס מסנן",module,Magento_Backend
 Search,חפש,module,Magento_Backend
 Any,כל,module,Magento_Backend
@@ -1584,7 +1601,27 @@ Severity,חומרה,module,Magento_AdminNotification
 "Date Added","תאריך הוספה",module,Magento_AdminNotification
 Message,הודעה,module,Magento_AdminNotification
 Actions,פעולות,module,Magento_AdminNotification
+"Authorize.net Direct Post","פוסט ישיר של Authorize.net",module,Magento_Authorizenet
 Enabled,פעיל,module,Magento_Authorizenet
+"Payment Action","פעולת תשלום",module,Magento_Authorizenet
+Title,כותרת,module,Magento_Authorizenet
+"API Login ID","מזהה הכניסה API",module,Magento_Authorizenet
+"Transaction Key","מזהה העברה",module,Magento_Authorizenet
+"Merchant MD5","סוחר MD5",module,Magento_Authorizenet
+"New Order Status","סטטוס הזמנה חדשה",module,Magento_Authorizenet
+"Test Mode","מצב בדיקה",module,Magento_Authorizenet
+"Gateway URL","כתובת שער",module,Magento_Authorizenet
+"Transaction Details URL","כתובת פרטי הטרנזקציה URL",module,Magento_Authorizenet
+"Accepted Currency","המטבע המקובל",module,Magento_Authorizenet
+Debug,דיבאג,module,Magento_Authorizenet
+"Email Customer","דואר אלקטרוני של לקוח",module,Magento_Authorizenet
+"Merchant's Email","דואל אלקטרוני של הסוחר",module,Magento_Authorizenet
+"Credit Card Types","סוג כרטיסי אשראי",module,Magento_Authorizenet
+"Credit Card Verification","אימות כרטיס האשראי",module,Magento_Authorizenet
+"Payment from Applicable Countries","תשלום ממדינות מאושרות",module,Magento_Authorizenet
+"Payment from Specific Countries","תשלום ממדינות ספציפיות",module,Magento_Authorizenet
+"Minimum Order Total","סך הכל מינימום",module,Magento_Authorizenet
+"Maximum Order Total","סך ההזמנה המרבי",module,Magento_Authorizenet
 "Sort Order","סדר מיון",module,Magento_Authorizenet
 Services,שירותים,module,Magento_Backend
 Advanced,מתקדם,module,Magento_Backend

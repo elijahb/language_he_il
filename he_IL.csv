@@ -405,6 +405,14 @@ Subtotal,"סכום ביניים",module,Magento_Bundle
 "Qty Invoiced","כמות שחויבה",module,Magento_Bundle
 "Qty Shipped","כמות שנשלחה",module,Magento_Bundle
 Always,תמיד,module,Magento_Captcha
+"After number of attempts to login","לאחר מספר ניסיונות כניסה",module,Magento_Captcha
+"Provided form does not exist","הטופס שסופק אינו קיים",module,Magento_Captcha
+"Incorrect CAPTCHA","CAPTCHA שגוי",module,Magento_Captcha
+"Incorrect CAPTCHA.","CAPTCHA שגוי.",module,Magento_Captcha
+"Please enter the letters from the image","נא הזן את האותיות שבתמונה",module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<strong>לתשומת לבך</strong>: Captcha תלוי רישיות.",module,Magento_Captcha
+"Reload captcha","טען מחדש captcha",module,Magento_Captcha
+"Please type the letters below","אנא הקלידו את התווים שלהלן",module,Magento_Captcha
 "Minimum Qty","כמות מינימלית",module,Magento_CatalogInventory
 "Product Name","שם מוצר",module,Magento_CatalogInventory
 Qty,כמות,module,Magento_CatalogInventory
@@ -1676,6 +1684,19 @@ Name,שם,module,Magento_Backup
 Type,סוג,module,Magento_Backup
 Action,פעולה,module,Magento_Backup
 "Sort Order","סדר מיון",module,Magento_Braintree
+"Enable CAPTCHA in Admin","לאפשר CAPTCHA בממשק הניהול",module,Magento_Captcha
+Font,גופן,module,Magento_Captcha
+Forms,טפסים,module,Magento_Captcha
+"Displaying Mode","מצב תצוגה",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","מספר ניסיונות התחברות כושלים",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","אם צוין 0, CAPTCHA על גבי טופס כניסה יהיה תמיד זמין.",module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","זמן קצוב CAPTCHA (בדקות)",module,Magento_Captcha
+"Number of Symbols","מספר סמלים",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","נא ציין 8 סמלים לכל היותר. מותר טווחים (למשל 3-5)",module,Magento_Captcha
+"Symbols Used in CAPTCHA","סמלים המשמשים ב-CAPTCHA",module,Magento_Captcha
+"Case Sensitive","תלוי רישיות",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","לאפשר CAPTCHA בתצוגת החנות",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA עבור טפסי ""צור חשבון"" ו-""שכחתי סיסמה"" תמיד פעילה אם נבחרה.",module,Magento_Captcha
 Quantity,כמות,module,Magento_CatalogInventory
 Rule,כלל,module,Magento_CatalogRule
 "Web Site",אתר,module,Magento_CatalogRule
@@ -1787,6 +1808,8 @@ Edit,ערוך,module,Magento_UrlRewrite
 "Sort Order","סדר מיון",module,Magento_Usps
 "Variable ID","מספר מזהה של משתנה",module,Magento_Variable
 Name,שם,module,Magento_Variable
+"Web API Security","אבטחת Web API",module,Magento_WebapiSecurity
+"Allow Anonymous Guest Access","אפשר גישת משתמש אנונימי",module,Magento_WebapiSecurity
 "Fixed Product Taxes","מיסים של מוצר קבוע",module,Magento_Weee
 "Enable FPT","אפשר FPT",module,Magento_Weee
 "Display Prices In Product Lists","הצגת מחירים ברשימות המוצר",module,Magento_Weee

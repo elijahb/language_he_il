@@ -382,6 +382,12 @@ From:,מ:,module,Magento_Bundle
 To:,ל:,module,Magento_Bundle
 Message:,הודעה:,module,Magento_Bundle
 Always,תמיד,module,Magento_Captcha
+"After number of attempts to login","לאחר מספר ניסיונות כניסה",module,Magento_Captcha
+"Incorrect CAPTCHA","CAPTCHA שגוי",module,Magento_Captcha
+"Incorrect CAPTCHA.","CAPTCHA שגוי.",module,Magento_Captcha
+"<strong>Attention</strong>: Captcha is case sensitive.","<strong>לתשומת לבך</strong>: Captcha תלוי רישיות.",module,Magento_Captcha
+"Reload captcha","טען מחדש captcha",module,Magento_Captcha
+"Please type the letters below","אנא הקלידו את התווים שלהלן",module,Magento_Captcha
 "Minimum Qty","כמות מינימלית",module,Magento_CatalogInventory
 "Product Name","שם מוצר",module,Magento_CatalogInventory
 Qty,כמות,module,Magento_CatalogInventory
@@ -1067,6 +1073,7 @@ Cancel,ביטול,module,Magento_Sales
 From,מ-,module,Magento_Sales
 To,ל-,module,Magento_Sales
 Message,הודעה,module,Magento_Sales
+"Create New Order for New Customer in %1","צור הזמנה חדשה עבור לקוח חדש ב- %1",module,Magento_Sales
 "Items Ordered","פריטים שהוזמנו",module,Magento_Sales
 Configure,הגדר,module,Magento_Sales
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Sales
@@ -1441,6 +1448,19 @@ Action,פעולה,module,Magento_Backup
 "Allow Duplicate Cards","אפשר כרטיסים משוכפלים",module,Magento_Braintree
 "Your Kount ID","מזהה הKnout שלך",module,Magento_Braintree
 "Use Cache","השתמש בcache",module,Magento_Braintree
+"Enable CAPTCHA in Admin","לאפשר CAPTCHA בממשק הניהול",module,Magento_Captcha
+Font,גופן,module,Magento_Captcha
+Forms,טפסים,module,Magento_Captcha
+"Displaying Mode","מצב תצוגה",module,Magento_Captcha
+"Number of Unsuccessful Attempts to Login","מספר ניסיונות התחברות כושלים",module,Magento_Captcha
+"If 0 is specified, CAPTCHA on the Login form will be always available.","אם צוין 0, CAPTCHA על גבי טופס כניסה יהיה תמיד זמין.",module,Magento_Captcha
+"CAPTCHA Timeout (minutes)","זמן קצוב CAPTCHA (בדקות)",module,Magento_Captcha
+"Number of Symbols","מספר סמלים",module,Magento_Captcha
+"Please specify 8 symbols at the most. Range allowed (e.g. 3-5)","נא ציין 8 סמלים לכל היותר. מותר טווחים (למשל 3-5)",module,Magento_Captcha
+"Symbols Used in CAPTCHA","סמלים המשמשים ב-CAPTCHA",module,Magento_Captcha
+"Case Sensitive","תלוי רישיות",module,Magento_Captcha
+"Enable CAPTCHA on Storefront","לאפשר CAPTCHA בתצוגת החנות",module,Magento_Captcha
+"CAPTCHA for ""Create user"" and ""Forgot password"" forms is always enabled if chosen.","CAPTCHA עבור טפסי ""צור חשבון"" ו-""שכחתי סיסמה"" תמיד פעילה אם נבחרה.",module,Magento_Captcha
 "Display products availability in stock on Storefront.","הצגת מלאי המוצרים הזמינים החנות.",module,Magento_CatalogInventory
 Rule,כלל,module,Magento_CatalogRule
 "Web Site",אתר,module,Magento_CatalogRule

@@ -1050,15 +1050,21 @@ Apply,החל,module,Magento_Rule
 Remove,הסר,module,Magento_Rule
 "Cart Price Rules","כללי קניות - כללי מחיר",module,Magento_SalesRule
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_SalesRule
+"Edit Rule '%1'","עריכת כלל '%1'",module,Magento_SalesRule
 Actions,פעולות,module,Magento_SalesRule
 Apply,החל,module,Magento_SalesRule
 "Discount Amount","סכום הנחה",module,Magento_SalesRule
 Yes,כן,module,Magento_SalesRule
 No,לא,module,Magento_SalesRule
+"Coupons Information","מידע על קופונים",module,Magento_SalesRule
 Delete,מחק,module,Magento_SalesRule
+"Default Label","תוית ברירת מחדל",module,Magento_SalesRule
+"General Information","מידע כללי",module,Magento_SalesRule
 Status,סטטוס,module,Magento_SalesRule
 Active,פעיל,module,Magento_SalesRule
 Inactive,"לא פעיל",module,Magento_SalesRule
+"If you select and save the rule you will be able to generate multiple coupon codes.","בחירה ושמירת הכלל תאפשר יצירת קודים לקופון.",module,Magento_SalesRule
+"Usage limit enforced for logged in customers only.","הגבלת השימוש נאכפת עבור לקוחות שהתחברו בלבד.",module,Magento_SalesRule
 Rule,כלל,module,Magento_SalesRule
 Catalog,קטלוג,module,Magento_SalesRule
 Discount,הנחה,module,Magento_SalesRule

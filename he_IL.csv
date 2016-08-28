@@ -361,13 +361,17 @@ Edit,ערוך,module,Magento_Braintree
 "Percent Discount","אחוז הנחה",module,Magento_Bundle
 "-- Select --","-- בחר --",module,Magento_Bundle
 Dynamic,דינמי,module,Magento_Bundle
+Fixed,קבוע,module,Magento_Bundle
 "Create New Option","צור אפשרות חדשה",module,Magento_Bundle
 "Bundle Items","מוצרי באנדל",module,Magento_Bundle
+"Add Products to Option","הוסף מוצר לאפשרויות",module,Magento_Bundle
 Close,סגור,module,Magento_Bundle
+"Delete Option","מחר אפשרות",module,Magento_Bundle
 Product,מוצר,module,Magento_Bundle
 SKU,מק''ט,module,Magento_Bundle
 Price,מחיר,module,Magento_Bundle
 Delete,מחק,module,Magento_Bundle
+"Use Default Value","השתמש בערך ברירת המחדל",module,Magento_Bundle
 None,ללא,module,Magento_Bundle
 Position,מיקום,module,Magento_Bundle
 Name,שם,module,Magento_Bundle
@@ -838,6 +842,7 @@ Cancel,ביטול,module,Magento_GiftMessage
 OK,אישור,module,Magento_GiftMessage
 "Gift Message","הודעת מתנה",module,Magento_GiftMessage
 Dynamic,דינמי,module,Magento_GoogleAdwords
+"Product View Optimization","שיפור תצוגת מוצר",module,Magento_GoogleOptimizer
 "Please specify the quantity of product(s).","נא לציין את כמות מוצרים.",module,Magento_GroupedProduct
 Availability:,זמינות:,module,Magento_GroupedProduct
 SKU,מק''ט,module,Magento_GroupedProduct
@@ -854,6 +859,8 @@ Status,סטטוס,module,Magento_ImportExport
 "in rows:",בשורות:,module,Magento_ImportExport
 "in rows",בשורות,module,Magento_ImportExport
 label,תווית,module,Magento_ImportExport
+"Indexer Management","ניהול אינדקסים",module,Magento_Indexer
+Integrations,אינטגרציות,module,Magento_Integration
 Save,שמור,module,Magento_Integration
 General,כללי,module,Magento_Integration
 Name,שם,module,Magento_Integration
@@ -862,6 +869,7 @@ Remove,הסר,module,Magento_Integration
 Edit,ערוך,module,Magento_Integration
 Inactive,"לא פעיל",module,Magento_Integration
 Active,פעיל,module,Magento_Integration
+"Filterable (with results)","ניתן לסינון (עם תוצאות)",module,Magento_LayeredNavigation
 No,לא,module,Magento_LayeredNavigation
 Position,מיקום,module,Magento_LayeredNavigation
 "Position of attribute in layered navigation block","מיקום התכונה בבלוק ניווט השכבות",module,Magento_LayeredNavigation
@@ -870,6 +878,7 @@ Previous,הקודם,module,Magento_LayeredNavigation
 "Shop By","סנן לפי",module,Magento_LayeredNavigation
 "Clear All","נקה הכל",module,Magento_LayeredNavigation
 "Shopping Options","אפשרויות סינון",module,Magento_LayeredNavigation
+"Change Billing Address","שנה כתובת לחיוב",module,Magento_Multishipping
 Total,"סה""כ",module,Magento_Multishipping
 "Shipping Methods","שיטות המשלוח",module,Magento_Multishipping
 Product,מוצר,module,Magento_Multishipping
@@ -882,6 +891,7 @@ Qty,כמות,module,Magento_Multishipping
 Price,מחיר,module,Magento_Multishipping
 Subtotal,"סכום ביניים",module,Magento_Multishipping
 Items,פריטים,module,Magento_Multishipping
+"Delete Selected Problems","מחק את הבעיות שנבחרו",module,Magento_Newsletter
 Back,חזור,module,Magento_Newsletter
 Reset,איפוס,module,Magento_Newsletter
 Message,הודעה,module,Magento_Newsletter
@@ -893,6 +903,7 @@ Newsletter,ניוזלטר,module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
 Subscribe,הירשם,module,Magento_Newsletter
+"Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
 Country,ארץ,module,Magento_OfflineShipping
 "Zip/Postal Code",מיקוד,module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
@@ -1046,9 +1057,38 @@ Summary,סיכום,module,Magento_Review
 "Average Customer Rating","ממוצע דירוג הלקוחות",module,Magento_Review
 "Product Rating:","דירוג מוצר:",module,Magento_Review
 "Back to Product Reviews","חזור אל חוות דעת על המוצר",module,Magento_Review
+"Miscellaneous Feeds","פידים שונים",module,Magento_Rss
+"Get Feed","פתח פיד",module,Magento_Rss
 Apply,החל,module,Magento_Rule
+"End Date must follow Start Date.","על תאריך הסיום להיות לאחר תאריך ההתחלה.",module,Magento_Rule
+to,אל,module,Magento_Rule
+by,"על ידי",module,Magento_Rule
+"Please choose an action to add.","יש לבחור פעולה להוספה.",module,Magento_Rule
+"Perform following actions","ביצוע הפעולות להלן",module,Magento_Rule
+is,הוא,module,Magento_Rule
+"is not",איננו,module,Magento_Rule
+"equals or greater than","שווה או גדול מ-",module,Magento_Rule
+"equals or less than","שווה או פחות מ-",module,Magento_Rule
+"greater than","גדול מ-",module,Magento_Rule
+"less than","פחות מ-",module,Magento_Rule
+contains,מכיל,module,Magento_Rule
+"does not contain","אינו מכיל",module,Magento_Rule
+"is one of","הוא אחד מ-",module,Magento_Rule
+"is not one of","אינו אחד מ-",module,Magento_Rule
+"Please choose a condition to add.","יש לבחור בתנאי להוספה.",module,Magento_Rule
+Add,הוספה,module,Magento_Rule
 Remove,הסר,module,Magento_Rule
-"Cart Price Rules","כללי קניות - כללי מחיר",module,Magento_SalesRule
+ALL,הכל,module,Magento_Rule
+ANY,כל,module,Magento_Rule
+TRUE,נכון,module,Magento_Rule
+FALSE,שווא,module,Magento_Rule
+"If %1 of these conditions are %2:","אם ב%1 מתנאים אלה מתקיים %2:",module,Magento_Rule
+"Conditions Combination","שילוב תנאים",module,Magento_Rule
+"Attribute Set","קבוצת מאפיינים",module,Magento_Rule
+Category,קטגוריה,module,Magento_Rule
+"Open Chooser",לבחירה,module,Magento_Rule
+"There is no information about associated entity type ""%1"".","חסר מידע לגבי סוג הישות המשוייכת ""%1"".",module,Magento_Rule
+"Cart Price Rules","כללי סל קניות",module,Magento_SalesRule
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_SalesRule
 "Edit Rule '%1'","עריכת כלל '%1'",module,Magento_SalesRule
 Actions,פעולות,module,Magento_SalesRule
@@ -1150,6 +1190,7 @@ Close,סגור,module,Magento_Sales
 Name,שם,module,Magento_SendFriend
 "* Required Fields","* שדות חובה",module,Magento_SendFriend
 Back,חזור,module,Magento_SendFriend
+"New Shipment for Order #%1","תעודת משלוח חדשה עבור הזמנה מספר %1",module,Magento_Shipping
 Type,סוג,module,Magento_Shipping
 Product,מוצר,module,Magento_Shipping
 Qty,כמות,module,Magento_Shipping
@@ -1502,6 +1543,7 @@ Enabled,פעיל,module,Magento_Directory
 Action,פעולה,module,Magento_Email
 "Sort Order","סדר מיון",module,Magento_Fedex
 Enable,אפשר,module,Magento_GoogleAdwords
+"Google API","ממשק לגוגל",module,Magento_GoogleAnalytics
 Enable,אפשר,module,Magento_GoogleAnalytics
 "Account Number","מספר חשבון",module,Magento_GoogleAnalytics
 Status,סטטוס,module,Magento_Indexer
@@ -1541,6 +1583,9 @@ Guest,אורח,module,Magento_Reports
 Action,פעולה,module,Magento_Reports
 Active,פעיל,module,Magento_Review
 Inactive,"לא פעיל",module,Magento_Review
+"RSS Feeds","פידים RSS",module,Magento_Rss
+"Rss Config","תצורת RSS",module,Magento_Rss
+"Enable RSS","הפעלת RSS",module,Magento_Rss
 "Web Site",אתר,module,Magento_SalesRule
 General,כללי,module,Magento_Sales
 Address,כתובת,module,Magento_Sales
@@ -1559,6 +1604,7 @@ Enabled,פעיל,module,Magento_Sitemap
 Action,פעולה,module,Magento_Sitemap
 "Translation Strategy","תרגום אסטרטגיה",module,Magento_Translation
 Translations,תרגומים,module,Magento_Translation
+"Translation files.","קבצי תרגום.",module,Magento_Translation
 "Log JS Errors to Session Storage","קובץ לוג שגיאות JS לאחסון הפעלה",module,Magento_Ui
 "Log JS Errors to Session Storage Key","קובץ לוג שגיאות JS כדי מפתח הפעלה אחסון",module,Magento_Ui
 "Sort Order","סדר מיון",module,Magento_Ups

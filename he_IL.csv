@@ -312,6 +312,8 @@ Database,"בסיס נתונים",module,Magento_Backup
 "Magento root directory","ספריית הRoot של מג'נטו",module,Magento_Backup
 "Create Backup","צור גיבוי",module,Magento_Backup
 Country,ארץ,module,Magento_Braintree
+"Allowed Credit Card Types","סוגי כרטיסי אשראי מותרים",module,Magento_Braintree
+"Add Rule","הוסף כלל",module,Magento_Braintree
 "Stored Card","כרטיס שמור",module,Magento_Braintree
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Braintree
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Braintree
@@ -392,6 +394,8 @@ Always,תמיד,module,Magento_Captcha
 "<strong>Attention</strong>: Captcha is case sensitive.","<strong>לתשומת לבך</strong>: Captcha תלוי רישיות.",module,Magento_Captcha
 "Reload captcha","טען מחדש captcha",module,Magento_Captcha
 "Please type the letters below","אנא הקלידו את התווים שלהלן",module,Magento_Captcha
+"Custom options have different types.","לאפשרויות מותאמות אישית יש סוגים שונים.",module,Magento_CatalogImportExport
+"Please correct the parameters.","נא תקן את הפרמטרים.",module,Magento_CatalogImportExport
 "Minimum Qty","כמות מינימלית",module,Magento_CatalogInventory
 "Product Name","שם מוצר",module,Magento_CatalogInventory
 Qty,כמות,module,Magento_CatalogInventory
@@ -429,15 +433,22 @@ All,הכל,module,Magento_CatalogSearch
 Yes,כן,module,Magento_CatalogSearch
 No,לא,module,Magento_CatalogSearch
 Results,תוצאות,module,Magento_CatalogSearch
+Grid,"גריד תצוגה",module,Magento_CatalogSearch
 List,רשימה,module,Magento_CatalogSearch
 Relevance,רלוונטיות,module,Magento_CatalogSearch
 "Search results for: '%1'","תוצאות עבור חיפוש: '%1'",module,Magento_CatalogSearch
+"Minimum Search query length is %1","אורך מינימלי של שאילתת חיפוש הינו %1",module,Magento_CatalogSearch
+"Please specify at least one search term.","נא ציין לפחות מונח חיפוש אחד.",module,Magento_CatalogSearch
+"%1 and greater","%1 ויותר",module,Magento_CatalogSearch
 "up to %1","עד %1",module,Magento_CatalogSearch
 "Search Settings","הגדרות חיפוש",module,Magento_CatalogSearch
 Search,חפש,module,Magento_CatalogSearch
 "Advanced Search","חיפוש מתקדם",module,Magento_CatalogSearch
+"<strong>%1 item</strong> were found using the following search criteria","<strong>פריט %1</strong> נמצא באמצעות קריטריוני החיפוש הבאים",module,Magento_CatalogSearch
+"<strong>%1 items</strong> were found using the following search criteria","<strong>%1 פריטים</strong> נמצאו באמצעות קריטריוני החיפוש הבאים",module,Magento_CatalogSearch
 "Modify your search","התאם את החיפוש שלך",module,Magento_CatalogSearch
 name,שם,module,Magento_CatalogSearch
+"Don't see what you're looking for?","לא רואה את מה שאתה מחפש?",module,Magento_CatalogSearch
 Root,שורש,module,Magento_Catalog
 "Save Category","שמור בקטגוריה",module,Magento_Catalog
 "Delete Category","מחיקת קטגוריה",module,Magento_Catalog
@@ -445,71 +456,287 @@ Reset,אתחל,module,Magento_Catalog
 "New Subcategory","קטגוריית משנה חדשה",module,Magento_Catalog
 "New Root Category","קטגוריה ראשית חדשה",module,Magento_Catalog
 "Set Root Category for Store","הגדרת קטגוריית אב עבור חנות",module,Magento_Catalog
+"Use Config Settings","השתמש בהגדרות הראשיות",module,Magento_Catalog
+"Use All Available Attributes","השתמש בכל התכונות הקיימות",module,Magento_Catalog
 "Custom Design","עיצוב מותאם",module,Magento_Catalog
 Name,שם,module,Magento_Catalog
 SKU,מק''ט,module,Magento_Catalog
 Price,מחיר,module,Magento_Catalog
 Position,מיקום,module,Magento_Catalog
 "Category Data","נתוני קטגוריה",module,Magento_Catalog
-"Add Subcategory","הוסף קטגוריית משנה",module,Magento_Catalog
+"Add Subcategory","הוסף קטגוריה משנית",module,Magento_Catalog
+"Add Root Category","הוסף קטגוריה ראשית",module,Magento_Catalog
 Day,יום,module,Magento_Catalog
 Month,חודש,module,Magento_Catalog
 Year,שנה,module,Magento_Catalog
+"<label class=""label""><span>from</span></label>","<label class=""label""><span>מ-</span></label>",module,Magento_Catalog
+"<label class=""label""><span>to</span></label>","<label class=""label""><span>עד</span></label>",module,Magento_Catalog
 "WYSIWYG Editor","עורך WYSIWYG",module,Magento_Catalog
 "Add Product","הוסף מוצר",module,Magento_Catalog
 label,תווית,module,Magento_Catalog
 "Product Attributes","תכונות מוצר",module,Magento_Catalog
+"Add New Attribute","הוסף תכונה חדשה",module,Magento_Catalog
+"Save in New Attribute Set","שמור בקבוצת תכונות",module,Magento_Catalog
+"Enter Name for New Attribute Set","הזן שם עבור קבוצת תכונות חדשה",module,Magento_Catalog
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Catalog
+"Save Attribute","שמור תכונה",module,Magento_Catalog
+"Delete Attribute","מחק תכונה",module,Magento_Catalog
+"Edit Product Attribute ""%1""","עריכת תכונת מוצר ""%1""",module,Magento_Catalog
+"New Product Attribute","תכונת מוצר חדשה",module,Magento_Catalog
+"Advanced Attribute Properties","מאפייני תכונה מתקדמים",module,Magento_Catalog
+"Attribute Code","קוד תכונה",module,Magento_Catalog
+"Default Value","ערך ברירת מחדל",module,Magento_Catalog
+"Unique Value","ערך ייחודי",module,Magento_Catalog
+"Unique Value (not shared with other products)","ערך ייחודי (לא ישותף עם מוצרים אחרים)",module,Magento_Catalog
 "Not shared with other products","אינו משותף עם מוצרים אחרים",module,Magento_Catalog
+"Input Validation for Store Owner","אימות קלט עבור בעל חנות",module,Magento_Catalog
 "Store View","תצוגת חנות",module,Magento_Catalog
 Website,אתר,module,Magento_Catalog
 Global,גלובלי,module,Magento_Catalog
+Scope,טווח,module,Magento_Catalog
 "Declare attribute value saving scope","הגדר ערכים לתכונה לטווח הבחירה",module,Magento_Catalog
+"Use for Promo Rule Conditions","השתמש עבור כללי קידום ומבצעים",module,Magento_Catalog
+"Enable WYSIWYG","אפשר WYSIWYG",module,Magento_Catalog
+"Used in Product Listing","בשימור ברשימת מוצרים",module,Magento_Catalog
 "Depends on design theme","תלוי בערכת הנושא",module,Magento_Catalog
+"Used for Sorting in Product Listing","השתמש לסידור המוצרים בחנות הקדמית",module,Magento_Catalog
+"Media Image","תמונת מדיה",module,Magento_Catalog
+Gallery,גלריה,module,Magento_Catalog
+"System Properties","מאפייני מערכת",module,Magento_Catalog
 No,לא,module,Magento_Catalog
 Yes,כן,module,Magento_Catalog
+"Data Type for Saving in Database","סוג מידע עבור שמירה במסד נתונים",module,Magento_Catalog
+Text,טקסט,module,Magento_Catalog
+Static,סטאטי,module,Magento_Catalog
+Datetime,"תאריך ושעה",module,Magento_Catalog
+Decimal,עשרוני,module,Magento_Catalog
+Integer,"מספר שלם",module,Magento_Catalog
+"Globally Editable","ניתן לעריכה גלובאלית",module,Magento_Catalog
+"Attribute Information","מידע אודות תכונה",module,Magento_Catalog
+Properties,מאפיינים,module,Magento_Catalog
+"Manage Labels","נהל תוויות",module,Magento_Catalog
+Visible,נראה,module,Magento_Catalog
 "Web Site",אתר,module,Magento_Catalog
+Searchable,"ניתן לחיפוש",module,Magento_Catalog
+Comparable,"ניתן להשוואה",module,Magento_Catalog
+"Delete Selected Group","מחיקת הקבוצה שנבחרה",module,Magento_Catalog
 "Add New","הוסף חדש",module,Magento_Catalog
 Back,חזור,module,Magento_Catalog
 Delete,מחק,module,Magento_Catalog
 Save,שמור,module,Magento_Catalog
+"New Set Name","שם קבוצה חדשה",module,Magento_Catalog
+"Edit Attribute Set '%1'","עריכת קבוצת התכונות '%1'",module,Magento_Catalog
+"Add Attribute","הוסף תכונה",module,Magento_Catalog
+"Add New Group","הוסף קבוצה חדשה",module,Magento_Catalog
+"Add Group","הוסף קבוצה",module,Magento_Catalog
+"For internal use","לשימוש פנימי",module,Magento_Catalog
+"Based On","בהתבסס על",module,Magento_Catalog
+"Add New Attribute Set","הוסף קבוצת תכונות חדשה",module,Magento_Catalog
+"Attribute Sets","קבוצות תכונות",module,Magento_Catalog
+"Close Window","סגירת חלון",module,Magento_Catalog
+"New Product","מוצר חדש",module,Magento_Catalog
+"Save & Edit","שמירה ועריכה",module,Magento_Catalog
+"Save & New","שמירה וחדש",module,Magento_Catalog
+"Save & Duplicate","שמור ושכפל",module,Magento_Catalog
+"Save & Close","שמור וסגור",module,Magento_Catalog
+Attributes,תכונות,module,Magento_Catalog
+Change,שנה,module,Magento_Catalog
+"Advanced Inventory","מלאי מתקדם",module,Magento_Catalog
+Websites,אתרים,module,Magento_Catalog
+"Products Information","מידע על מוצרים",module,Magento_Catalog
+"Category Name","שם קטגוריה",module,Magento_Catalog
+"Parent Category","קטגורית אב",module,Magento_Catalog
 "We saved the price alert subscription.","שמרנו את התראת המחיר.",module,Magento_Catalog
 "We saved the stock notification.","שמרנו את ההתראה למלאי.",module,Magento_Catalog
+"There are no customers for this alert.","אין לקוחות עבור התראה זו.",module,Magento_Catalog
 "First Name","שם פרטי",module,Magento_Catalog
 "Last Name","שם משפחה",module,Magento_Catalog
 Email,דואר,module,Magento_Catalog
+"Subscribe Date","תאריך הצטרפות כמנוי",module,Magento_Catalog
+"Last Notified","הודעה אחרונה",module,Magento_Catalog
+"Send Count","מונה שליחות",module,Magento_Catalog
+"New Attribute","תכונה חדשה",module,Magento_Catalog
 Type,סוג,module,Magento_Catalog
+"Attribute Set","קבוצת תכונות",module,Magento_Catalog
 Status,סטטוס,module,Magento_Catalog
 Visibility,נראות,module,Magento_Catalog
+"Add New Option","הוסף אפשרות חדשה",module,Magento_Catalog
+"Import Options","ייבוא אפשרויות",module,Magento_Catalog
 "Use Default","השתמש בברירת מחדל",module,Magento_Catalog
+Import,ייבא,module,Magento_Catalog
+"Add New Row","הוסף שורה חדשה",module,Magento_Catalog
+"Delete Row","מחיקת שורה",module,Magento_Catalog
+"Tier Pricing","מחיר כמויות",module,Magento_Catalog
+"Default Price","מחיר בררת מחדל",module,Magento_Catalog
+"All Websites","כל האתרים",module,Magento_Catalog
+"ALL GROUPS","כל הקבוצות",module,Magento_Catalog
+"Add Price","הוסף מחיר",module,Magento_Catalog
+"Default Values","ערכי בררת מחדל",module,Magento_Catalog
 "Related Products","מוצרים נלווים",module,Magento_Catalog
+"Size for %1","גודל עבור %1",module,Magento_Catalog
+"Watermark File for %1","קובץ סימן מים עבור %1",module,Magento_Catalog
+"Position of Watermark for %1","המיקום של סימן המים עבור %1",module,Magento_Catalog
+"Name in %1","שם ב-%1",module,Magento_Catalog
 Quantity,כמות,module,Magento_Catalog
 Edit,ערוך,module,Magento_Catalog
 "Are you sure?","האם אתה בטוח?",module,Magento_Catalog
+"Update Attributes","עדכן תכונות",module,Magento_Catalog
 "Click here or drag and drop to add images.","לחץ כדי כדי לגרור ולהוסיף תמונות.",module,Magento_Catalog
+"Delete image","מחק תמונה",module,Magento_Catalog
 "Make Base","הגדר בתור בסיס",module,Magento_Catalog
+Hidden,מוסתר,module,Magento_Catalog
+"start typing to search category","התחל להקליד כדי לחפש קטגוריה",module,Magento_Catalog
+"New Category","קטגוריה חדשה",module,Magento_Catalog
 "Images (.gif, .jpg, .png)","תמונות (.gif,. jpg,. png)",module,Magento_Catalog
+"Add New Images","הוסף תמונות חדשות",module,Magento_Catalog
+"Inc. Tax","כולל מס",module,Magento_Catalog
+"Does this have a weight?","האם יש לזה משקל?",module,Magento_Catalog
 Product,מוצר,module,Magento_Catalog
+"Notify Low Stock RSS","הודעה RSS עבור מלאי מועט",module,Magento_Catalog
 Home,"דף הבית",module,Magento_Catalog
+"Go to Home Page","מעבר לעמוד הבית",module,Magento_Catalog
+"Products Comparison List","רשימת מוצרים להשוואה",module,Magento_Catalog
+N/A,"לא זמין",module,Magento_Catalog
+"-- Please Select --","-- אנא בחר --",module,Magento_Catalog
 None,ללא,module,Magento_Catalog
+"New Products","מוצרים חדשים",module,Magento_Catalog
+"Click for price","לחץ לקבלת מחיר",module,Magento_Catalog
+"You deleted the category.","מחקת את הקטגוריה.",module,Magento_Catalog
+"Something went wrong while trying to delete the category.","משהו השתבש בעת הניסיון למחוק את הקטגוריה.",module,Magento_Catalog
 Categories,קטגוריות,module,Magento_Catalog
+"Manage Catalog Categories","ניהול קטגוריות קטלוג",module,Magento_Catalog
+"Manage Categories","ניהול קטגוריות",module,Magento_Catalog
+"There was a category move error.","אירעה שגיאת העברה קטגוריה.",module,Magento_Catalog
+"Attribute ""%1"" is required.","התכונה ""%1"" נדרשת.",module,Magento_Catalog
+"You saved the category.","שמרת את הקטגוריה.",module,Magento_Catalog
+"Please select products for attributes update.","נא בחר מוצרים עבור עדכון תכונות.",module,Magento_Catalog
+"Please make sure to define SKU values for all processed products.","נא ודא כי הגדרת ערכי מק""ט עבור כל המוצרים המעובדים.",module,Magento_Catalog
+"A total of %1 record(s) were updated.","סך של %1 רשומות עודכנו.",module,Magento_Catalog
+"Something went wrong while updating the product(s) attributes.","משהו השתבש בעת עדכון תכונות המוצר(ים).",module,Magento_Catalog
 Catalog,קטלוג,module,Magento_Catalog
+"Manage Product Attributes","נהל תכונות מוצר",module,Magento_Catalog
+"This attribute no longer exists.","התכונה כבר לא קיימת.",module,Magento_Catalog
+"This attribute cannot be edited.","אין אפשרות לערוך תכונה זו.",module,Magento_Catalog
+"Edit Product Attribute","ערוך תכונת מוצר",module,Magento_Catalog
+"You saved the product attribute.","שמרת את תכונת המוצר.",module,Magento_Catalog
+"An attribute with this code already exists.","תכונה עם הקוד הזה כבר קיימת.",module,Magento_Catalog
+"You duplicated the product.","שכפלת את המוצר.",module,Magento_Catalog
 "This product no longer exists.","מוצר זה כבר לא קיים.",module,Magento_Catalog
 Products,מוצרים,module,Magento_Catalog
+"A group with the same name already exists.","קבוצה עם שם זהה כבר קיימת.",module,Magento_Catalog
+"Something went wrong while saving this group.","משהו השתבש בעת שמירת קבוצה זו.",module,Magento_Catalog
+"A total of %1 record(s) have been deleted.","סך של %1 רשומות נמחקו.",module,Magento_Catalog
+"A total of %1 record(s) have been updated.","סך של %1 רשומות נערכו.",module,Magento_Catalog
+"Something went wrong while updating the product(s) status.","משהו השתבש בעת עדכון מצב המוצר(ים).",module,Magento_Catalog
+"Unable to save product","אין אפשרות לשמור את המוצר",module,Magento_Catalog
+"You saved the product.","שמרת את המוצר.",module,Magento_Catalog
+"SKU for product %1 has been changed to %2.","מק""ט עבור מוצר %1 שונה ל-%2.",module,Magento_Catalog
+"New Attribute Set","קבוצת תכונות חדשה",module,Magento_Catalog
+"The attribute set has been removed.","קבוצת התכונות הוסרה.",module,Magento_Catalog
+"New Set","קבוצה חדשה",module,Magento_Catalog
+"Manage Product Sets","ניהול קבוצות מוצרים",module,Magento_Catalog
+"Manage Attribute Sets","ניהול קבוצות תכונות",module,Magento_Catalog
+"This attribute set no longer exists.","קבוצת התכונות כבר לא קיימת.",module,Magento_Catalog
+"You saved the attribute set.","שמרת את קבוצת התכונות.",module,Magento_Catalog
 "You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
+"You cleared the comparison list.","ניקית את רשימת ההשוואה.",module,Magento_Catalog
+"Something went wrong  clearing the comparison list.","משהו השתבש  בעת ניקוי רשימת ההשוואה.",module,Magento_Catalog
+"You removed product %1 from the comparison list.","הסרת מוצר %1 מרשימת ההשוואה.",module,Magento_Catalog
+"1 item","פריט אחד",module,Magento_Catalog
 "%1 items","%1 פריטים",module,Magento_Catalog
+"Invalid attribute %1","תכונה לא חוקית %1",module,Magento_Catalog
+Grid,"גריד תצוגה",module,Magento_Catalog
+List,רשימה,module,Magento_Catalog
 All,הכל,module,Magento_Catalog
+"Product is not loaded","מוצר לא נטען",module,Magento_Catalog
+"Bad controller interface for showing product","ממשק בקר שגוי עבור מוצר מוצג",module,Magento_Catalog
+"The value of attribute ""%1"" must be unique.","הערך של התכונה ""%1"" חייב להיות ייחודי.",module,Magento_Catalog
+"Default Product Listing Sort by does not exist in Available Product Listing Sort By.","מיון מוצרים לפי ברירת מחדל לא קיים במיון רשימת מוצרים זמינים.",module,Magento_Catalog
+"No layout updates","אין עדכוני סידור",module,Magento_Catalog
+"Products only","מוצרים בלבד",module,Magento_Catalog
+"Static block only","בלוק סטטי בלבד",module,Magento_Catalog
+"Static block and products","בלוק סטטי ומוצרים",module,Magento_Catalog
+"Please select a static block.","אנא בחר בלוק סטטי.",module,Magento_Catalog
+"-- Please Select a Category --","--אנא בחר קטגוריה --",module,Magento_Catalog
+"Grid Only","גריד בלבד",module,Magento_Catalog
+"List Only","רשימה בלבד",module,Magento_Catalog
+"Grid (default) / List","גריד (בררת מחדל) / רשימה",module,Magento_Catalog
+"List (default) / Grid","רשימה (בררת מחדל) / גריד",module,Magento_Catalog
+"Automatic (equalize price ranges)","אוטומטי (השוואת טווחי מחיר)",module,Magento_Catalog
+"Automatic (equalize product counts)","אוטומטי (השוואת כמויות מוצר)",module,Magento_Catalog
+Manual,"באופן ידני",module,Magento_Catalog
+Fixed,קבוע,module,Magento_Catalog
+Percent,אחוז,module,Magento_Catalog
+"-- Please select --","-- אנא בחר --",module,Magento_Catalog
+"Product Thumbnail Itself","התמונה הממוזערת של המוצר עצמו",module,Magento_Catalog
+"Parent Product Thumbnail","התמונה הממוזערת של מוצר האב",module,Magento_Catalog
+Stretch,מתיחה,module,Magento_Catalog
+Tile,אריח,module,Magento_Catalog
+Top/Left,"למעלה / שמאלה",module,Magento_Catalog
+Top/Right,"למעלה / ימינה",module,Magento_Catalog
+Bottom/Left,"למטה / שמאלה",module,Magento_Catalog
+Bottom/Right,"למטה / ימינה",module,Magento_Catalog
+Center,מרכז,module,Magento_Catalog
+"Bad value was supplied.","סופק ערך רע.",module,Magento_Catalog
+"Unsupported product type ""%1"".","סוג המוצר ""%1"" לא נתמך.",module,Magento_Catalog
+"Please correct the category.","נא תקן את הקטגוריה.",module,Magento_Catalog
+"The attribute model is not defined.","מודל התכונה לא מוגדר.",module,Magento_Catalog
+Category,קטגוריה,module,Magento_Catalog
+"Clear Price","נקה מחיר",module,Magento_Catalog
+"%1 and above","%1 ומעלה",module,Magento_Catalog
+"The filters must be an array.","המסננים חייבים להיות מערך.",module,Magento_Catalog
+"The image does not exist.","התמונה אינה קיימת.",module,Magento_Catalog
+"Please correct the image file type.","נא תקן את סוג הקובץ של התמונה.",module,Magento_Catalog
+"Group price must be a number greater than 0.","קבוצת המחיר חייבת להיות מספר גדול מ-0.",module,Magento_Catalog
+"Please enter a number 0 or greater in this field.","אנא הזן את המספר 0 או גדול יותר בשדה זה.",module,Magento_Catalog
+"The value of attribute ""%1"" must be set","הערך של התכונה ""%1"" חייב להיות מוגדר",module,Magento_Catalog
+"SKU length should be %1 characters maximum.","אורך המק""ט צריך להיות עד %1 תווים.",module,Magento_Catalog
+"Please enter a valid number in this field.","נא הזן מספר חוקי בשדה זה.",module,Magento_Catalog
+"We found a duplicate website, tier price, customer group and quantity.","מצאנו אתר כפול, מחיר כמותי, קבוצת לקוחות וכמות.",module,Magento_Catalog
+"Use config","השתמש בהגדרה",module,Magento_Catalog
 Enabled,פעיל,module,Magento_Catalog
 Disabled,"לא פעיל",module,Magento_Catalog
+"The option type to get group instance is incorrect.","סוג האפשרות לקבלת מופיע הקבוצה לא נכון.",module,Magento_Catalog
+"Select type options required values rows.","בחירת סוג אפשרויות דורש ערכי שורות.",module,Magento_Catalog
+"Please specify date required option(s).","נא לספק אפשרויות תאריכים דרושות.",module,Magento_Catalog
+"Please specify time required option(s).","נא לסמן אפשרויות זמן דרושות.",module,Magento_Catalog
 Search,חפש,module,Magento_Catalog
+"A product type is not defined for the indexer.","סוג המוצר אינו מוגדר עבור בונה האינדקסים.",module,Magento_Catalog
+"Multiple Select","בחירה מרובה",module,Magento_Catalog
+Dropdown,"רשימה נפתחת",module,Magento_Catalog
 "Are you sure you want to delete this category?","האם אתה בטוח שברצונך למחוק את הקטגוריה?",module,Magento_Catalog
 "ID: %1","מזהה: %1",module,Magento_Catalog
 "Set root category for this store in the <a href=""%1"">configuration</a>.","להגדיר את הקטגוריית האב עבור חנות זו במעבר <a href=""%1""> קונפיגורציה</a>.",module,Magento_Catalog
 "Manage Options (values of your attribute)","נהל אפשרויות (ערכים של התכונה המבוקשת)",module,Magento_Catalog
 "Is Default","ברירת מחדל",module,Magento_Catalog
+"Add Option","הוסף אפשרות",module,Magento_Catalog
 Qty,כמות,module,Magento_Catalog
+"Remove Product From Websites","הסרת מוצר מהאתרים",module,Magento_Catalog
+"Delete Custom Option","מחק אפשרות מותאמת אישית",module,Magento_Catalog
+"Sort Custom Options","מיין אפשריות מותאמות אישית",module,Magento_Catalog
+"Option Title","כותרת האפשרות",module,Magento_Catalog
+"Input Type","סוג הקלט",module,Magento_Catalog
+Required,"שדה חובה",module,Magento_Catalog
+"Price Type","סוג מחיר",module,Magento_Catalog
+"Maximum Image Size","גודל תמונה מרבי",module,Magento_Catalog
+"Please leave blank if it is not an image.","בבקשה השאר ריק אם זה לא תמונה.",module,Magento_Catalog
+Title,כותרת,module,Magento_Catalog
+"Sort Custom Option","מיין אפשרות מותאמת אישית",module,Magento_Catalog
+"Max Characters","מספר תווים מרבי",module,Magento_Catalog
+"Customer Group","קבוצת לקוחות",module,Magento_Catalog
+"Item Price","מחיר הפריט",module,Magento_Catalog
 Action,פעולה,module,Magento_Catalog
+"and above",ומעלה,module,Magento_Catalog
+"Delete Tier","מחר כמותי",module,Magento_Catalog
+"Product In Websites","מוצר באתרים",module,Magento_Catalog
+"(Copy data from: %1)","(העתקת נתונים מ: %1)",module,Magento_Catalog
+"Alt Text","טקסט Alt",module,Magento_Catalog
+Role,תפקיד,module,Magento_Catalog
+"Hide from Product Page","הסתר מעמוד מוצר",module,Magento_Catalog
 "Close panel","סגור לוח",module,Magento_Catalog
+"Product Alerts","התראות מוצר",module,Magento_Catalog
+"Basic Settings","הגדרות בסיסיות",module,Magento_Catalog
+"Advanced Settings","הגדרות מתקדמות",module,Magento_Catalog
 "Mass Actions","פעולות מסיביות",module,Magento_Catalog
 "Select All","בחר הכל",module,Magento_Catalog
 "Unselect All","הסר הכל",module,Magento_Catalog
@@ -1084,7 +1311,7 @@ TRUE,נכון,module,Magento_Rule
 FALSE,שווא,module,Magento_Rule
 "If %1 of these conditions are %2:","אם ב%1 מתנאים אלה מתקיים %2:",module,Magento_Rule
 "Conditions Combination","שילוב תנאים",module,Magento_Rule
-"Attribute Set","קבוצת מאפיינים",module,Magento_Rule
+"Attribute Set","קבוצת תכונות",module,Magento_Rule
 Category,קטגוריה,module,Magento_Rule
 "Open Chooser",לבחירה,module,Magento_Rule
 "There is no information about associated entity type ""%1"".","חסר מידע לגבי סוג הישות המשוייכת ""%1"".",module,Magento_Rule
@@ -1398,7 +1625,10 @@ Back,חזור,module,Magento_Wishlist
 "Shop By","מיין לפי",theme,frontend/Magento/luma
 Cancel,ביטול,module,Magento_Catalog
 OK,אישור,module,Magento_Catalog
+"New Option","אפשרות חדשה",module,Magento_Catalog
+"Select Product","בחר מוצר",module,Magento_Catalog
 "Please select items.","אנא בחר פריטים.",module,Magento_Catalog
+"Create Category","צור קטגוריה",module,Magento_Catalog
 "Incl. Tax","כולל מס",module,Magento_ConfigurableProduct
 "Add Products","הוסף מוצרים",module,Magento_Sales
 "Use HTTPS to Get Feed","השתמש ב- HTTPS כדי לקבל הזנה",module,Magento_AdminNotification
@@ -1511,6 +1741,10 @@ Forms,טפסים,module,Magento_Captcha
 "Display products availability in stock on Storefront.","הצגת מלאי המוצרים הזמינים החנות.",module,Magento_CatalogInventory
 Rule,כלל,module,Magento_CatalogRule
 "Web Site",אתר,module,Magento_CatalogRule
+"Popular Search Terms","מונחי חיפוש פופולריים",module,Magento_CatalogSearch
+"Catalog Search","חיפוש בקטלוג",module,Magento_CatalogSearch
+"Minimal Query Length","אורך שאילתה מינימלי",module,Magento_CatalogSearch
+"Maximum Query Length","אורך שאילתה מקסימלי",module,Magento_CatalogSearch
 "Product Listing Sort by","מיון מוצרים לפי",module,Magento_Catalog
 "Watermark Default Size","גודל ברירת המחדל של סימן המים",module,Magento_Catalog
 "Watermark Opacity, Percent","שקיפות סימן המים, אחוזים",module,Magento_Catalog
@@ -1597,6 +1831,7 @@ Name,שם,module,Magento_Sales
 Phone,טלפון,module,Magento_Sales
 "Print All","הדפס הכול",module,Magento_Sales
 "Purchase Date","תאריך רכישה",module,Magento_Sales
+"Search Engine","מנוע חיפוש",module,Magento_Search
 Enabled,פעיל,module,Magento_SendFriend
 City,עיר,module,Magento_Shipping
 "Shipping Methods","שיטות המשלוח",module,Magento_Shipping

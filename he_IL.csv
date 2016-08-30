@@ -392,18 +392,61 @@ Delete,מחק,module,Magento_Bundle
 "Use Default Value","השתמש בערך ברירת המחדל",module,Magento_Bundle
 "Only implemented for bundle product","יישים רק למוצרי באנדל",module,Magento_Bundle
 "Product with specified sku: ""%1"" is not a bundle product","מק""ט ""%1"" איננו מוצר באנדל",module,Magento_Bundle
+"Id field of product link is required","מזהה שדה של קישור מוצר נדרש",module,Magento_Bundle
+"Can not find product link with id ""%1""","לא יכול למצוא את המוצר קישור עם מזהה ""%1""",module,Magento_Bundle
+"Could not save child: ""%1""","לא היתה אפשרות לשמור את הילד: ""%1""",module,Magento_Bundle
+"Product with specified sku: ""%1"" does not contain option: ""%2""","מוצר עם מק שצוינו: ""%1"" אינו מכיל אפשרות: ""%2""",module,Magento_Bundle
+"Child with specified sku: ""%1"" already assigned to product: ""%2""","הילד עם מק שצוינו: ""%1"" כבר מוקצה המוצר: ""%2""",module,Magento_Bundle
+"Product with specified sku: %1 is not a bundle product","מק""ט ""%1"" איננו מוצר באנדל",module,Magento_Bundle
+"Cannot delete option with id %1","אין אפשרות למחוק את האפשרות עם מזהה %1",module,Magento_Bundle
+"Could not save option","לא היתה אפשרות לשמור את האפשרות",module,Magento_Bundle
+"As Low as","המחיר הכי נמוך",module,Magento_Bundle
+"Price Range","טווח מחירים",module,Magento_Bundle
+"Please specify product option(s).","אנא ציין את אפשרות או אפשרויות המוצר.",module,Magento_Bundle
+"The options you selected are not available.","האפשרויות שבחרת אינן זמינות.",module,Magento_Bundle
+"The required options you selected are not available.","האפשרויות הדרושות שבחרת אינן זמינות.",module,Magento_Bundle
+"Please select all required options.","אנא בחר את כל האפשרויות הנדרשות.",module,Magento_Bundle
+N/A,"לא זמין",module,Magento_Bundle
+Percent,אחוז,module,Magento_Bundle
 None,ללא,module,Magento_Bundle
 Quantity:,כמות:,module,Magento_Bundle
+"Ship Bundle Items","שלח צרור מוצרים",module,Magento_Bundle
+Separately,בנפרד,module,Magento_Bundle
+Together,ביחד,module,Magento_Bundle
+"Option Title","כותרת האפשרות",module,Magento_Bundle
+"Store View Title","כותרת תצוגת החנות",module,Magento_Bundle
+"Input Type","סוג הקלט",module,Magento_Bundle
+Required,נדרש,module,Magento_Bundle
 Position,מיקום,module,Magento_Bundle
+"There are no products in this option.","אין מוצרים באפשרות זו.",module,Magento_Bundle
+"New Option","אפשרות חדשה",module,Magento_Bundle
+Default,"ברירת מחדל",module,Magento_Bundle
 Name,שם,module,Magento_Bundle
+"Price Type","סוג מחיר",module,Magento_Bundle
+"Default Quantity","כמות ברירת המחדל",module,Magento_Bundle
+"User Defined","הגדרת משתמש",module,Magento_Bundle
+Ordered,הוזמן,module,Magento_Bundle
+Invoiced,חויב,module,Magento_Bundle
+Shipped,נשלח,module,Magento_Bundle
+Refunded,זוכה,module,Magento_Bundle
+Canceled,בוטל,module,Magento_Bundle
+"As low as","המחיר הנמוך ביותר",module,Magento_Bundle
 "Regular Price","מחיר רגיל",module,Magento_Bundle
 From,מ-,module,Magento_Bundle
 To,ל-,module,Magento_Bundle
+"Buy %1 with %2 discount each","לקנות %1 עם %2 הנחת",module,Magento_Bundle
+"Go back to product details","חזור לפרטי המוצר",module,Magento_Bundle
+"Customize and Add to Cart","התאם אישית והוסף לעגלה",module,Magento_Bundle
 "* Required Fields","* שדות חובה",module,Magento_Bundle
+"Your Customization","ההתאמה האישית שלך",module,Magento_Bundle
 Availability,זמינות,module,Magento_Bundle
 "In stock",במלאי,module,Magento_Bundle
+"Out of stock","אזל מהמלאי",module,Magento_Bundle
+Summary,סיכום,module,Magento_Bundle
 Availability:,זמינות:,module,Magento_Bundle
 Quantity,כמות,module,Magento_Bundle
+"Customize %1","התאמה אישית של %1",module,Magento_Bundle
+"No options of this product are available.","אין אפשרויות זמינות למוצר זה.",module,Magento_Bundle
 "Gift Message","הודעת מתנה",module,Magento_Bundle
 From:,מ:,module,Magento_Bundle
 To:,ל:,module,Magento_Bundle
@@ -411,6 +454,7 @@ Message:,הודעה:,module,Magento_Bundle
 "Product Name","שם מוצר",module,Magento_Bundle
 Subtotal,"סכום ביניים",module,Magento_Bundle
 "Discount Amount","סכום הנחה",module,Magento_Bundle
+"Row Total","סה״כ השורה",module,Magento_Bundle
 "Qty Invoiced","כמות שחויבה",module,Magento_Bundle
 "Qty Shipped","כמות שנשלחה",module,Magento_Bundle
 Always,תמיד,module,Magento_Captcha
@@ -1715,22 +1759,70 @@ Back,חזור,module,Magento_Ui
 Cancel,ביטול,module,Magento_Ui
 None,ללא,module,Magento_Ups
 label,תווית,module,Magento_Ups
+"Edit URL Rewrite for a Category","ערוך כתובת לשכתוב עבור קטגוריה",module,Magento_UrlRewrite
+"Add URL Rewrite for a Category","הוסף כתובת לשכתוב עבור קטגוריה",module,Magento_UrlRewrite
+Category:,קטגוריה:,module,Magento_UrlRewrite
+"Please assign a website to the selected category.","בבקשה להקצות אתר לקטגוריה שנבחרה.",module,Magento_UrlRewrite
+"Edit URL Rewrite for a Product","עריכת כתובת לשכתוב עבור מוצר",module,Magento_UrlRewrite
+"Add URL Rewrite for a Product","הוסף כתובת לשכתוב עבור מוצר",module,Magento_UrlRewrite
+Product:,מוצר:,module,Magento_UrlRewrite
+"Skip Category Selection","דלג על בחירת קטגוריה",module,Magento_UrlRewrite
 Name,שם,module,Magento_UrlRewrite
 SKU,מק''ט,module,Magento_UrlRewrite
 Status,סטטוס,module,Magento_UrlRewrite
+"Edit URL Rewrite for CMS page","ערוך כתובת לשכתוב לעמוד CMS",module,Magento_UrlRewrite
+"Add URL Rewrite for CMS page","הוסף כתובת לשכתוב לעמוד CMS",module,Magento_UrlRewrite
+"CMS page:","עמוד CMS:",module,Magento_UrlRewrite
+"Please assign a website to the selected CMS page.","בבקשה להקצות אתר לעמוד CMS שנבחר.",module,Magento_UrlRewrite
+Title,כותרת,module,Magento_UrlRewrite
+"URL Key","מזהה כתובת",module,Magento_UrlRewrite
 "Store View","תצוגת חנות",module,Magento_UrlRewrite
+"Edit URL Rewrite","עריכת כתובת לשכתוב",module,Magento_UrlRewrite
+"Add New URL Rewrite","הוסף כתובת חדשה לשכתוב",module,Magento_UrlRewrite
 Reset,אתחל,module,Magento_UrlRewrite
 Back,חזור,module,Magento_UrlRewrite
 Delete,מחק,module,Magento_UrlRewrite
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_UrlRewrite
 Save,שמור,module,Magento_UrlRewrite
 "Block Information","בלוק מידע",module,Magento_UrlRewrite
+"URL Rewrite Information","מידע אודות כתובת לשכתוב",module,Magento_UrlRewrite
+"Request Path","נתיב מבוקש",module,Magento_UrlRewrite
+"Target Path","נתיב היעד",module,Magento_UrlRewrite
+"Redirect Type","סוג ניתוב מחדש",module,Magento_UrlRewrite
+Description,תיאור,module,Magento_UrlRewrite
+Store,חנות,module,Magento_UrlRewrite
+"URL Rewrite Management","ניהול כתובת לשכתוב",module,Magento_UrlRewrite
+"Add URL Rewrite","הוסף כתובת לשכתוב",module,Magento_UrlRewrite
 Custom,מותאם,module,Magento_UrlRewrite
+"For category","עבור קטגוריה",module,Magento_UrlRewrite
+"For product","עבור מוצר",module,Magento_UrlRewrite
+"For CMS page","עובר עמוד CMS",module,Magento_UrlRewrite
+"Create URL Rewrite:","צור כתובת לשכתוב:",module,Magento_UrlRewrite
+"You deleted the URL rewrite.","מחקת את הכתובת לשכתוב.",module,Magento_UrlRewrite
 "URL Rewrites","שכתוב URL",module,Magento_UrlRewrite
+"The product you chose is not associated with the selected store or category.","המוצר שבחרת אינו משויך לחנות או לקטגוריה שנבחרה.",module,Magento_UrlRewrite
+"The category you chose is not associated with the selected store.","הקטגוריה שבחרת אינה משוייכת לחנות שנבחרה.",module,Magento_UrlRewrite
+"The URL Rewrite has been saved.","הכתובת לשכתוב נשמרה.",module,Magento_UrlRewrite
+"Something went wrong while saving URL Rewrite.","משהו השתבש בעת ניסיון שמירה של הכתובת לשכתוב.",module,Magento_UrlRewrite
+"Do not use two or more consecutive slashes in the request path.","נא לא להשתמש בשני סלאשים (/) רצופים או יותר בנתיב הבקשה.",module,Magento_UrlRewrite
+"Anchor symbol (#) is not supported in request path.","סמל הסולמית (#) אינו נתמך בנתיב הבקשה.",module,Magento_UrlRewrite
+"Do not use two or more consecutive slashes in the url rewrite suffix.","נא לא להשתמש בשני סלאשים (/) רצופים או יותר בסיומת השכתוב.",module,Magento_UrlRewrite
+"Anchor symbol (#) is not supported in url rewrite suffix.","סמל הסולמית (#) אינו נתמך בסיומת השכתוב.",module,Magento_UrlRewrite
 No,לא,module,Magento_UrlRewrite
+"Temporary (302)","זמני (302)",module,Magento_UrlRewrite
+"Permanent (301)","קבוע (301)",module,Magento_UrlRewrite
+"Request Path for Specified Store","נתיב הבקשה לחנות שצוינה",module,Magento_UrlRewrite
+"URL key for specified store already exists.","מזהה הכתובת עבור החנות שצוינה כבר בשימוש.",module,Magento_UrlRewrite
 Back,חזור,module,Magento_User
 Reset,אתחל,module,Magento_User
+"Delete Role","מחק תפקיד",module,Magento_User
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_User
+"Save Role","שמור תפקיד",module,Magento_User
+Roles,תפקידים,module,Magento_User
+"Add New Role","הוסף תפקיד חדש",module,Magento_User
+"Role Information","מידע על התפקיד",module,Magento_User
+"Role Users","תפקידי משתמשים",module,Magento_User
+"User ID","מזהה משתמש",module,Magento_User
 "User Name","שם משתמש",module,Magento_User
 "First Name","שם פרטי",module,Magento_User
 "Last Name","שם משפחה",module,Magento_User
@@ -1738,18 +1830,87 @@ Email,דואר,module,Magento_User
 Status,סטטוס,module,Magento_User
 Active,פעיל,module,Magento_User
 Inactive,"לא פעיל",module,Magento_User
+"Role Resources","משאבי תפקיד",module,Magento_User
+"Role Info","פרטי תפקיד",module,Magento_User
+"Role Name","שם התפקיד",module,Magento_User
+"Add New User","הוסף משתמש חדש",module,Magento_User
+Users,משתמשים,module,Magento_User
+"Save User","שמור משתמש",module,Magento_User
+"Delete User","מחק משתמש",module,Magento_User
+"Force Sign-In","אלץ כניסה לחשבון",module,Magento_User
+"Edit User '%1'","ערוך משתמש '%1'",module,Magento_User
+"New User","משתמש חדש",module,Magento_User
 "Account Information","פרטי חשבון",module,Magento_User
 "User Email","דוא״ל של משתמש",module,Magento_User
+Password,סיסמה,module,Magento_User
 "New Password","סיסמא חדשה",module,Magento_User
 "Password Confirmation","אמת סיסמה",module,Magento_User
 "Interface Locale","ממשק אזורי",module,Magento_User
+"This account is","חשבון זה",module,Magento_User
+"Account Status","מצב חשבון",module,Magento_User
 "Current User Identity Verification","אימות זהות המשתמש הנוכחי",module,Magento_User
 "Your Password","הסיסמה שלך",module,Magento_User
+"User Roles Information","מידע אודות תפקידי המשתמש",module,Magento_User
+Assigned,הוקצה,module,Magento_User
+Role,תפקיד,module,Magento_User
+"User Information","פרטי משתמש",module,Magento_User
+"User Info","פרטי משתמש",module,Magento_User
+"User Role","תפקיד משתמש",module,Magento_User
+"Please correct the password reset token.","בבקשה תקן את טוקן איפוס הסיסמה.",module,Magento_User
+"Please specify the correct account and try again.","נא ציין את החשבון הנכון ונסה שוב.",module,Magento_User
+"Your password reset link has expired.","קישור איפוס הסיסמה שלך פג.",module,Magento_User
+"Please correct this email address:","נא תקן את כתובת הדוא״ל:",module,Magento_User
+"Please enter an email address.","נא להזין כתובת דואר אלקטרוני.",module,Magento_User
+"You updated your password.","עדכנת את סיסמתך.",module,Magento_User
+"Locked Users","משתמשים נעולים",module,Magento_User
+"Unlocked %1 user(s).","%1 משתמשים שוחררו מנעילה.",module,Magento_User
 System,מערכת,module,Magento_User
+Permissions,הרשאות,module,Magento_User
+"You cannot delete your own account.","אין באפשרותך למחוק את החשבון שלך.",module,Magento_User
+"You deleted the user.","מחקת את המשתמש.",module,Magento_User
+"This user no longer exists.","משתמש זה כבר לא קיים.",module,Magento_User
+"Edit User","ערוך משתמש",module,Magento_User
+"You cannot delete self-assigned roles.","לא ניתן למחוק תפקידים בהקצאה עצמית.",module,Magento_User
+"You deleted the role.","מחקת את התפקיד.",module,Magento_User
+"An error occurred while deleting this role.","אירעה שגיאה בעת מחיקת תפקיד זה.",module,Magento_User
+"Edit Role","ערוך תפקיד",module,Magento_User
+"New Role","תפקיד חדש",module,Magento_User
+"This role no longer exists.","התפקיד לא קיים יותר.",module,Magento_User
+"You saved the role.","שמרת את התפקיד.",module,Magento_User
+"An error occurred while saving this role.","אירעה שגיאה בעת שמירת תפקיד זה.",module,Magento_User
 "You have entered an invalid password for current user.","הזנת סיסמא לא חוקית עבור המשתמש הנוכחי.",module,Magento_User
+"You saved the user.","שמרת את המשתמש.",module,Magento_User
+"A user with the same user name or email already exists.","משתמש עם אותו שם משתמש או דואר אלקטרוני כבר קיים.",module,Magento_User
+Recommended,מומלץ,module,Magento_User
+Forced,מוכרח,module,Magento_User
+"Sorry, but this password has already been used. Please create another.","מצטערים, אבל הסיסמה הזו כבר הייתה בשימוש. בבקשה צור אחרת.",module,Magento_User
+"You did not sign in correctly or your account is temporarily disabled.","לא נכנסת נכון או שהחשבון שלך אינו פעיל זמנית.",module,Magento_User
+"You need more permissions to access this.","הנך צריך יותר הרשאות על מנת לגשת לזה.",module,Magento_User
+"User Name is a required field.","שם משתמש הוא שדה נדרש.",module,Magento_User
+"First Name is a required field.","השם הפרטי הוא שדה נדרש.",module,Magento_User
+"Last Name is a required field.","שם המשפחה הוא שדה נדרש.",module,Magento_User
+"Please enter a valid email.","נא הזן כתובת דואר אלקטרוני חוקית.",module,Magento_User
+"Password is required field.","הסיסמה היא שדה חובה.",module,Magento_User
+"Your password must be at least %1 characters.","הסיסמה שלך חייב להיות לפחות %1 תווים.",module,Magento_User
+"Your password must include both numeric and alphabetic characters.","הסיסמה שלך חייבת לכלול גם ספרות וגם אותיות.",module,Magento_User
+"Your password confirmation must match your password.","סיסמת האימות שלך חייבת להיות זהה לסיסמה שלך.",module,Magento_User
+"Your password has expired; please contact your administrator.","הסיסמה שלך פגה תוקף, אנא צור קשר עם מנהל המערכת.",module,Magento_User
+"Password Help","עזרה בסיסמה",module,Magento_User
+"Enter your email address.  You will receive an email with a link to reset your password.","הזמן את כתובת הדואר האלקטרוני שלך. אתה תקבל דוא""ל עם קישור לאיפוס הסיסמה שלך.",module,Magento_User
+"Email address","כתובת דואר אלקטרוני",module,Magento_User
+"Retrieve Password","אחזר סיסמה",module,Magento_User
+"Back to Sign in","חזרה לכניסה",module,Magento_User
 "Forgot your password?","שכחת סיסמא?",module,Magento_User
+"Reset a Password","איפוס סיסמה",module,Magento_User
+"Confirm New Password","אשר סיסמה חדשה",module,Magento_User
+"Reset Password","איפוס סיסמה",module,Magento_User
+"Roles Resources","משאבי תפקידים",module,Magento_User
+"Resource Access","גישות משאב",module,Magento_User
 Custom,מותאם,module,Magento_User
 All,הכל,module,Magento_User
+Resources,משאבים,module,Magento_User
+"Warning!\r\nThis action will remove this user from already assigned role\r\nAre you sure?","אזהרה!\r\nפעולה זו תסיר משתמש זה מהתפקיד שהוקצה לו\r\nהאם אתה בטוח?",module,Magento_User
+"Warning!\r\nThis action will remove those users from already assigned roles\r\nAre you sure?","אזהרה!\r\nפעולה זו תסיר משתמשים אלו מהתפקידים שהוקצה להם\r\nהאם אתה בטוח?",module,Magento_User
 Yes,כן,module,Magento_Usps
 No,לא,module,Magento_Usps
 None,ללא,module,Magento_Usps
@@ -1771,6 +1932,15 @@ Yes,כן,module,Magento_Variable
 "Variable Code must be unique.","קוד משתנה חייב להיות ייחודי.",module,Magento_Variable
 "Validation has failed.","האימות נכשל.",module,Magento_Variable
 "Insert Variable...","הוסף משתנה...",module,Magento_Variable
+"Operation allowed only in HTTPS","הפעולה מותרת רק ב HTTPS",module,Magento_Webapi
+"Request does not match any route.","הבקשה אינה תואמת לכל ניתוב.",module,Magento_Webapi
+"Not allowed parameters: %1. Please use only %2 and %3.","פרמטרים אסורים: %1. נא להשתמש רק %2 ולא %3.",module,Magento_Webapi
+"Requested service is not available: ""%1""","השירות המבוקש אינו זמין: ""%1""",module,Magento_Webapi
+"Operation ""%1"" not found.","פעולה ""%1"" לא נמצא.",module,Magento_Webapi
+"SOAP extension is not loaded.","תוסף SOAP לא נטען.",module,Magento_Webapi
+"Invalid XML","XML לא חוקי",module,Magento_Webapi
+"Invalid XML: Detected use of illegal DOCTYPE","XML לא חוקי: השימוש DOCTYPE לא חוקי זוהה",module,Magento_Webapi
+message,הודעה,module,Magento_Webapi
 Message,הודעה,module,Magento_Webapi
 "Add Tax","הוסף מס",module,Magento_Weee
 "Delete Tax","מחק מס",module,Magento_Weee
@@ -1924,6 +2094,10 @@ Items,פריטים,module,Magento_Checkout
 Password:,סיסמה:,module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",module,Magento_Sales
+"Thank you,","תודה לך,",module,Magento_User
+"There was recently a request to change the password for your account.","לאחרונה הייתה בקשה לשנות את סיסמת החשבון שלך.",module,Magento_User
+"If you requested this change, reset your password here:","אם ביקשת שינוי זה, אפס את הסיסמה שלך כאן:",module,Magento_User
+"If you did not make this request, you can ignore this email and your password will remain the same.","אם לא הגשה את הבקשה הזו, באפשרותך להתעלם מדוא""ל זה, והסיסמה שלך תישאר זהה.",module,Magento_User
 "%customer_name wants to share this Wish List from %store_name with you:","%customer_name רוצה לשתף אתכם ב-Wishlist של %store_name:",module,Magento_Wishlist
 "Message from %customer_name:","הודעה מ-%customer_name:",module,Magento_Wishlist
 "View all Wish List items","הצגת את כל פרטי ה-Wishlist",module,Magento_Wishlist
@@ -1963,6 +2137,9 @@ Password:,סיסמה:,theme,frontend/Magento/luma
 "Your shipping confirmation is below. Thank you again for your business.","להלן אישור המשלוח שלך. תודה על רכישתך.",theme,frontend/Magento/luma
 "Your Shipment #%shipment_id for Order #%order_id","משלוח שלך %shipment_id # עבור הזמנה #%order_id",theme,frontend/Magento/luma
 "We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Backend
+"Add Products to New Option","הוסף מוצרים לאפשרות חדשה",module,Magento_Bundle
+"Add Products to Option ""%1""","הוסף מוצרים לאפשרות ""%1""",module,Magento_Bundle
+"Add Selected Products","הוספת המוצרים שנבחרו",module,Magento_Bundle
 Cancel,ביטול,module,Magento_Catalog
 Submit,שלח,module,Magento_Catalog
 OK,אישור,module,Magento_Catalog
@@ -2212,12 +2389,27 @@ Action,פעולה,module,Magento_Ui
 "Sort Order","סדר מיון",module,Magento_Ups
 Action,פעולה,module,Magento_UrlRewrite
 Edit,ערוך,module,Magento_UrlRewrite
+"Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית הדוא""ל הנבחרה בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_User
+"Maximum Login Failures to Lockout Account","מספר ניסיונות כניסה כושלים מרבי עד לנעילת החשבון",module,Magento_User
+"We will disable this feature if the value is empty.","אנו נשבית אפשרות זו אם הערך ריק.",module,Magento_User
+"Lockout Time (minutes)","זמן נעילה (בדקות)",module,Magento_User
+"Password Lifetime (days)","פג תוקף סיסמה (בימים)",module,Magento_User
+"Password Change","שינוי סיסמה",module,Magento_User
+Unlock,"שחרור מנעילה",module,Magento_User
+Username,"שם משתמש",module,Magento_User
 "Last login","כניסה אחרונה",module,Magento_User
+Failures,כשלים,module,Magento_User
+Unlocked,"שוחרר מנעילה",module,Magento_User
 "Sort Order","סדר מיון",module,Magento_Usps
 "Variable ID","מספר מזהה של משתנה",module,Magento_Variable
 Name,שם,module,Magento_Variable
 "Web API Security","אבטחת Web API",module,Magento_WebapiSecurity
 "Allow Anonymous Guest Access","אפשר גישת משתמש אנונימי",module,Magento_WebapiSecurity
+"Magento Web API","מג'נטו Web API",module,Magento_Webapi
+"SOAP Settings","הגדרות SOAP",module,Magento_Webapi
+"Default Response Charset","ברירת-המחדל של תגובת קידוד",module,Magento_Webapi
+"If empty, UTF-8 will be used.","אם ריק, UTF-8 יהיה בשימוש.",module,Magento_Webapi
+"Web Services Configuration","הגדרות שירותי אינטרנט",module,Magento_Webapi
 "Fixed Product Taxes","מיסים של מוצר קבוע",module,Magento_Weee
 "Enable FPT","אפשר FPT",module,Magento_Weee
 "Display Prices In Product Lists","הצגת מחירים ברשימות המוצר",module,Magento_Weee

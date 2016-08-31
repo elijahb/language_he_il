@@ -518,9 +518,13 @@ name,שם,module,Magento_CatalogSearch
 "Don't see what you're looking for?","לא רואה את מה שאתה מחפש?",module,Magento_CatalogSearch
 "Your search returned no results.","אין תוצאות לשאילתת חיפוש שלך.",module,Magento_CatalogSearch
 "Create Permanent Redirect for old URL","צור הפנייה קבועה עבור כתובת ישנה",module,Magento_CatalogUrlRewrite
+"Conditions Combination","שילוב תנאים",module,Magento_CatalogWidget
+"Product Attribute","תכונות מוצר",module,Magento_CatalogWidget
 SKU,מק''ט,module,Magento_CatalogWidget
+"Please choose a condition to add.","יש לבחור בתנאי להוספה.",module,Magento_CatalogWidget
 "Add to Cart","הוסף לעגלה",module,Magento_CatalogWidget
 "In stock",במלאי,module,Magento_CatalogWidget
+"Out of stock","אזל מהמלאי",module,Magento_CatalogWidget
 "Add to Wish List","הוסף ל Wish List",module,Magento_CatalogWidget
 "Add to Compare","הוסף להשוואה",module,Magento_CatalogWidget
 Root,שורש,module,Magento_Catalog
@@ -892,12 +896,43 @@ Next,הבא,module,Magento_Catalog
 "* Required Fields","* שדות חובה",module,Magento_Catalog
 Availability,זמינות,module,Magento_Catalog
 "Terms and Conditions","תנאי שימוש",module,Magento_CheckoutAgreements
+"Add New Condition","הוסף תנאי חדש",module,Magento_CheckoutAgreements
+"Save Condition","שמור תנאי",module,Magento_CheckoutAgreements
+"Delete Condition","למחוק את התנאי",module,Magento_CheckoutAgreements
+"Edit Terms and Conditions","עריכת תנאים והתניות",module,Magento_CheckoutAgreements
+"New Terms and Conditions","תנאים והתניות חדשים",module,Magento_CheckoutAgreements
+"Terms and Conditions Information","מידע על תנאים והתניות",module,Magento_CheckoutAgreements
+"Condition Name","שם התנאי",module,Magento_CheckoutAgreements
 Status,סטטוס,module,Magento_CheckoutAgreements
 Enabled,פעיל,module,Magento_CheckoutAgreements
 Disabled,"לא פעיל",module,Magento_CheckoutAgreements
+"Show Content as","הצג תוכן כ-",module,Magento_CheckoutAgreements
+Text,טקסט,module,Magento_CheckoutAgreements
+Applied,בוצע,module,Magento_CheckoutAgreements
 "Store View","תצוגת חנות",module,Magento_CheckoutAgreements
+"Checkbox Text","תיבת סימון הטקסט",module,Magento_CheckoutAgreements
 Content,תוכן,module,Magento_CheckoutAgreements
+"Content Height (css)","גובה התוכן (css)",module,Magento_CheckoutAgreements
+"Content Height","גובה התוכן",module,Magento_CheckoutAgreements
+Condition,תנאי,module,Magento_CheckoutAgreements
+Sales,מכירות,module,Magento_CheckoutAgreements
+"Checkout Conditions","תנאי הקופה",module,Magento_CheckoutAgreements
+"Checkout Terms and Conditions","התנאים וההגבלות של הקופה",module,Magento_CheckoutAgreements
+"This condition no longer exists.","מצב זה לא קיים עוד.",module,Magento_CheckoutAgreements
+"You deleted the condition.","אתה מחקת את התנאי.",module,Magento_CheckoutAgreements
+"Something went wrong  while deleting this condition.","משהו השתבש בעת מחיקת תנאי זה.",module,Magento_CheckoutAgreements
+"Edit Condition","ערוך תנאי",module,Magento_CheckoutAgreements
+"New Condition","תנאי חדש",module,Magento_CheckoutAgreements
+"You saved the condition.","שמרת את התנאי.",module,Magento_CheckoutAgreements
+"Something went wrong while saving this condition.","משהו השתבש בעת שמירת תנאי זה.",module,Magento_CheckoutAgreements
+Automatically,"באופן אוטומטי",module,Magento_CheckoutAgreements
+Manually,ידני,module,Magento_CheckoutAgreements
+"Please agree to all the terms and conditions before placing the order.","בבקשה להסכים עבור כל התנאים וההתניות לפני ביצוע ההזמנה.",module,Magento_CheckoutAgreements
+"Unable to save checkout agreement %1","אין אפשרות לשמור הסכם קופה %1",module,Magento_CheckoutAgreements
+"Unable to remove checkout agreement %1","אין אפשרות להסיר הסכם קופה %1",module,Magento_CheckoutAgreements
+"Checkout agreement with specified ID ""%1"" not found.","לא נמצא המזהה להסכם הקופה ""%1"".",module,Magento_CheckoutAgreements
 "Shopping Cart","עגלת קניות",module,Magento_Checkout
+"Invalid method: %1","שיטה לא חוקית: %1",module,Magento_Checkout
 City,עיר,module,Magento_Checkout
 Country,מדינה,module,Magento_Checkout
 State/Province,מדינה/מחוז,module,Magento_Checkout
@@ -906,28 +941,44 @@ State/Province,מדינה/מחוז,module,Magento_Checkout
 "My Cart (%1 items)","העגלה שלי (%1 פריטים)",module,Magento_Checkout
 "My Cart","העגלה שלי",module,Magento_Checkout
 "Customer is already registered","לקוח כבר רשום",module,Magento_Checkout
+"Your session has expired","ההפעלה שלך פגה",module,Magento_Checkout
 "You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Checkout
 "Out of stock","אזל מהמלאי",module,Magento_Checkout
 "We can't find the quote item.","אי אפשר למצוא את הפריט.",module,Magento_Checkout
+"We cannot configure the product.","אנחנו לא יכולים להגדיר את המוצר.",module,Magento_Checkout
 "You used coupon code ""%1"".","השתמש בקוד הקופון ""%1"".",module,Magento_Checkout
 "The coupon code ""%1"" is not valid.","קוד הקופון ""%1"" אינו תקין.",module,Magento_Checkout
 "You canceled the coupon code.","ביטלת את קוד הקופון.",module,Magento_Checkout
 "We cannot apply the coupon code.","לא ניתן להחיל את קוד הקופון.",module,Magento_Checkout
 "%1 was updated in your shopping cart.","%1 עודכן בעגלת הקניות שלך.",module,Magento_Checkout
+"One-page checkout is turned off.","קופה בעמוד אחד כבויה.",module,Magento_Checkout
 "Guest checkout is disabled.","תשלום כאורח אינו זמין.",module,Magento_Checkout
 Checkout,לקופה,module,Magento_Checkout
 "Page not found.","העמוד שביקשת לא נמצא.",module,Magento_Checkout
+"Please agree to all the terms and conditions before placing the order.","בבקשה הסכם לכלל תנאי השימוש לפני ביצוע ההזמנה.",module,Magento_Checkout
 "Something went wrong while processing your order. Please try again later.","משהו השתבש בעת עיבוד הזמנתך. אנא נסה שוב מאוחר יותר.",module,Magento_Checkout
 "The product does not exist.","המוצר אינו קיים.",module,Magento_Checkout
+"We don't have some of the products you want.","אין לנו חלק מהמוצרים שרצית.",module,Magento_Checkout
+"We don't have as many of some products as you want.","אין לנו חלק מהכמויות של מהמוצרים שרצית.",module,Magento_Checkout
+"Quantity was recalculated from %1 to %2","הכמות השתנה מ-%1 ל-%2",module,Magento_Checkout
+"We adjusted product quantities to fit the required increments.","התאמנו את כמויות המוצר כדי להתאים למרווחים הדרושים.",module,Magento_Checkout
+"This quote item does not exist.","פריט הצעת מחיר זה אינו קיים.",module,Magento_Checkout
 "Display number of items in cart","הצג כמות פריטים בעגלה",module,Magento_Checkout
 "Display item quantities","הצג כמויות של פריט",module,Magento_Checkout
 "Shipping address is not set","כתובת למשלוח אינה מוגדרת",module,Magento_Checkout
+"Carrier with such method not found: %1, %2","מוביל עם שיטה כזו לא נמצא: %1, %2",module,Magento_Checkout
+"Shipping method is not applicable for empty cart","שיטת משלוח אינה ישימה עבור עגלה ריקה",module,Magento_Checkout
+"Totals calculation is not applicable to empty cart","חישוב סכום אינו ישים עבור עגלה ריקה",module,Magento_Checkout
 "Invalid data","נתונים לא חוקיים",module,Magento_Checkout
 "The customer address is not valid.","כתובת הלקוח אינה חוקית.",module,Magento_Checkout
 "Invalid shipping method","שיטת המשלוח אינה חוקית",module,Magento_Checkout
 "There are more than one shipping addresses.","יש יותר מכתובות אחת למשלוח.",module,Magento_Checkout
+"Sorry, guest checkout is not available.","מצטערים, הזמנה בתור אורח לא זמינה.",module,Magento_Checkout
+"You must confirm your account. Please check your email for the confirmation link or <a href=""%1"">click here</a> for a new link.","עליך לאמת את החשבון שלך. נא בדוק את הדוא״ל שלך עבור קישור לאישור או <a href=""%1""> לחץ כאן</a> לקבלת קישור חדש.",module,Magento_Checkout
+"Load customer quote error","שגיאה בטעינת הצעת המחיר של הלקוח",module,Magento_Checkout
 "Error message!","הודעת שגיאה!",module,Magento_Checkout
 Error!,שגיאה!,module,Magento_Checkout
+"Wrong minimum amount.","סכום מינימלי שגוי.",module,Magento_Checkout
 Message,הודעה,module,Magento_Checkout
 "Apply Discount Code","להשתמש בקוד הנחה",module,Magento_Checkout
 "Enter discount code","הזן קוד הנחה",module,Magento_Checkout
@@ -949,12 +1000,16 @@ Edit,ערוך,module,Magento_Checkout
 "Remove item","הסר פריט",module,Magento_Checkout
 "You have no items in your shopping cart.","סל הקניות שלך ריק.",module,Magento_Checkout
 "Click <a href=""%1"">here</a> to continue shopping.","לחץ <a href=""%1"">כאן</a> כדי להמשיך לקניות נוספות.",module,Magento_Checkout
+"Estimate Tax","הערכת מס",module,Magento_Checkout
 "Estimate Shipping and Tax","עלות משלוח ומיסים מוערכת",module,Magento_Checkout
 "Excl. Tax","למעט מס",module,Magento_Checkout
 Loading...,טוען...,module,Magento_Checkout
+"Order #","# הזמנה",module,Magento_Checkout
 "Proceed to Checkout","המשך לקופה",module,Magento_Checkout
 "Product Name","שם מוצר",module,Magento_Checkout
 "Incl. Tax","כולל מס",module,Magento_Checkout
+"Your order number is: %1.","מספר ההזמנה שלך: %1.",module,Magento_Checkout
+"Your order # is: <span>%1</span>.","מספר ההזמנה שלך: <span>%1</span>.",module,Magento_Checkout
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Cms
 "Store View","תצוגת חנות",module,Magento_Cms
 Status,סטטוס,module,Magento_Cms
@@ -1172,6 +1227,7 @@ Password,סיסמה,module,Magento_Customer
 "New Customers","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","ביצירת חשבון יש יתרונות רבים: לבצע תשלום בצורה מהירה יותר, להזין מספר כתובות למשלוח, לעקוב אחר הזמנותיך וכו'.",module,Magento_Customer
 Name,שם,module,Magento_Customer
+Width,רוחב,module,Magento_Dhl
 None,ללא,module,Magento_Dhl
 State/Province,מדינה/מחוז,module,Magento_Directory
 "--Please Select--","-- נא לבחור --",module,Magento_Directory
@@ -1356,18 +1412,46 @@ Country,ארץ,module,Magento_OfflineShipping
 "Zip/Postal Code",מיקוד,module,Magento_OfflineShipping
 None,ללא,module,Magento_OfflineShipping
 No,לא,module,Magento_OfflineShipping
+"We cannot retrieve the payment method model object.","לנו אין אפשרות לאחזר את האובייקט של המודל שיטת התשלום.",module,Magento_Payment
 Month,חודש,module,Magento_Payment
 Year,שנה,module,Magento_Payment
+"We cannot retrieve the payment info model object.","לנו אין אפשרות לאחזר את האובייקט של המודל מידע על התשלום.",module,Magento_Payment
+N/A,"לא זמין",module,Magento_Payment
 "Credit Card Type","סוג כרטיס אשראי",module,Magento_Payment
 "Credit Card Number","מספר כרטיס אשראי",module,Magento_Payment
+"Switch/Solo/Maestro Issue Number","Switch/Solo/Maestro מספר Issue",module,Magento_Payment
+"Switch/Solo/Maestro Start Date","Switch/Solo/Maestro תאריך התחלה",module,Magento_Payment
+"We cannot retrieve the transparent payment method model object.","לנו אין אפשרות לאחזר את האובייקט של המודל שיטת התשלום השקוף.",module,Magento_Payment
+"Command %1 does not exist.","הפקודה %1 אינה קיימת.",module,Magento_Payment
+"Wrong gateway response format.","תבנית התגובה בשער שגוייה.",module,Magento_Payment
+"Validator for field %1 does not exist.","מאמת עבור שדה %1 אינו קיים.",module,Magento_Payment
 Discount,הנחה,module,Magento_Payment
 Shipping,משלוח,module,Magento_Payment
+"All Allowed Countries","כל המדינות המותרות",module,Magento_Payment
+"Specific Countries","מדינות מסוימות",module,Magento_Payment
+"The payment method you requested is not available.","שיטת התשלום המבוקשת אינה זמינה.",module,Magento_Payment
+"The payment disallows storing objects.","התשלום לא מאפשר אחסון אובייקטים.",module,Magento_Payment
+"We cannot retrieve the payment method code.","לנו אין אפשרות לאחזר את קוד שיטת התשלום.",module,Magento_Payment
+"We cannot retrieve the payment information object instance.","לנו אין אפשרות לאחזר את המופע של אובייקט מידע התשלום.",module,Magento_Payment
+"The order action is not available.","פעולת ההזמנה אינה זמינה.",module,Magento_Payment
+"The authorize action is not available.","פעולת האישור אינה זמינה.",module,Magento_Payment
+"The capture action is not available.","פעולת הלכידה אינה זמינה.",module,Magento_Payment
+"The refund action is not available.","פעולת החזר אינה זמינה.",module,Magento_Payment
+"The void action is not available.","פעולת הביטול אינה זמינה.",module,Magento_Payment
+"The payment review action is unavailable.","פעולת סקירת התשלום אינה זמינה.",module,Magento_Payment
+"Invalid Credit Card Number","מספר כרטיס אשראי לא תקין",module,Magento_Payment
+"This credit card type is not allowed for this payment method.","סוג כרטיס האשראי זה אינו מותר עבור שיטת התשלום הנוכחית.",module,Magento_Payment
+"Please enter a valid credit card verification number.","נא הזן מספר אימות כרטיס אשראי תקין.",module,Magento_Payment
+"Please enter a valid credit card expiration date.","נא הזן תוקף כרטיס אשראי תקין.",module,Magento_Payment
 Yes,כן,module,Magento_Payment
 No,לא,module,Magento_Payment
 "Expiration Date","תאריך תפוגה",module,Magento_Payment
 "Card Verification Number","קוד אימות לכרטיס",module,Magento_Payment
+"Please Select","אנא בחר",module,Magento_Payment
 "--Please Select--","--אנא בחר",module,Magento_Payment
+"Card Verification Number Visual Reference","מדריך כיצד לאמת את מספר הכרטיס",module,Magento_Payment
 "What is this?","מה זה?",module,Magento_Payment
+"Credit Card Information","פרטי כרטיס האשראי",module,Magento_Payment
 "Billing Agreements","הוראות קבע",module,Magento_Paypal
 ID,מזהה,module,Magento_Paypal
 Email,אימייל,module,Magento_Paypal
@@ -1563,34 +1647,132 @@ Subtotal,"סכום ביניים",module,Magento_SalesRule
 "Credit Memos","חשבוניות זיכוי",module,Magento_Sales
 Orders,הזמנות,module,Magento_Sales
 Invoices,חשבוניות,module,Magento_Sales
+"Create New Order","צור הזמנה חדשה",module,Magento_Sales
+"Save Order Address","שמור כתובת הזמנה",module,Magento_Sales
 Shipping,משלוח,module,Magento_Sales
+Billing,חיוב,module,Magento_Sales
+"Edit Order %1 %2 Address","ערוך כתובת הזמנה %1 %2",module,Magento_Sales
+"Order Address Information","מידע אודות כתובת הזמנה",module,Magento_Sales
+"Please correct the parent block for this block.","נא תקן את בלוק האב של בלוק זו.",module,Magento_Sales
+"Submit Comment","שלח הערה",module,Magento_Sales
+"Submit Order","שלח הזמנה",module,Magento_Sales
+"Are you sure you want to cancel this order?","האם אתה בטוח שברצונך לבטל הזמנה זו?",module,Magento_Sales
 Cancel,ביטול,module,Magento_Sales
 "Billing Address","כתובת חיוב",module,Magento_Sales
 "Payment Method","שיטת התשלום",module,Magento_Sales
+"Order Comment","הערת הזמנה",module,Magento_Sales
+Coupons,קופונים,module,Magento_Sales
+"Please select a customer","נא בחר לקוח",module,Magento_Sales
+"Create New Customer","צור לקוח חדש",module,Magento_Sales
 "Account Information","פרטי חשבון",module,Magento_Sales
 From,מ-,module,Magento_Sales
 To,ל-,module,Magento_Sales
 Message,הודעה,module,Magento_Sales
+"Edit Order #%1","ערוך הזמנה #%1",module,Magento_Sales
+"Create New Order for %1 in %2","צור הזמנה חדשה עבור %1 ב-%2",module,Magento_Sales
+"Create New Order for %1","צור הזמנה חדשה עבור %1",module,Magento_Sales
+"Create New Order for New Customer","צור הזמנה חדשה עבור לקוח חדש",module,Magento_Sales
 "Items Ordered","פריטים שהוזמנו",module,Magento_Sales
+"This product is disabled.","המוצר מושבת.",module,Magento_Sales
+"Buy %1 for price %2","קנה %1 עבור מחיר %2",module,Magento_Sales
+"Item ordered qty","כמות פריטים שהוזמנו",module,Magento_Sales
+"%1 with %2 discount each","%1 עם %2 הנחה עבור כל אחד",module,Magento_Sales
+"%1 for %2","%1 עבור %2",module,Magento_Sales
+"* - Enter custom price including tax","* - הזן מחיר מותאם אישית כולל מס",module,Magento_Sales
+"* - Enter custom price excluding tax","* - הזן מחיר מותאם אישית לא כולל מס",module,Magento_Sales
 Configure,הגדר,module,Magento_Sales
+"This product does not have any configurable options","למוצר זה אין אפשרויות תצורה",module,Magento_Sales
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Sales
+"Please select products","נא בחר מוצרים",module,Magento_Sales
+"Add Selected Product(s) to Order","הוסף מוצרים שנבחרו להזמנה",module,Magento_Sales
 Product,מוצר,module,Magento_Sales
 SKU,מק''ט,module,Magento_Sales
 Price,מחיר,module,Magento_Sales
+Select,בחר,module,Magento_Sales
 Quantity,כמות,module,Magento_Sales
+"Shipping Address","כתובת למשלוח",module,Magento_Sales
+"Shipping Method","שיטת משלוח",module,Magento_Sales
+"Update Changes","עדכון שינויים",module,Magento_Sales
 "Shopping Cart","עגלת קניות",module,Magento_Sales
+"Are you sure you want to delete all items from shopping cart?","האם אתה בטוח שברצונך למחוק את כל הפריטים שבעגלת הקניות?",module,Magento_Sales
+"Clear Shopping Cart","נקה עגלת קניות",module,Magento_Sales
+"Products in Comparison List","מוצרים ברשימת ההשוואה",module,Magento_Sales
+"Recently Compared Products","מוצרים שהושוו לאחרונה",module,Magento_Sales
+"Recently Viewed Products","מוצרים שנצפו לאחרונה",module,Magento_Sales
+"Last Ordered Items","פריטים אחרונים שהוזמנו",module,Magento_Sales
+"Recently Viewed","נצפו לאחרונה",module,Magento_Sales
+"Wish List","רשימת משאלות",module,Magento_Sales
+"Please select a store","נא בחר חנות",module,Magento_Sales
+"Order Totals","סה""כ להזמנה",module,Magento_Sales
+"Shipping Incl. Tax (%1)","משלוח כולל מס (%1)",module,Magento_Sales
+"Shipping Excl. Tax (%1)","משלוח לא כולל מס (%1)",module,Magento_Sales
+"New Credit Memo for Invoice #%1","זיכוי חדש עבור חשבונית #%1",module,Magento_Sales
+"New Credit Memo for Order #%1","זיכוי חדש עבור הזמנה #%1",module,Magento_Sales
+"Refund Shipping (Incl. Tax)","החזר כספי עבור משלוח (כולל מס)",module,Magento_Sales
+"Refund Shipping (Excl. Tax)","החזר כספי עבור משלוח (לא כולל מס)",module,Magento_Sales
+"Refund Shipping","החזר כספי עבור משלוח",module,Magento_Sales
+Refund,"החזר כספי",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
+Unhold,"בטל השהייה",module,Magento_Sales
+unhold,"בטל השהייה",module,Magento_Sales
+"Are you sure you want to accept this payment?","האם אתה בטוח שברצונך לקבל את התשלום?",module,Magento_Sales
+"Accept Payment","קבל תשלום",module,Magento_Sales
+"Are you sure you want to deny this payment?","האם אתה בטוח שברצונך לדחות את התשלום?",module,Magento_Sales
+"Deny Payment","דחה תשלום",module,Magento_Sales
+"Get Payment Update","קבל עדכון תשלום",module,Magento_Sales
+"Invoice and Ship","חשבונית ושליחה",module,Magento_Sales
 Invoice,חשבונית,module,Magento_Sales
+Ship,שליחה,module,Magento_Sales
+Reorder,"הזמן מחדש",module,Magento_Sales
+"Order # %1 %2 | %3","הזמנה # %1 %2 | %3",module,Magento_Sales
+"This order contains (%1) items and therefore cannot be edited through the admin interface. If you wish to continue editing, the (%2) items will be removed,  the order will be canceled and a new order will be placed.","הזמנה זו מכילה (%1) פריטים, ולכן לא ניתנת  לעריכה באמצעות ממשק הניהול. 'אם אתה רוצה להמשיך בעריכה, (%2) הפריטים יוסרו, ההזמנה תבוטל ותוגש הזמנה חדשה.",module,Magento_Sales
+"Are you sure? This order will be canceled and a new one will be created instead.","האם אתה בטוח? הזמנה זו תבוטל והזמנה חדשה תיווצר במקומה.",module,Magento_Sales
+"Save Gift Message","שמור הודעת מתנה",module,Magento_Sales
+"Order Credit Memos","זיכויי הזמנה",module,Magento_Sales
+"Credit memo #%1 created","זיכוי #%1 נוצר",module,Magento_Sales
+"Credit memo #%1 comment added","הערת זיכוי #%1 התווספה",module,Magento_Sales
+"Shipment #%1 created","משלוח #%1 נוצר",module,Magento_Sales
+"Shipment #%1 comment added","הערת משלוח #%1 התווספה",module,Magento_Sales
+"Invoice #%1 created","חשבונית #%1 נוצרה",module,Magento_Sales
+"Invoice #%1 comment added","הערת חשבונית #%1 התווספה",module,Magento_Sales
+"Tracking number %1 for %2 assigned","מספר מעקב %1 עבור %2 שהוקצה",module,Magento_Sales
+"Comments History","היסטוריית הערות",module,Magento_Sales
+"Order History","היסטורית הזמנות",module,Magento_Sales
+Information,מידע,module,Magento_Sales
 "Order Information","פרטי ההזמנה",module,Magento_Sales
+"Order Invoices","חשבוניות הזמנה",module,Magento_Sales
 Shipments,משלוחים,module,Magento_Sales
+"Order Shipments","משלוחי הזמנה",module,Magento_Sales
 Transactions,טרנזקציות,module,Magento_Sales
+"Order View","צפה בהזמנה",module,Magento_Sales
 Any,כל,module,Magento_Sales
+Specified,צוין,module,Magento_Sales
+"Applies to Any of the Specified Order Statuses except canceled orders","חל על כל אחד ממצבי ההזמנות שצוינו למעט הזמנות שבוטלו",module,Magento_Sales
+"Cart Price Rule","כלל סל קניות",module,Magento_Sales
 Yes,כן,module,Magento_Sales
 No,לא,module,Magento_Sales
+"Show Actual Values","הצג ערכים עכשווים",module,Magento_Sales
+"New Order RSS","RSS הזמנה חדש",module,Magento_Sales
 Subtotal,"סכום ביניים",module,Magento_Sales
+"Shipping & Handling","משלוח וטיפול",module,Magento_Sales
+"Discount (%1)","הנחה (%1)",module,Magento_Sales
 Discount,הנחה,module,Magento_Sales
+"Grand Total","הסכום הכולל",module,Magento_Sales
 Back,חזור,module,Magento_Sales
+"Transaction # %1 | %2","טרנזקציה # %1 | %2",module,Magento_Sales
+N/A,"לא זמין",module,Magento_Sales
+Key,מפתח,module,Magento_Sales
+Value,ערך,module,Magento_Sales
+"We found an invalid entity model.","מצאנו מודל ישות לא חוקי.",module,Magento_Sales
+"Order # %1","הזמנה # %1",module,Magento_Sales
+"Back to My Orders","חזרה אל ההזמנות שלי",module,Magento_Sales
+"View Another Order","הצג הזמנה אחרת",module,Magento_Sales
+"About Your Refund","אודות ההחזר הכספי שלך",module,Magento_Sales
 "My Orders","ההזמנות שלי",module,Magento_Sales
+"Subscribe to Order Status","הירשם לעדכוני מצב הזמנה",module,Magento_Sales
+"About Your Invoice","אודות החשבונית שלך",module,Magento_Sales
+"Print Order # %1","הדפס הזמנה # %1",module,Magento_Sales
+"Grand Total to be Charged","הסכום הכולל לחיוב",module,Magento_Sales
 Sales,מכירות,module,Magento_Sales
 "Quote item id is not received.","לא התקבל Id עבור הצעת המחיר.",module,Magento_Sales
 "You created the order.","יצרת את ההזמנה.",module,Magento_Sales
@@ -1690,19 +1872,157 @@ Email,דואר,module,Magento_SendFriend
 Message,הודעה,module,Magento_SendFriend
 Back,חזור,module,Magento_SendFriend
 "New Shipment for Order #%1","תעודת משלוח חדשה עבור הזמנה מספר %1",module,Magento_Shipping
+"Submit Shipment","שלח משלוח",module,Magento_Shipping
+"Products should be added to package(s)","המוצרים צריכים להתווסף לחבילות",module,Magento_Shipping
+"The value that you entered is not valid.","הערך שהזנת אינו חוקי.",module,Magento_Shipping
+"Add Tracking Number","הוסף מספר מעקב",module,Magento_Shipping
+"Custom Value","ערך מותאם אישית",module,Magento_Shipping
+Add,הוסף,module,Magento_Shipping
+"Send Tracking Information","שלח מידע מעקב",module,Magento_Shipping
+"Are you sure you want to send a Shipment email to customer?","האם אתה בטוח שברצונך לשלוח דואר אלקטרוני עבור המשלוח ללקוח?",module,Magento_Shipping
+Print,הדפס,module,Magento_Shipping
+"the shipment email was sent","דואר אלקטרוני עבור המשלוח נשלח",module,Magento_Shipping
+"the shipment email is not sent","דואר אלקטרוני עבור המשלוח לא נשלח",module,Magento_Shipping
+"Shipment #%1 | %3 (%2)","משלוח #%1 | %3 (%2)",module,Magento_Shipping
+"Create Shipping Label...","צור תווית משלוח...",module,Magento_Shipping
+"Print Shipping Label","הדפס תווית משלוח",module,Magento_Shipping
+"Show Packages","הצג חבילות",module,Magento_Shipping
+"About Your Shipment","אודות המשלוח שלך",module,Magento_Shipping
+"Order # %1","הזמנה #%1",module,Magento_Shipping
+"Back to My Orders","חזרה אל ההזמנות שלי",module,Magento_Shipping
+"View Another Order","הצג הזמנה אחרת",module,Magento_Shipping
+"Please enter a comment.","אנא הכנס תגובה.",module,Magento_Shipping
+"Cannot add new comment.","אין אפשרות להוסיף תגובה חדשה.",module,Magento_Shipping
+"Please specify a carrier.","נא לציין מוביל.",module,Magento_Shipping
+"Please enter a tracking number.","נא הזן מספר מעקב.",module,Magento_Shipping
+Shipments,משלוחים,module,Magento_Shipping
+"Cannot add tracking number.","אין אפשרות להוסיף מספר המעקב.",module,Magento_Shipping
+"You created the shipping label.","יצירת את תווית המשלוח.",module,Magento_Shipping
+"An error occurred while creating shipping label.","אירעה שגיאה בעת יצירת תווית המשלוח.",module,Magento_Shipping
+"You sent the shipment.","שלחת את המשלוח.",module,Magento_Shipping
+"Cannot send shipment information.","אין אפשרות לשלוח מידע אודות המשלוח.",module,Magento_Shipping
+"There are no shipping labels related to selected orders.","אין תוויות משלוח הקשורות להזמנות שנבחרו.",module,Magento_Shipping
+"New Shipment","משלוח חדש",module,Magento_Shipping
+"The shipment has been created.","המשלוח נוצר.",module,Magento_Shipping
+"Cannot save shipment.","אין אפשרות לשמור את המשלוח.",module,Magento_Shipping
+"The order no longer exists.","ההזמנה כבר לא קיימת.",module,Magento_Shipping
+"Cannot do shipment for the order separately from invoice.","לא ניתן לשלח הזמנה בנפרד מהחשבונית.",module,Magento_Shipping
+"Cannot do shipment for the order.","לא ניתן לשלח הזמנה.",module,Magento_Shipping
+"There are no shipping labels related to selected shipments.","אין תוויות משלוח הקשורות למשלוחים שנבחרו.",module,Magento_Shipping
+"Page not found.","הדף לא נמצא.",module,Magento_Shipping
+"Tracking Information","מידע אודות המעקב",module,Magento_Shipping
+"The shipping module is not available.","מודול המשלוח אינו זמין.",module,Magento_Shipping
+"This shipping method is not available. Please specify the zip code.","שיטת משלוח זו אינה זמינה, נא לציין מיקוד.",module,Magento_Shipping
+"No packages for request","אין חבילות עבור הבקשה",module,Magento_Shipping
+"Security validation of XML document has been failed.","אימות אבטחה עבור קובץ XML נכשל.",module,Magento_Shipping
+"All Allowed Countries","כל המדינות המותרות",module,Magento_Shipping
+"Specific Countries","מדינות מסוימות",module,Magento_Shipping
+Development,פיתוח,module,Magento_Shipping
+Live,חי,module,Magento_Shipping
+"Divide to equal weight (one request)","חלוקה למשקל שווה (בקשה אחת)",module,Magento_Shipping
+"Use origin weight (few requests)","השתמש במשקל המקורי (כמה בקשות)",module,Magento_Shipping
+Packages,חבילות,module,Magento_Shipping
+Package,חבילה,module,Magento_Shipping
 Type,סוג,module,Magento_Shipping
+Length,אורך,module,Magento_Shipping
+"Signature Confirmation","אימות חתימה",module,Magento_Shipping
+"Customs Value","ערך מותאם אישית",module,Magento_Shipping
+Width,רוחב,module,Magento_Shipping
+Contents,תכנים,module,Magento_Shipping
+"Total Weight","המשקל הכולל",module,Magento_Shipping
+Height,גובה,module,Magento_Shipping
+Size,גודל,module,Magento_Shipping
+Girth,היקף,module,Magento_Shipping
+"Items in the Package","פריטים בחבילה",module,Magento_Shipping
 Product,מוצר,module,Magento_Shipping
+Weight,משקל,module,Magento_Shipping
+"Qty Ordered","כמות שהוזמנה",module,Magento_Shipping
 Qty,כמות,module,Magento_Shipping
+"No detail for number ""%1""","אין פירוט עבור מספר ""%1""",module,Magento_Shipping
+"Shipping labels is not available.","תווית משלוח אינן זמינות.",module,Magento_Shipping
+"Response info is not exist.","פרטי התגובה לא קיימים.",module,Magento_Shipping
+"Invalid carrier: %1","המוביל לא תקין: %1",module,Magento_Shipping
+"Per Order","לכל הזמנה",module,Magento_Shipping
+"Per Package","לכל חבילה",module,Magento_Shipping
+Fixed,קבוע,module,Magento_Shipping
+Percent,אחוז,module,Magento_Shipping
+"Tracking information is unavailable.","מידע אודות מעקב לא זמין.",module,Magento_Shipping
+message,הודעה,module,Magento_Shipping
+"Email has not been sent","הדוא""ל לא נשלח",module,Magento_Shipping
+"Payment &amp; Shipping Method","שיטות תשלום ומשלוח",module,Magento_Shipping
+"Payment Information","פרטי תשלום",module,Magento_Shipping
+"The order was placed using %1.","ההזמנה בוצעה באמצעות %1.",module,Magento_Shipping
+"Shipping Information","פרטי משלוח",module,Magento_Shipping
+"Total Shipping Charges","חיובי משלוח כולל",module,Magento_Shipping
 "Incl. Tax","כולל מס",module,Magento_Shipping
+"Items to Ship","פריטים לשליחה",module,Magento_Shipping
+"Qty to Ship","כמות לשליחה",module,Magento_Shipping
+Ship,שליחה,module,Magento_Shipping
+"Shipment Total","סך כל המשלוח",module,Magento_Shipping
+"Shipment Comments","הערות משלוח",module,Magento_Shipping
+"Comment Text","תוכן ההערה",module,Magento_Shipping
+"Shipment Options","אפשרויות משלוח",module,Magento_Shipping
+"Create Shipping Label","צור תווית משלוח",module,Magento_Shipping
+"Append Comments","צרף הערות",module,Magento_Shipping
+"Email Copy of Shipment","עותק מהדוא""ל עבור המשלוח",module,Magento_Shipping
+"Invalid value(s) for Qty to Ship","ערכים לא חוקיים עבור כמות לשליחה",module,Magento_Shipping
 "Select All","בחר הכל",module,Magento_Shipping
 "Product Name","שם מוצר",module,Magento_Shipping
 Delete,מחק,module,Magento_Shipping
+"Create Packages","צור חבילות",module,Magento_Shipping
 Cancel,ביטול,module,Magento_Shipping
 Save,שמור,module,Magento_Shipping
+"Add Package","הוסף חבילה",module,Magento_Shipping
+"Add Selected Product(s) to Package","להוסיף את המוצרים שנבחרו לחבילה",module,Magento_Shipping
+"Add Products to Package","הוסף מוצרים לחבילה",module,Magento_Shipping
+in,אינץ',module,Magento_Shipping
+cm,"ס""מ",module,Magento_Shipping
+lb,פאונד,module,Magento_Shipping
+kg,ק״ג,module,Magento_Shipping
+"Delete Package","מחק חבילה",module,Magento_Shipping
+Explanation,הסבר,module,Magento_Shipping
+Carrier,מוביל,module,Magento_Shipping
+Title,כותרת,module,Magento_Shipping
+Number,מספר,module,Magento_Shipping
 Action,פעולה,module,Magento_Shipping
 "Are you sure?","האם אתה בטוח?",module,Magento_Shipping
+"Shipping &amp; Handling Information","מידע עבור משלוח וטיפול",module,Magento_Shipping
+"Track Order","מעקב הזמנה",module,Magento_Shipping
+"No shipping information available","אין מידע משלוח זמין",module,Magento_Shipping
+"Shipping and Tracking Information","מידע עבור משלוח ומעקב",module,Magento_Shipping
+"Track this shipment","עקוב אחר המשלוח",module,Magento_Shipping
+"Items Shipped","פריטים שנשלחו",module,Magento_Shipping
+"Order Total","סה""כ להזמנה",module,Magento_Shipping
+"Shipment History","היסטוריית משלוחים",module,Magento_Shipping
 "Qty Shipped","כמות שנשלחה",module,Magento_Shipping
+"Print All Shipments","הדפס את כל המשלוחים",module,Magento_Shipping
+"Shipment #","משלוח #",module,Magento_Shipping
+"Print Shipment","הדפס משלוח",module,Magento_Shipping
+"Tracking Number(s):","מספרי מעקב:",module,Magento_Shipping
 SKU,מק''ט,module,Magento_Shipping
+"Order tracking","מעקב הזמנה",module,Magento_Shipping
+"Tracking Number:","מספר מעקב:",module,Magento_Shipping
+Carrier:,מוביל:,module,Magento_Shipping
+Error:,שגיאה:,module,Magento_Shipping
+"contact us","צור עימנו קשר",module,Magento_Shipping
+Info:,מידע:,module,Magento_Shipping
+Track:,מעקב:,module,Magento_Shipping
+Status:,מצב:,module,Magento_Shipping
+"Delivered on:","נמסר ב:",module,Magento_Shipping
+"Signed by:","נחתם על ידי:",module,Magento_Shipping
+"Delivered to:","נמסר ל:",module,Magento_Shipping
+"Shipped or billed on:","נשלח או חויב ב:",module,Magento_Shipping
+"Service Type:","סוג שירות:",module,Magento_Shipping
+Weight:,משקל:,module,Magento_Shipping
+N/A,"לא זמין",module,Magento_Shipping
+"Track history","היסטוריית מעקב",module,Magento_Shipping
+Location,מיקום,module,Magento_Shipping
+Date,תאריך,module,Magento_Shipping
+"Local Time","זמן מקומי",module,Magento_Shipping
+Description,תיאור,module,Magento_Shipping
+"There is no tracking available for this shipment.","אין מעקב זמין עבור משלוח זה.",module,Magento_Shipping
+"There is no tracking available.","אין מעקב זמין.",module,Magento_Shipping
+"Close Window","סגירת חלון",module,Magento_Shipping
 Sitemap,"מפת אתר",module,Magento_Sitemap
 "Store View","תצוגת חנות",module,Magento_Sitemap
 Catalog,קטלוג,module,Magento_Sitemap
@@ -1710,10 +2030,50 @@ Catalog,קטלוג,module,Magento_Sitemap
 Always,תמיד,module,Magento_Sitemap
 None,ללא,module,Magento_Sitemap
 All,הכל,module,Magento_Sitemap
+"Invalid store parameter.","פרמטר חנות לא חוקי.",module,Magento_Store
+"Current store is not active.","חנות נוכחית לא פעילה.",module,Magento_Store
+"Requested store is inactive","החנות המבוקשת לא פעילה",module,Magento_Store
+"Requested store is not found","החנות המבוקשת לא נמצאה",module,Magento_Store
+"Environment emulation nesting is not allowed.","סביבת אמולציה מקוננת לא מאופשרת.",module,Magento_Store
+"Only default scope allowed","מותר רק טווח ברירת מחדל",module,Magento_Store
+"Invalid scope object","אובייקט טווח לא תקין",module,Magento_Store
+"Store with the same code","חנות עם אותו קוד",module,Magento_Store
+"Website with the same code","אתר עם אותו קוד",module,Magento_Store
+"Website code may only contain letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","קוד אתר יכול להכיל רק אותיות (a-z), ספרות (0-9) או קו תחתון(_), והתו הראשון חייב להיות אות.",module,Magento_Store
+"Name is required","דרוש שם",module,Magento_Store
+"The store code may contain only letters (a-z), numbers (0-9) or underscore (_), and the first character must be a letter.","קוד חנות יכול להכיל רק אותיות (a-z), ספרות (0-9) או קו תחתון(_), והתו הראשון חייב להיות אות.",module,Magento_Store
+"Store is inactive","החנות לא פעילה",module,Magento_Store
+"Default store is inactive","חנות ברירת מחדל לא פעילה",module,Magento_Store
 "All Store Views","כל תצוגות החנויות",module,Magento_Store
+"-- Please Select --","-- אנא בחר --",module,Magento_Store
+Admin,"ממשק ניהול",module,Magento_Store
+"More than one default website is defined","יותר מאתר ברירת מחדל אחד מוגדר",module,Magento_Store
+"Default website is not defined","אתר ברירת מחדש לא מוגדר",module,Magento_Store
+"Your Language:","השפה שלך:",module,Magento_Store
+"Your Language","השפה שלך",module,Magento_Store
+Language,שפה,module,Magento_Store
+"Select Store","בחר חנות",module,Magento_Store
+"Admin is a required field in the each row","ממשק מנהל הוא שדה חובה עבור כל שורה",module,Magento_Swatches
+"Update Product Preview Image","עדכן תמונה תצוגה מקדימה של מוצר",module,Magento_Swatches
+"Filtering by this attribute will update the product image on catalog page","סינון לפי תכונה זו תעדכן את תמונת המוצר בדף הקטלוג",module,Magento_Swatches
+"Use Product Image for Swatch if Possible","השתמש בתמונת מוצר עבור הדוגמית במידת האפשר",module,Magento_Swatches
+"Allows use fallback logic for replacing swatch image with product swatch or base image","מאפשר שימוש בלוגיקת כישלון עבור החלפת תמונת הדוגמית עם דוגמית המוצר או עם תמונת הבסיס",module,Magento_Swatches
+"Visual Swatch","דוגמית ויזואלית",module,Magento_Swatches
+"Text Swatch","דוגמית טקסטואלית",module,Magento_Swatches
 "Is Default","ברירת מחדל",module,Magento_Swatches
+"Add Swatch","הוסף דוגמית",module,Magento_Swatches
+"Sort Option","אפשרות מיון",module,Magento_Swatches
 Delete,מחק,module,Magento_Swatches
+Swatch,דוגמית,module,Magento_Swatches
+"Step 2: Attribute Values","שלב 2: ערכי התכונה",module,Magento_Swatches
+"Sort Variations","מיון וריאציות",module,Magento_Swatches
+Options,אפשרויות,module,Magento_Swatches
 "Select All","בחר הכל",module,Magento_Swatches
+"Deselect All","בטל בחירה של הכל",module,Magento_Swatches
+"Remove Attribute","הסר תכונה",module,Magento_Swatches
+"Save Option","שמור אפשרות",module,Magento_Swatches
+"Remove Option","הסר אפשרות",module,Magento_Swatches
+"Create New Value","צור ערך חדש",module,Magento_Swatches
 Code,קוד,module,Magento_TaxImportExport
 Back,חזור,module,Magento_Tax
 Reset,אתחל,module,Magento_Tax
@@ -1730,14 +2090,57 @@ None,ללא,module,Magento_Tax
 "Incl. Tax","כולל מס",module,Magento_Tax
 "Excl. Tax","למעט מס",module,Magento_Tax
 Save,שמור,module,Magento_Tax
+Themes,תבניות,module,Magento_Theme
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Theme
+"Are you sure you want to delete this theme?","האם אתה בטוח שברצונך למחוק תבנית זו?",module,Magento_Theme
+"Theme: %1","תבנית: %1",module,Magento_Theme
+"New Theme","תבנית חדשה",module,Magento_Theme
+"Theme CSS","CSS של התבנית",module,Magento_Theme
+"Theme CSS Assets","נכסי CSS של התבנית",module,Magento_Theme
+"Custom CSS","CSS מותאם אישית",module,Magento_Theme
+"Select CSS File to Upload","בחר קובץ CSS להעלאה",module,Magento_Theme
+"Upload CSS File","העלאת קובץ CSS",module,Magento_Theme
+"Download CSS File","הורדת קובץ CSS",module,Magento_Theme
+Manage,ניהול,module,Magento_Theme
+"Upload Images","העלאת תמונות",module,Magento_Theme
+"Images Assets","נכסי תמונות",module,Magento_Theme
+"Upload Fonts","העלאת גופנים",module,Magento_Theme
+"Fonts Assets","נכסי גופנים",module,Magento_Theme
+"Edit custom.css","ערוך custom.css",module,Magento_Theme
+"Allowed file types *.css.","אפשר סוגי קבצים *.css.",module,Magento_Theme
+"Max file size to upload %1M","גודל קובץ מרבי להעלאה %1M",module,Magento_Theme
+"Something is wrong with the file upload settings.","משהו לא בסדר עם הגדרות העלאת קובץ.",module,Magento_Theme
+"CSS Editor","עורך CSS",module,Magento_Theme
+"Theme Settings","הגדרות תבנית",module,Magento_Theme
+"Parent Theme","תבנית אב",module,Magento_Theme
+"Theme Path","נתיב התבנית",module,Magento_Theme
+"Theme Title","כותרת התבנית",module,Magento_Theme
+"Theme Preview Image","תמונה תצוגה מקדימה של התבנית",module,Magento_Theme
 General,כללי,module,Magento_Theme
+"Copy of %1","עותק של %1",module,Magento_Theme
+"Max image size %1M","גודל תמונה מרבי %1M",module,Magento_Theme
+"Theme JavaScript","JavaScript של הבנית",module,Magento_Theme
+"Select JS Files to Upload","בחר קובץ JS להעלאה",module,Magento_Theme
+"Upload JS Files","העלאת קבצי JS",module,Magento_Theme
+"JS Editor","עורך JS",module,Magento_Theme
+"Allowed file types *.js.","אפשר סוגי קבצים *.js.",module,Magento_Theme
+Theme,תבנית,module,Magento_Theme
+"Media Storage","אחסון מדיה",module,Magento_Theme
+"Create Folder","צור תיקייה",module,Magento_Theme
+"Delete Folder","מחק תיקייה",module,Magento_Theme
+"Delete File","מחק קובץ",module,Magento_Theme
+"Insert File","הכנס קובץ",module,Magento_Theme
+"New Folder Name:","שם התיקיה החדשה:",module,Magento_Theme
+"Are you sure you want to delete this folder?","האם אתה בטוח שברצונך למחוק תיקיה זו?",module,Magento_Theme
+"Are you sure you want to delete this file?","האם אתה בטוח שברצונך למחוק קובץ זה?",module,Magento_Theme
+"Storage Root","שורש אחסון",module,Magento_Theme
 label,תווית,module,Magento_Theme
 Message,הודעה,module,Magento_Theme
 Remove,הסר,module,Magento_Theme
 Page,עמוד,module,Magento_Theme
 Previous,הקודם,module,Magento_Theme
 Next,הבא,module,Magento_Theme
+Show,הצגה,module,Magento_Theme
 "per page","לכל עמוד",module,Magento_Theme
 "About the calendar","על לוח השנה",module,Magento_Theme
 Close,סגור,module,Magento_Theme
@@ -1813,6 +2216,8 @@ No,לא,module,Magento_UrlRewrite
 "Permanent (301)","קבוע (301)",module,Magento_UrlRewrite
 "Request Path for Specified Store","נתיב הבקשה לחנות שצוינה",module,Magento_UrlRewrite
 "URL key for specified store already exists.","מזהה הכתובת עבור החנות שצוינה כבר בשימוש.",module,Magento_UrlRewrite
+"Custom storage message","הודעה אחסון מותאמת אישית",module,Magento_UrlRewrite
+"Select Category","בחר קטגוריה",module,Magento_UrlRewrite
 Back,חזור,module,Magento_User
 Reset,אתחל,module,Magento_User
 "Delete Role","מחק תפקיד",module,Magento_User
@@ -2088,9 +2493,17 @@ Remove,הסר,theme,frontend/Magento/luma
 "Shop By","מיין לפי",theme,frontend/Magento/luma
 "Clear All","נקה הכל",theme,frontend/Magento/luma
 "Shopping Options","אפשרויות קניה",theme,frontend/Magento/luma
+"Payment Transaction Failed","עסקה תשלום שנכשלה",module,Magento_Checkout
+Reason,סיבה,module,Magento_Checkout
+"Checkout Type","סוג קופה",module,Magento_Checkout
 Customer:,לקוח:,module,Magento_Checkout
 Items,פריטים,module,Magento_Checkout
+Total:,"סך הכל:",module,Magento_Checkout
+"Billing Address:","כתובת חיוב:",module,Magento_Checkout
+"Shipping Address:","כתובת למשלוח:",module,Magento_Checkout
+"Shipping Method:","שיטות המשלוח:",module,Magento_Checkout
 "Payment Method:","שיטת תשלום:",module,Magento_Checkout
+"Date & Time:","תאריך ושעה:",module,Magento_Checkout
 Password:,סיסמה:,module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",module,Magento_Sales
@@ -2154,6 +2567,8 @@ Save,שמור,module,Magento_ProductVideo
 Cancel,ביטול,module,Magento_ProductVideo
 Delete,מחק,module,Magento_ProductVideo
 "Add Products","הוסף מוצרים",module,Magento_Sales
+"We could not detect a size.","לא הצלחנו לזהות גודל.",module,Magento_Theme
+"We don't recognize this file extension.","אנחנו לא מזהים את סיומת הקובץ.",module,Magento_Theme
 "Go to Details Page","לעבור לדף הפרטים",module,Magento_Ui
 "Please enter more or equal than {0} symbols.","אנא הזן יותר או שווה מ- {0} '.",module,Magento_Ui
 "Please enter less or equal than {0} symbols.","אנא הזן פחות או שווה מ- {0} '.",module,Magento_Ui
@@ -2276,19 +2691,41 @@ Rule,כלל,module,Magento_CatalogRule
 "Product URL Suffix","סיומת כתובת URL למוצר",module,Magento_CatalogUrlRewrite
 "Use Categories Path for Product URLs","השתמש בנתיב קטגוריות עבור כתובות מוצרים",module,Magento_CatalogUrlRewrite
 "Create Permanent Redirect for URLs if URL Key Changed","צור הפנייה קבועה לכתובת אם מזהה הכתובת השתנה",module,Magento_CatalogUrlRewrite
+"Catalog Products List","רשימת המוצרים של קטלוג",module,Magento_CatalogWidget
+"List of Products","רשימת המוצרים",module,Magento_CatalogWidget
+Title,כותרת,module,Magento_CatalogWidget
+"Display Page Control","הצג דף בקרה",module,Magento_CatalogWidget
+"Number of Products per Page","מספר המוצרים לכל עמוד",module,Magento_CatalogWidget
+"Number of Products to Display","מספר המוצרים להצגה",module,Magento_CatalogWidget
+Template,תבנית,module,Magento_CatalogWidget
+"Products Grid Template","מוצרי רשת לתבנית",module,Magento_CatalogWidget
+"Cache Lifetime (Seconds)","תקופת חיים של המטמון (שניות)",module,Magento_CatalogWidget
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 לפי ברירת מחדל, אם לא על הוגדר. כדי לרענן באופן מיידי, נקה את המטמון של הפלט של בלוקי ה-HTML.",module,Magento_CatalogWidget
+Conditions,תנאים,module,Magento_CatalogWidget
 Thumbnail,"תמונה ממוזערת",module,Magento_Catalog
 "Product Listing Sort by","מיון מוצרים לפי",module,Magento_Catalog
 "All Store Views","כל תצוגות החנויות",module,Magento_Catalog
 Enable,אפשר,module,Magento_Catalog
 Disable,השבת,module,Magento_Catalog
 Details,פרטים,module,Magento_Catalog
+"Enable Terms and Conditions","לאפשר תנאים והתניות",module,Magento_CheckoutAgreements
+"Checkout Options","אפשרויות קופה",module,Magento_Checkout
+"Enable Onepage Checkout","אפשר קופה בעמוד אחד",module,Magento_Checkout
+"Allow Guest Checkout","אפשר תשלום בתור אורח",module,Magento_Checkout
+"Quote Lifetime (days)","הצעה פגה תוקף (בימים)",module,Magento_Checkout
 "After Adding a Product Redirect to Shopping Cart","לאחר הוספת מוצר הפנה לעגלת קניות",module,Magento_Checkout
+"My Cart Link","קישור לעגלה שלי",module,Magento_Checkout
 "Display Cart Summary","הצג סיכום עגלה",module,Magento_Checkout
+"Shopping Cart Sidebar","סרגל צידי של עגלת הקניות",module,Magento_Checkout
+"Display Shopping Cart Sidebar","הצג סרגל צידי בעגלת הקניות",module,Magento_Checkout
+"Maximum Display Recently Added Item(s)","כמות מרבית של פריטים אחרונים שהתווספו לתצוגה",module,Magento_Checkout
+"Payment Failed Emails","דואר אלקטרוני עבור תשלום שנכשל",module,Magento_Checkout
 Shipping,משלוח,module,Magento_Checkout
 "Order Total","סיכום הזמנה",module,Magento_Checkout
 "Shipping Address","כתובת למשלוח",module,Magento_Checkout
 "Save Address","שמור כתובת",module,Magento_Checkout
 Cancel,ביטול,module,Magento_Checkout
+"For delivery questions.","לשאלות משלוח.",module,Magento_Checkout
 Payment,תשלום,module,Magento_Checkout
 "Cart Subtotal","סה""כ",module,Magento_Checkout
 "We received your order!","קיבלנו את ההזמנה שלך!",module,Magento_Checkout
@@ -2336,6 +2773,7 @@ Price,מחיר,module,Magento_OfflineShipping
 "Sort Order","סדר מיון",module,Magento_OfflineShipping
 Type,סוג,module,Magento_OfflineShipping
 Export,ייצוא,module,Magento_OfflineShipping
+"Payment Methods","שיטות תשלום",module,Magento_Payment
 "Home Page","דף הבית",module,Magento_Paypal
 Position,מיקום,module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
@@ -2377,10 +2815,50 @@ no,לא,module,Magento_Search
 Action,פעולה,module,Magento_Search
 Edit,ערוך,module,Magento_Search
 Enabled,פעיל,module,Magento_SendFriend
+"Shipping Settings","הגדרות משלוח",module,Magento_Shipping
+Origin,מקור,module,Magento_Shipping
+Country,מדינה,module,Magento_Shipping
+Region/State,אזור/מדינה,module,Magento_Shipping
+"ZIP/Postal Code",מיקוד,module,Magento_Shipping
 City,עיר,module,Magento_Shipping
+"Street Address","כתובת רחוב",module,Magento_Shipping
+"Street Address Line 2","רחוב שורה 2",module,Magento_Shipping
+"Shipping Policy Parameters","פרמטרי מדיניות משלוחים",module,Magento_Shipping
+"Apply custom Shipping Policy","החל מדיניות משלוחים מותאמת אישית",module,Magento_Shipping
+"Shipping Policy","מדיניות משלוחים",module,Magento_Shipping
 "Shipping Methods","שיטות המשלוח",module,Magento_Shipping
 Enabled,פעיל,module,Magento_Sitemap
 Action,פעולה,module,Magento_Sitemap
+Configuration,"הגדרות תצורה",module,Magento_Store
+Layouts,סידורים,module,Magento_Store
+"Blocks HTML output","פלט בלוקי HTML",module,Magento_Store
+"Collections Data","נתוני אוספים",module,Magento_Store
+"Reflection Data","שיקוף נתונים",module,Magento_Store
+"Database DDL operations","פעולות DDL במסד נתונים",module,Magento_Store
+"Swatches per Product","דוגמיות לכל מוצר",module,Magento_Swatches
+"1 column","עמודה 1",module,Magento_Theme
+"Favicon Icon","סמל מועדפים (Favicon)",module,Magento_Theme
+"Default Title","כותרת ברירת המחדל",module,Magento_Theme
+"Title Prefix","קידומת לכותרת",module,Magento_Theme
+"Title Suffix","סיומת לכותרת",module,Magento_Theme
+"Default Description","תיאור ברירת מחדל",module,Magento_Theme
+"Default Keywords","מילות מפתח ברירת מחדל",module,Magento_Theme
+"This will be included before head closing tag in page HTML.","זה ייכלל לפני סגירת תגית Head בעמוד ה-HTML.",module,Magento_Theme
+"Display Demo Store Notice","הצגת הודעה עבור חנות הדגמה",module,Magento_Theme
+"Search Engine Robots","רובוטי מנועי חיפוש",module,Magento_Theme
+"Default Robots","רובוטים ברירת מחדל",module,Magento_Theme
+"Edit custom instruction of robots.txt File","ערוך הוראות מותאמות אישית עבור קובץ robots.txt",module,Magento_Theme
+"Reset to Defaults","אפס לברירת המחדל",module,Magento_Theme
+"This action will delete your custom instructions and reset robots.txt file to system's default settings.","פעולה זו תמחוק את הוראות המותאמות אישית שלך ואיפוס קובץ robots.txt להגדרות ברירת המחדל של המערכת.",module,Magento_Theme
+Header,"חלק עליון של הדף",module,Magento_Theme
+"Logo Image","תמונת לוגו",module,Magento_Theme
+"Logo Image Width","רוחב תמונת לוגו",module,Magento_Theme
+"Logo Image Height","גובה תמונת לוגו",module,Magento_Theme
+"Logo Image Alt","Alt תמונת לוגו",module,Magento_Theme
+"Welcome Text","טקסט ברוכים הבאים",module,Magento_Theme
+Footer,"תחתית הדף",module,Magento_Theme
+"Miscellaneous HTML","שונות HTML",module,Magento_Theme
+"Default welcome msg!","הודעת ברוכים הבאים ברירת מחדל!",module,Magento_Theme
 "Translation Strategy","תרגום אסטרטגיה",module,Magento_Translation
 Translations,תרגומים,module,Magento_Translation
 "Log JS Errors to Session Storage","קובץ לוג שגיאות JS לאחסון הפעלה",module,Magento_Ui

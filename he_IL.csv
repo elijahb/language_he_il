@@ -1321,12 +1321,21 @@ Yes,כן,module,Magento_EncryptionKey
 "The encryption key has been changed.","מפתח ההצפנה שונה.",module,Magento_EncryptionKey
 "This is your new encryption key: %1. Be sure to write it down and take good care of it!",". זה מפתח ההצפנה החדש שלך: %1. הקפד לכתוב את זה, שמור עליו!",module,Magento_EncryptionKey
 None,ללא,module,Magento_Fedex
+"Gift Message is not available","הודעת המתנה אינה זמינה",module,Magento_GiftMessage
+"Could not add gift message to shopping cart","לא היתה אפשרות להוסיף הודעת מתנה לסל הקניות",module,Magento_GiftMessage
 From,מ-,module,Magento_GiftMessage
 To,ל-,module,Magento_GiftMessage
 Message,הודעה,module,Magento_GiftMessage
 Cancel,ביטול,module,Magento_GiftMessage
 OK,אישור,module,Magento_GiftMessage
+"Gift Options","אפשרויות מתנה",module,Magento_GiftMessage
 "Gift Message","הודעת מתנה",module,Magento_GiftMessage
+"Do you have any gift items in your order?","יש לך פריטי מתנה בהזמנה שלך?",module,Magento_GiftMessage
+"Add gift options","להוסיף אפשרויות מתנה",module,Magento_GiftMessage
+"Gift Options for the Entire Order","אפשרויות מתנה עבור ההזמנה כולה",module,Magento_GiftMessage
+"Gift Options for Individual Items","אפשרויות מתנה עבור פריטים בודדים",module,Magento_GiftMessage
+"<span>Item %1</span> of %2","<span>פריט %1</span> מ- %2",module,Magento_GiftMessage
+"Add Gift Options for the Entire Order","הוסף את אפשרויות המתנה עבור ההזמנה כולה",module,Magento_GiftMessage
 Dynamic,דינמי,module,Magento_GoogleAdwords
 "Product View Optimization","שיפור תצוגת מוצר",module,Magento_GoogleOptimizer
 "Please specify the quantity of product(s).","נא לציין את כמות מוצרים.",module,Magento_GroupedProduct

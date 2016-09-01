@@ -1132,7 +1132,12 @@ To,ל-,module,Magento_GiftMessage
 Message,הודעה,module,Magento_GiftMessage
 Cancel,ביטול,module,Magento_GiftMessage
 OK,אישור,module,Magento_GiftMessage
+"Gift Options","אפשרויות מתנה",module,Magento_GiftMessage
 "Gift Message","הודעת מתנה",module,Magento_GiftMessage
+"Do you have any gift items in your order?","יש לך פריטי מתנה בהזמנה שלך?",module,Magento_GiftMessage
+"Add gift options","להוסיף אפשרויות מתנה",module,Magento_GiftMessage
+"Gift Options for the Entire Order","אפשרויות מתנה עבור ההזמנה כולה",module,Magento_GiftMessage
+"Gift Options for Individual Items","אפשרויות מתנה עבור פריטים בודדים",module,Magento_GiftMessage
 Dynamic,דינמי,module,Magento_GoogleAdwords
 "Product View Optimization","שיפור תצוגת מוצר",module,Magento_GoogleOptimizer
 "Please specify the quantity of product(s).","נא לציין את כמות מוצרים.",module,Magento_GroupedProduct

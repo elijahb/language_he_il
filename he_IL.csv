@@ -1540,6 +1540,9 @@ Password,סיסמה,module,Magento_Customer
 "New Customers","לקוחות חדשים",module,Magento_Customer
 "Creating an account has many benefits: check out faster, keep more than one address, track orders and more.","ביצירת חשבון יש יתרונות רבים: לבצע תשלום בצורה מהירה יותר, להזין מספר כתובות למשלוח, לעקוב אחר הזמנותיך וכו'.",module,Magento_Customer
 Name,שם,module,Magento_Customer
+"Format for IDE '%1' is not supported","תבנית עבור עורך '%1' אינה נתמכת",module,Magento_Developer
+"Client side less compilation","קומפילצית less בצד לקוח",module,Magento_Developer
+"Server side less compilation","קומפילצית less בצד שרת",module,Magento_Developer
 Width,רוחב,module,Magento_Dhl
 "We had to skip DHL method %1 because we couldn't find exchange rate %2 (Base Currency).","נאלצנו לדלג DHL שיטת %1 כי לא מצאנו %2 שער החליפין (מטבע דיפולטיבי).",module,Magento_Dhl
 None,ללא,module,Magento_Dhl
@@ -3540,6 +3543,12 @@ Type,סוג,module,Magento_Customer
 "Edit Account Information","ערוך את פרטי החשבון",module,Magento_Customer
 "My Dashboard","החשבון שלי",module,Magento_Customer
 "You are signed out","התנתקת בהצלחה",module,Magento_Customer
+"Frontend Development Workflow","תרשים עבודה של פיתוח צד-לקוח",module,Magento_Developer
+"Workflow type","סוג זרימת העבודה",module,Magento_Developer
+"Not available in production mode","לא זמין במצב ייצור",module,Magento_Developer
+"Developer Client Restrictions","הגבלותת מפתח צד-לקוח",module,Magento_Developer
+"Allowed IPs (comma separated)","כתובות IP מותרות (מופרדות בפסיק)",module,Magento_Developer
+"Leave empty for access from any location.","השאר ריק לגישה מכל מקום.",module,Magento_Developer
 "Sort Order","סדר מיון",module,Magento_Dhl
 Enabled,פעיל,module,Magento_Directory
 Action,פעולה,module,Magento_Email

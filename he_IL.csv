@@ -1333,9 +1333,11 @@ Cancel,ביטול,module,Magento_ConfigurableProduct
 "We can't process your request right now. Sorry, that's all we know.","איננו יכולים לעבד את הבקשה שלך עכשיו. מצטערים, זה כל מה שידוע לנו.",module,Magento_Contact
 "* Required Fields","* שדות חובה",module,Magento_Contact
 "Write Us","כתבו לנו",module,Magento_Contact
+"Jot us a note and we’ll get back to you as quickly as possible.","רשום לנו הודעה ואנחנו נחזור אליך בהקדם האפשרי.",module,Magento_Contact
 Name,שם,module,Magento_Contact
 Email,דואר,module,Magento_Contact
 "Phone Number","מספר טלפון",module,Magento_Contact
+"What’s on your mind?","מה מטריד אותך?",module,Magento_Contact
 Submit,שלח,module,Magento_Contact
 "We can't save the cron expression.","איננו יכולים לשמור את הCron.",module,Magento_Cron
 "Invalid cron expression, expecting 'match/modulus': %1","ביטוי cron לא חוקי, מצפים ל' התאמה/מודולוס': %1",module,Magento_Cron
@@ -3110,6 +3112,11 @@ Next,הבא,module,Magento_Checkout
 "Item in Cart","פריט בסל",module,Magento_Checkout
 "Items in Cart","פריטים בסל",module,Magento_Checkout
 "View Details","הצגת פרטים",module,Magento_Checkout
+"Contact Form","טופס יצירת קשר",module,Magento_Contact
+"Name: %name","שם: %name",module,Magento_Contact
+"Email: %email","דואר אלקטרוני: %email",module,Magento_Contact
+"Phone Number: %telephone","מספר טלפון: %telephone",module,Magento_Contact
+"Comment: %comment","הערה: %comment",module,Magento_Contact
 Password:,סיסמה:,module,Magento_Customer
 "When you sign in to your account, you will be able to:","באמצעות התחברות לחשבונך, יתאפשר לך:",module,Magento_Customer
 "Checkout out as a new customer","לקוחות חדשים",module,Magento_Customer
@@ -3493,9 +3500,14 @@ Details,פרטים,module,Magento_Catalog
 "Display Shopping Cart Sidebar","הצג סרגל צידי בעגלת הקניות",module,Magento_Checkout
 "Maximum Display Recently Added Item(s)","כמות מרבית של פריטים אחרונים שהתווספו לתצוגה",module,Magento_Checkout
 "Payment Failed Emails","דואר אלקטרוני עבור תשלום שנכשל",module,Magento_Checkout
+"Separate by "","".","נפרדים על-ידי "","".",module,Magento_Checkout
+Summary,סיכום,module,Magento_Checkout
 "Order Total","סיכום הזמנה",module,Magento_Checkout
+"We'll send your order confirmation here.","אנו נשלח את אישור ההזמנה שלך כאן.",module,Magento_Checkout
 Payment,תשלום,module,Magento_Checkout
+"Not yet calculated","עדיין לא חושב",module,Magento_Checkout
 "We received your order!","קיבלנו את ההזמנה שלך!",module,Magento_Checkout
+"Thank you for your purchase!","תודה על הרכישה!",module,Magento_Checkout
 "Contents of a Static Block","התוכן של בלוק סטטי",module,Magento_Cms
 Block,בלוק,module,Magento_Cms
 "Select Block...","בחר בלוק...",module,Magento_Cms
@@ -3528,11 +3540,15 @@ Enable,אפשר,module,Magento_Cms
 "Custom Layout","פריסה מותאמת אישית",module,Magento_Cms
 Thumbnail,"תמונה ממוזערת",module,Magento_ConfigurableProduct
 System,מערכת,module,Magento_ConfigurableProduct
+"Contacts Section","אזור אנשי קשר",module,Magento_Contact
 Contacts,"אנשי קשר",module,Magento_Contact
 "Contact Us","צור קשר",module,Magento_Contact
+"Enable Contact Us","אפשר יצירת קשר",module,Magento_Contact
 "Email Options","אפשרויות דואר אלקטרוני",module,Magento_Contact
 "Send Emails To","שלח מייל אל",module,Magento_Contact
+"Email Sender","שולח דואר אלקטרוני",module,Magento_Contact
 "Email Template","תבניות דואר אלקטרוני",module,Magento_Contact
+"Email template chosen based on theme fallback when ""Default"" option is selected.","תבנית הדואר האלקטרוני שנבחרה בהתבסס על ירושת התבנית כשבוחרים באפשרות ""ברירת מחדל"".",module,Magento_Contact
 "All Customers","כל הלקוחות",module,Magento_Customer
 "Now Online","לקוחות באתר",module,Magento_Customer
 Phone,טלפון,module,Magento_Customer

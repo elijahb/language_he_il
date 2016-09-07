@@ -607,6 +607,8 @@ Import,ייבא,module,Magento_Catalog
 "Add Price","הוסף מחיר",module,Magento_Catalog
 "Default Values","ערכי בררת מחדל",module,Magento_Catalog
 "Related Products","מוצרים נלווים",module,Magento_Catalog
+Up-sells,"קידומי מכירות",module,Magento_Catalog
+Cross-sells,"מוצרים משלימים",module,Magento_Catalog
 "Size for %1","גודל עבור %1",module,Magento_Catalog
 "Watermark File for %1","קובץ סימן מים עבור %1",module,Magento_Catalog
 "Position of Watermark for %1","המיקום של סימן המים עבור %1",module,Magento_Catalog
@@ -734,7 +736,25 @@ Disabled,"לא פעיל",module,Magento_Catalog
 "Select type options required values rows.","בחירת סוג אפשרויות דורש ערכי שורות.",module,Magento_Catalog
 "Please specify date required option(s).","נא לספק אפשרויות תאריכים דרושות.",module,Magento_Catalog
 "Please specify time required option(s).","נא לסמן אפשרויות זמן דרושות.",module,Magento_Catalog
+"The option instance type in options group is incorrect.","סוג מופע האפשרות בקבוצת האפשרויות לא נכון.",module,Magento_Catalog
+"The product instance type in options group is incorrect.","סוג מופע המוצר בקבוצת האפשרויות לא נכון.",module,Magento_Catalog
+"The configuration item option instance in options group is incorrect.","המופע של אפשרות פריט הגדרת תצורה בקבוצת האפשרויות לא נכון.",module,Magento_Catalog
+"The configuration item instance in options group is incorrect.","המופע של פריט הגדרת תצורה בקבוצת האפשרויות לא נכון.",module,Magento_Catalog
+"The BuyRequest instance in options group is incorrect.","המופע של BuyRequest בקבוצת האפשרויות לא נכון.",module,Magento_Catalog
+"The file options format is not valid.","פורמט אפשרויות הקובץ לא תקין.",module,Magento_Catalog
+px.,פיקסלים.,module,Magento_Catalog
+"The file '%1' for '%2' has an invalid extension.","לקובץ '%1' עבור '%2' יש סיומת לא חוקית.",module,Magento_Catalog
+"The file '%1' you uploaded is larger than the %2 megabytes allowed by our server.","הקובץ '%1' שהעלאת גדול יותר מ-%2 מגה שמורשים על ידי השרת.",module,Magento_Catalog
+"The file you uploaded is larger than %1 Megabytes allowed by server","הקובץ שהעלאת גדות יותר מ-%1 מגה שמורשים על ידי השרת",module,Magento_Catalog
+"The file is empty. Please choose another one","הקובץ ריק. אנא בחר קובץ אחר",module,Magento_Catalog
+"Some of the selected item options are not currently available.","חלק מאפשריות הפריט שבחרת לא זמינים כרגע.",module,Magento_Catalog
+"The text is too long.","הטקסט ארוך מדי.",module,Magento_Catalog
+"The file upload failed.","העלאת הקובץ נכשלה.",module,Magento_Catalog
+"The product has required options.","לקובץ יש אפשרויות דרושות.",module,Magento_Catalog
+"Something went wrong while processing the request.","משהו השתבש בעת עיבוד הבקשה.",module,Magento_Catalog
+"Not Visible Individually","אינו גלוי בנפרד",module,Magento_Catalog
 Search,חפש,module,Magento_Catalog
+"Catalog, Search","קטלוג, חיפוש",module,Magento_Catalog
 "A product type is not defined for the indexer.","סוג המוצר אינו מוגדר עבור בונה האינדקסים.",module,Magento_Catalog
 "Multiple Select","בחירה מרובה",module,Magento_Catalog
 Dropdown,"רשימה נפתחת",module,Magento_Catalog
@@ -745,6 +765,16 @@ Dropdown,"רשימה נפתחת",module,Magento_Catalog
 "Is Default","ברירת מחדל",module,Magento_Catalog
 "Add Option","הוסף אפשרות",module,Magento_Catalog
 Qty,כמות,module,Magento_Catalog
+"Maximum Qty Allowed in Shopping Cart","כמות מרבית המותרת בעגלת הקניות",module,Magento_Catalog
+"Qty Uses Decimals","כמות משתמשת בנקודה עשרונית",module,Magento_Catalog
+Backorders,ממתינים,module,Magento_Catalog
+"Notify for Quantity Below","הודעה עבור כמות מתחת",module,Magento_Catalog
+"Enable Qty Increments","לאפשר כמות בהפרשים קבועים",module,Magento_Catalog
+"Qty Increments","כמות בהפרשים קבועים",module,Magento_Catalog
+"Stock Availability","זמינות המלאי",module,Magento_Catalog
+"In Stock",במלאי,module,Magento_Catalog
+"Out of Stock","אזל מהמלאי",module,Magento_Catalog
+"Add Product To Websites","הוסף מוצר לאתרים",module,Magento_Catalog
 "Remove Product From Websites","הסרת מוצר מהאתרים",module,Magento_Catalog
 "Delete Custom Option","מחק אפשרות מותאמת אישית",module,Magento_Catalog
 "Sort Custom Options","מיין אפשריות מותאמות אישית",module,Magento_Catalog
@@ -780,16 +810,30 @@ Role,תפקיד,module,Magento_Catalog
 "Shopping Options","אפשרויות סינון",module,Magento_Catalog
 "Compare Products","השוואת מוצרים",module,Magento_Catalog
 "Print This Page","הדפס עמוד זה",module,Magento_Catalog
+"Remove Product","הסר מוצר",module,Magento_Catalog
 "Add to Cart","הוסף לסל",module,Magento_Catalog
 "In stock",במלאי,module,Magento_Catalog
+"Out of stock","אזל מהמלאי",module,Magento_Catalog
 "You have no items to compare.","אין לך פריטים להשוואה.",module,Magento_Catalog
+"Remove This Item","הסר פריט זה",module,Magento_Catalog
 Compare,להשוות,module,Magento_Catalog
 "Clear All","נקה הכל",module,Magento_Catalog
+Prev,הקודם,module,Magento_Catalog
 Next,הבא,module,Magento_Catalog
 "Add to Compare","הוסף להשוואה",module,Magento_Catalog
+"Learn More","מידע נוסף",module,Magento_Catalog
+"More Choices:","אפשרויות נוספות:",module,Magento_Catalog
+"Check items to add to the cart or","בחר פריטים להוספה לעגלה או",module,Magento_Catalog
+"select all","בחר הכל",module,Magento_Catalog
 "Items %1-%2 of %3","פריטים %1-%2 מ%3",module,Magento_Catalog
+"%1 Item","%1 פריט",module,Magento_Catalog
+Show,הצגה,module,Magento_Catalog
 "per page","לכל עמוד",module,Magento_Catalog
 "Sort By","מיון לפי",module,Magento_Catalog
+"Set Ascending Direction","הגדר מיון בסדר עולה",module,Magento_Catalog
+"Set Descending Direction","הגדר מיון בסדר יורד",module,Magento_Catalog
+"View as","הצג כ-",module,Magento_Catalog
+Loading...,טוען...,module,Magento_Catalog
 "* Required Fields","* שדות חובה",module,Magento_Catalog
 Availability,זמינות,module,Magento_Catalog
 "Terms and Conditions","תנאי שימוש",module,Magento_CheckoutAgreements
@@ -872,30 +916,78 @@ Loading...,טוען...,module,Magento_Checkout
 "Proceed to Checkout","המשך לקופה",module,Magento_Checkout
 "Product Name","שם מוצר",module,Magento_Checkout
 "Incl. Tax","כולל מס",module,Magento_Checkout
+"Static Blocks","בלוקים סטטים",module,Magento_Cms
+"Add New Block","הוספת בלוק חדש",module,Magento_Cms
+"Save Block","שמור את הבלוק",module,Magento_Cms
+"Delete Block","מחק בלוק",module,Magento_Cms
 "Save and Continue Edit","שמור והמשך בעריכה",module,Magento_Cms
 "Edit Block '%1'","ערוך בלוק '%1'",module,Magento_Cms
+"New Block","בלוק חדש",module,Magento_Cms
 "Block Information","בלוק מידע",module,Magento_Cms
+"General Information","מידע כללי",module,Magento_Cms
+"Block Title","כותרת בלוק",module,Magento_Cms
+Identifier,מזהה,module,Magento_Cms
 "Store View","תצוגת חנות",module,Magento_Cms
 Status,סטטוס,module,Magento_Cms
 Enabled,פעיל,module,Magento_Cms
 Disabled,"לא פעיל",module,Magento_Cms
 Content,תוכן,module,Magento_Cms
+Title,כותרת,module,Magento_Cms
+"Manage Pages","ניהול עמודים",module,Magento_Cms
 "Add New Page","הוספת דף חדש",module,Magento_Cms
 "Save Page","שמירת דף",module,Magento_Cms
 "Delete Page","מחיקת דף",module,Magento_Cms
 "Edit Page '%1'","עריכת עמוד '%1'",module,Magento_Cms
+"New Page","דף חדש",module,Magento_Cms
+"Content Heading","כותרת התוכן",module,Magento_Cms
 "Page Layout","תצוגת עמוד",module,Magento_Cms
+Layout,פריסה,module,Magento_Cms
+"Layout Update XML","פריסת עדכון XML",module,Magento_Cms
 "Custom Design","עיצוב מותאם",module,Magento_Cms
 "Custom Design From","עיצוב מותאם אישית מ",module,Magento_Cms
 "Custom Design To","עיצוב מותאם אישית ל",module,Magento_Cms
+"-- Please Select --","-- אנא בחר --",module,Magento_Cms
+"Custom Theme","תבנית מותאמת אישית",module,Magento_Cms
+"Custom Layout","פריסה מותאמת אישית",module,Magento_Cms
 "Custom Layout Update XML","עדכון תצוגה מותאמת אישית XML",module,Magento_Cms
+Design,עיצוב,module,Magento_Cms
+"Page Information","עמוד מידע",module,Magento_Cms
+"Page Title","כותרת עמוד",module,Magento_Cms
+"URL Key","מזהה כתובת",module,Magento_Cms
 "Relative to Web Site Base URL","קבל את URL הבסיס האינטרנטי",module,Magento_Cms
 "Page Status","מצב עמוד",module,Magento_Cms
 "Meta Data","נתוני מטא",module,Magento_Cms
 Keywords,"מילות מפתח",module,Magento_Cms
 Description,תיאור,module,Magento_Cms
+Created,נוצר,module,Magento_Cms
+Modified,עודכן,module,Magento_Cms
 Action,פעולה,module,Magento_Cms
+Preview,"תצוגה מקדימה",module,Magento_Cms
+"Media Storage","אחסון מדיה",module,Magento_Cms
+"Create Folder...","יצירת תיקיה...",module,Magento_Cms
+"Delete Folder","מחק תיקייה",module,Magento_Cms
+"Delete File","מחק קובץ",module,Magento_Cms
+"Insert File","הכנס קובץ",module,Magento_Cms
+"New Folder Name:","שם התיקיה החדשה:",module,Magento_Cms
+"Are you sure you want to delete this folder?","האם אתה בטוח שברצונך למחוק תיקיה זו?",module,Magento_Cms
+"Are you sure you want to delete this file?","האם אתה בטוח שברצונך למחוק קובץ זה?",module,Magento_Cms
+"Images (%1)","תמונות (%1)",module,Magento_Cms
+"Storage Root","שורש אחסון",module,Magento_Cms
 Home,"דף הבית",module,Magento_Cms
+"Go to Home Page","מעבר לעמוד הבית",module,Magento_Cms
+"This block no longer exists.","הבלוק הזה לא קיים עוד.",module,Magento_Cms
+"Edit Block","עריכת בלוק",module,Magento_Cms
+Blocks,בלוקים,module,Magento_Cms
+"The page has been deleted.","העמוד נמחק.",module,Magento_Cms
+"This page no longer exists.","דף זה אינו קיים.",module,Magento_Cms
+"Edit Page","עריכת דף",module,Magento_Cms
+Pages,דפים,module,Magento_Cms
+"Something went wrong while saving the page.","משהו השתבש תוך שמירת פרטי העמוד.",module,Magento_Cms
+"The directory %1 is not writable by server.","התיקייה %1 אינה ניתנת לעריכה על-ידי שרת.",module,Magento_Cms
+"Make sure that static block content does not reference the block itself.","ודא כי תוכן בלוק המידע הסטטי אינו מפנה את הבלוק עצמו.",module,Magento_Cms
+"Enabled by Default","מאופשר כברירת מחדל",module,Magento_Cms
+"Disabled by Default","לא זמינים כברירת מחדל",module,Magento_Cms
+"Disabled Completely","בעלי נטרול לחלוטין",module,Magento_Cms
 "Choose an Option...","בחרו אפשרות...",module,Magento_ConfigurableProduct
 Price,מחיר,module,Magento_ConfigurableProduct
 Quantity,כמות,module,Magento_ConfigurableProduct
@@ -1050,6 +1142,8 @@ Login,כניסה,module,Magento_Customer
 "Confirm Password","אימות סיסמא",module,Magento_Customer
 "New Customers","לקוחות חדשים",module,Magento_Customer
 Name,שם,module,Magento_Customer
+"Client side less compilation","קומפילצית less בצד לקוח",module,Magento_Developer
+"Server side less compilation","קומפילצית less בצד שרת",module,Magento_Developer
 Width,רוחב,module,Magento_Dhl
 "Please, specify origin country","אנא ציין ארץ מוצא",module,Magento_Dhl
 None,ללא,module,Magento_Dhl
@@ -2088,11 +2182,16 @@ Total:,"סך הכל:",module,Magento_Checkout
 "Add Products to Option ""%1""","הוסף מוצרים לאפשרות ""%1""",module,Magento_Bundle
 "Add Selected Products","הוספת המוצרים שנבחרו",module,Magento_Bundle
 Cancel,ביטול,module,Magento_Catalog
+"Configure Product","הגדרת המוצר",module,Magento_Catalog
 OK,אישור,module,Magento_Catalog
+"Select type of option.","בחר את סוג האפשרות.",module,Magento_Catalog
+"Please add rows to option.","נא להוסיף שורות לאפשרות.",module,Magento_Catalog
 "New Option","אפשרות חדשה",module,Magento_Catalog
 "Select Product","בחר מוצר",module,Magento_Catalog
 "Please select items.","אנא בחר פריטים.",module,Magento_Catalog
+"Choose existing category.","בחר קטגוריה קיימת.",module,Magento_Catalog
 "Create Category","צור קטגוריה",module,Magento_Catalog
+"unselect all","בטל בחירה של הכל",module,Magento_Catalog
 "Incl. Tax","כולל מס",module,Magento_ConfigurableProduct
 "Add Products","הוסף מוצרים",module,Magento_Sales
 "We don't recognize this file extension.","אנחנו לא מזהים את סיומת הקובץ.",module,Magento_Theme
@@ -2210,11 +2309,41 @@ Rule,כלל,module,Magento_CatalogRule
 "Catalog Search","חיפוש בקטלוג",module,Magento_CatalogSearch
 "Minimal Query Length","אורך שאילתה מינימלי",module,Magento_CatalogSearch
 "Maximum Query Length","אורך שאילתה מקסימלי",module,Magento_CatalogSearch
+"Product Fields Auto-Generation","שדות מוצר יצירה אוטומטמית",module,Magento_Catalog
+"Mask for SKU","מסכה עבור מק""ט",module,Magento_Catalog
+"Use {{name}} as Product Name placeholder","השתמש ב-{{name}} בתור placeholder של שם המוצר",module,Magento_Catalog
+"Mask for Meta Title","מסכה עבור מטא כותרת",module,Magento_Catalog
+"Mask for Meta Keywords","מסכה עבור מטא מילות מפתח",module,Magento_Catalog
+"Use {{name}} as Product Name or {{sku}} as Product SKU placeholders","השתמש ב-{{name}} בתור placeholder של שם המוצר או {{sku}} בתור placeholder של מק""ט המוצר",module,Magento_Catalog
+"Mask for Meta Description","מסכה עבור מטא תיאור",module,Magento_Catalog
+"Use {{name}} and {{description}} as Product Name and Product Description placeholders","השתמש ב-{{name}} ו-{{description}} בתור placeholders של שם המוצר ותיאור המוצר",module,Magento_Catalog
+Storefront,"תצוגת חנות",module,Magento_Catalog
+"List Mode","מצב רשימה",module,Magento_Catalog
+"Products per Page on Grid Allowed Values","ערכים מותרים עבור מוצרים בעמוד בתצוגת גריד",module,Magento_Catalog
+Comma-separated.,"מופרד באמצעות פסיקים.",module,Magento_Catalog
 "Product Listing Sort by","מיון מוצרים לפי",module,Magento_Catalog
 "Watermark Default Size","גודל ברירת המחדל של סימן המים",module,Magento_Catalog
 "Watermark Opacity, Percent","שקיפות סימן המים, אחוזים",module,Magento_Catalog
 Watermark,"סימן מים",module,Magento_Catalog
 "Watermark Position","מיקום סימן המים",module,Magento_Catalog
+"Number of Products per Page","מספר המוצרים לכל עמוד",module,Magento_Catalog
+"Number of Products to Display","מספר המוצרים לתצוגה",module,Magento_Catalog
+Template,תבנית,module,Magento_Catalog
+"New Products Grid Template","תבנית תצוגת גריד מוצרים חדשה",module,Magento_Catalog
+"New Products List Template","תבנית תצוגת רשימת מוצרים חדשה",module,Magento_Catalog
+"New Products Images and Names Template","תבנית תמונות ושמות מוצרים חדשה",module,Magento_Catalog
+"New Products Names Only Template","תבנית שמות מוצרים בלבד חדשה",module,Magento_Catalog
+"New Products Images Only Template","תבנית מוצרים מוצרים בלבד חדשה",module,Magento_Catalog
+"Cache Lifetime (Seconds)","תקופת חיים של המטמון (שניות)",module,Magento_Catalog
+"86400 by default, if not set. To refresh instantly, clear the Blocks HTML Output cache.","86400 לפי ברירת מחדל, אם לא הוגדר. כדי לרענן באופן מיידי, נקה את המטמון של הפלט של בלוקי ה-HTML.",module,Magento_Catalog
+"Catalog Product Link","קישור מוצר קטלוגי",module,Magento_Catalog
+"Link to a Specified Product","קישור למוצר שצויין",module,Magento_Catalog
+"Anchor Custom Text","קישור טקסט מותאם אישית",module,Magento_Catalog
+"Anchor Custom Title","קישור כותרת מותאם אישית",module,Magento_Catalog
+"Product Link Block Template","תבנית בלוק קישור מוצר",module,Magento_Catalog
+"Product Link Inline Template","תבנית בתוך השורה קישור מוצר",module,Magento_Catalog
+"Catalog Category Link","קישור קטגוריית קטלוג",module,Magento_Catalog
+"Link to a Specified Category","קישור לקטגוריה שצויינה",module,Magento_Catalog
 Details,פרטים,module,Magento_Catalog
 "Enable Terms and Conditions","לאפשר תנאים והתניות",module,Magento_CheckoutAgreements
 "Checkout Options","אפשרויות קופה",module,Magento_Checkout
@@ -2229,13 +2358,21 @@ Details,פרטים,module,Magento_Catalog
 "Display Shopping Cart Sidebar","הצג סרגל צידי בעגלת הקניות",module,Magento_Checkout
 "Maximum Display Recently Added Item(s)","כמות מרבית של פריטים אחרונים שהתווספו לתצוגה",module,Magento_Checkout
 "Payment Failed Emails","דואר אלקטרוני עבור תשלום שנכשל",module,Magento_Checkout
+"Separate by "","".","נפרדים על-ידי "","".",module,Magento_Checkout
 "Shipping Address","כתובת למשלוח",module,Magento_Checkout
 "For delivery questions.","לשאלות משלוח.",module,Magento_Checkout
 "Cart Subtotal","סה""כ",module,Magento_Checkout
+"Not yet calculated","עדיין לא חושב",module,Magento_Checkout
+"Thank you for your purchase!","תודה על הרכישה!",module,Magento_Checkout
+"Contents of a Static Block","התוכן של בלוק סטטי",module,Magento_Cms
+Block,בלוק,module,Magento_Cms
+"CMS Static Block Default Template","תבנית ברירת המחדל של בלוק סטטי CMS",module,Magento_Cms
 Contacts,"אנשי קשר",module,Magento_Contact
 "Contact Us","צור קשר",module,Magento_Contact
+"Enable Contact Us","אפשר יצירת קשר",module,Magento_Contact
 "Email Options","אפשרויות דואר אלקטרוני",module,Magento_Contact
 "Send Emails To","שלח מייל אל",module,Magento_Contact
+"Email Sender","שולח דואר אלקטרוני",module,Magento_Contact
 "Email Template","תבניות דואר אלקטרוני",module,Magento_Contact
 "Cron (Scheduled Tasks) - all the times are in minutes","Cron (משימות מתוזמנות) - כל הזמנים משוערכים בתור דקות",module,Magento_Cron
 "For correct URLs generated during cron runs please make sure that Web > Secure and Unsecure Base URLs are explicitly set.","עבור כתובות הURL הנכונים שנוצרו במהלך הcron פועל אנא ודא זאת באמצעות אינטרנט > אבטחה, הURL הבסיס המאובטח והלא מאובטח מוגדרות במפורש.",module,Magento_Cron
@@ -2247,6 +2384,11 @@ Type,סוג,module,Magento_Customer
 "Edit Account Information","ערוך את פרטי החשבון",module,Magento_Customer
 "My Dashboard","החשבון שלי",module,Magento_Customer
 "Front-end development workflow","תרשים עבודה של פיתוח צד-לקוח",module,Magento_Developer
+"Workflow type","סוג זרימת העבודה",module,Magento_Developer
+"Not available in production mode","לא זמין במצב ייצור",module,Magento_Developer
+"Developer Client Restrictions","הגבלותת מפתח צד-לקוח",module,Magento_Developer
+"Allowed IPs (comma separated)","כתובות IP מותרות (מופרדות בפסיק)",module,Magento_Developer
+"Leave empty for access from any location.","השאר ריק לגישה מכל מקום.",module,Magento_Developer
 "Sort Order","סדר מיון",module,Magento_Dhl
 Enabled,פעיל,module,Magento_Directory
 "Entity types declaration cache.","הגדרת סוגי יישות עבור מטמון.",module,Magento_Eav

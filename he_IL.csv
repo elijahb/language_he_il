@@ -384,8 +384,15 @@ Database,"בסיס נתונים",module,Magento_Backup
 Country,ארץ,module,Magento_Braintree
 "Allowed Credit Card Types","סוגי כרטיסי אשראי מותרים",module,Magento_Braintree
 "Add Rule","הוסף כלל",module,Magento_Braintree
+"Braintree Settlement Report","דיווח הסדר של Braintree",module,Magento_Braintree
+"Sorry, but something went wrong","מצטערים, משהו השתבש",module,Magento_Braintree
 "We can't initialize checkout.","איננו יכולים לאתחל את הקופה.",module,Magento_Braintree
+"No authorization transaction to proceed capture.","לא אושרה הטרנזרציה להמשיך לתהליך קליטה.",module,Magento_Braintree
+"Braintree error response.","תגובת שגיאה של Braintree.",module,Magento_Braintree
+"Payment method nonce can't be retrieved.","אין אפשרות לשחזר nonce כשיטת התשלום.",module,Magento_Braintree
+"Wrong transaction status","מצב טרנזקציה שגוי",module,Magento_Braintree
 Authorize,אישור,module,Magento_Braintree
+"Authorize and Capture","אושר ונקלט",module,Magento_Braintree
 "--Please Select--","--אנא בחר",module,Magento_Braintree
 "Paypal account","חשבון PayPal",module,Magento_Braintree
 "Coinbase account","חשבון Coinbase",module,Magento_Braintree

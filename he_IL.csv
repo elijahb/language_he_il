@@ -3143,7 +3143,12 @@ Delete,מחק,module,Magento_GiftMessage
 "Edit Your Cart","ערוך את עגלת הקניות שלך",module,Magento_Payment
 "Apply Discount Code","להשתמש בקוד הנחה",module,Magento_SalesRule
 "Apply Discount",ממש,module,Magento_SalesRule
+"Thank you for your order from %store_name.","תודה על הזמנתך מ- %store_name.",module,Magento_Sales
 "You can check the status of your order by <a href=""%account_url"">logging into your account</a>.","באפשרותך לבדוק את מצב ההזמנה שלך באמצעות <a href=""%account_url""> התחברות לחשבון שלך</a>.",module,Magento_Sales
+"If you have questions about your order, you can email us at <a href=""mailto:%store_email"">%store_email</a>","אם יש לך שאלות לגבי ההזמנה שלך, אתה יכול לשלוח לנו דוא''ל- <a href=""mailto:%store_email""> %store_email</a>",module,Magento_Sales
+"Billing Info","פרטי חיוב",module,Magento_Sales
+"Shipping Info","פרטי משלוח",module,Magento_Sales
+"Your Order <span class=""no-link"">#%increment_id</span>","הזמנתך <span class=""no-link""> #%increment_id</span>",module,Magento_Sales
 "See our Shipping Policy","ראה את מדיניות המשלוחים שלנו",module,Magento_Shipping
 "Welcome to %store_name.","ברוכים הבאים ל-%store_name.",module,Magento_Theme
 "To sign in to our site, use these credentials during checkout or on the <a href=""%customer_url"">My Account</a> page:","כדי להיכנס לאתר שלנו, השתמש בפרטי חיבור אלה במהלך הרכישה או בדף <a href=""%customer_url""> החשבון שלי</a>:",module,Magento_Theme

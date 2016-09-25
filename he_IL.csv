@@ -1680,6 +1680,8 @@ From:,מ:,module,Magento_Sales
 To:,ל:,module,Magento_Sales
 Message:,הודעה:,module,Magento_Sales
 Status,סטטוס,module,Magento_Sales
+"Shipped By","נשלח על ידי",module,Magento_Sales
+"Tracking Number","מספר מעקב",module,Magento_Sales
 "Product Name","שם מוצר",module,Magento_Sales
 "View Order","הצג הזמנה",module,Magento_Sales
 "Print Order","הדפס הזמנה",module,Magento_Sales

@@ -1722,6 +1722,7 @@ Email,אימייל,module,Magento_Paypal
 "Reference ID","מזהה ההפניה",module,Magento_Paypal
 Status,סטטוס,module,Magento_Paypal
 Created,נוצר,module,Magento_Paypal
+N/A,"לא זמין",module,Magento_Paypal
 Updated,עודכן,module,Magento_Paypal
 Back,חזור,module,Magento_Paypal
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_Paypal
@@ -1777,6 +1778,7 @@ Filter,סינון,module,Magento_Reports
 Day,יום,module,Magento_Reports
 Month,חודש,module,Magento_Reports
 Year,שנה,module,Magento_Reports
+Period,תקופה,module,Magento_Reports
 From,מ-,module,Magento_Reports
 To,ל-,module,Magento_Reports
 Yes,כן,module,Magento_Reports

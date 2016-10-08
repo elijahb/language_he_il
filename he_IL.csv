@@ -2438,6 +2438,14 @@ City,עיר,module,Magento_Email
 "Store Contact Information","פרטי איש קשר של החנות",module,Magento_Email
 "Template Variables","משתני תבנית",module,Magento_Email
 "Please enter a template name.","אנא הזינו שם תבנית.",module,Magento_Email
+"Duplicate Of Template Name","שכפול של שם תבנית",module,Magento_Email
+"Invalid transactional email code: %1","דוא""ל עסקה לא חוקי קוד: %1",module,Magento_Email
+"Requested invalid store ""%1""","בקשת חנות לא תקינה ""%1""",module,Magento_Email
+"""file"" parameter must be specified","יש לציין פרמטר ""קובץ""",module,Magento_Email
+"Contents of %s could not be loaded or is empty","לא ניתן לטעון את התוכן של %s או שהוא ריק",module,Magento_Email
+"""file"" parameter must be specified and must not be empty","יש לציין פרמטר ""קובץ"" והוא אינו יכול להיות ריק",module,Magento_Email
+"Error filtering template: %s","שגיאה בסינון תבנית: %s",module,Magento_Email
+"We're sorry, an error has occurred while generating this email.","אנו מצטערים, אירעה שגיאה בעת יצירת מייל זה.",module,Magento_Email
 "Change Encryption Key","שנה מפתח הצפנה",module,Magento_EncryptionKey
 "Encryption Key","מפתח ההצפנה",module,Magento_EncryptionKey
 "New Encryption Key","מפתח ההצפנה החדש",module,Magento_EncryptionKey

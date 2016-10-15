@@ -2100,6 +2100,11 @@ Quantity,כמות,module,Magento_Sales
 "Refund Shipping (Excl. Tax)","החזר כספי עבור משלוח (לא כולל מס)",module,Magento_Sales
 "Refund Shipping","החזר כספי עבור משלוח",module,Magento_Sales
 Refund,"החזר כספי",module,Magento_Sales
+"Refund Offline","החזר במצב לא מקוון",module,Magento_Sales
+"Paid Amount","סכום ששולם",module,Magento_Sales
+"Refund Amount","סכום ההחזר",module,Magento_Sales
+"Shipping Amount","כמות המשלוח",module,Magento_Sales
+"Shipping Refund","החזר כספי עבור משלוח",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
 Unhold,"בטל השהייה",module,Magento_Sales
 unhold,"בטל השהייה",module,Magento_Sales
@@ -2203,6 +2208,7 @@ Status,סטטוס,module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
 Close,סגור,module,Magento_Sales
 "Qty Shipped","כמות שנשלחה",module,Magento_Sales
+"Recent Orders","הזמנות האחרונות",module,Magento_Sales
 "Add to Cart","הוסף לסל",module,Magento_Sales
 "The link to a friend was sent.","הקישור לחבר נשלח.",module,Magento_SendFriend
 "We found some problems with the data.","מצאנו כמה בעיות עם הנתונים.",module,Magento_SendFriend

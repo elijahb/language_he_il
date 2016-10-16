@@ -3135,6 +3135,11 @@ Quantity,כמות,module,Magento_Sales
 "Refund Shipping","החזר כספי עבור משלוח",module,Magento_Sales
 "Update Qty's","עדכן כמויות",module,Magento_Sales
 Refund,"החזר כספי",module,Magento_Sales
+"Refund Offline","החזר במצב לא מקוון",module,Magento_Sales
+"Paid Amount","סכום ששולם",module,Magento_Sales
+"Refund Amount","סכום ההחזר",module,Magento_Sales
+"Shipping Amount","כמות המשלוח",module,Magento_Sales
+"Shipping Refund","החזר כספי עבור משלוח",module,Magento_Sales
 "The credit memo email wasn't sent.","הדואר האלקטרוני בנוגע לזיכוי לא נשלח.",module,Magento_Sales
 "The invoice email wasn't sent.","הדואר האלקטרוני בנוגע לחשבונית לא נשלח.",module,Magento_Sales
 Edit,ערוך,module,Magento_Sales
@@ -3283,6 +3288,7 @@ Actions,פעולות,module,Magento_Sales
 "Qty Invoiced","כמות שחויבה",module,Magento_Sales
 Close,סגור,module,Magento_Sales
 "Qty Shipped","כמות שנשלחה",module,Magento_Sales
+"Recent Orders","הזמנות האחרונות",module,Magento_Sales
 "Add to Cart","הוסף לסל",module,Magento_Sales
 Search,חפש,module,Magento_Sales
 "Search Term","תנאי חיפוש",module,Magento_Search
@@ -4192,7 +4198,7 @@ Cancel,ביטול,module,Magento_Checkout
 "Save in address book","שמור בספר הכתובות",module,Magento_Checkout
 "Estimated Total","סכום משוער",module,Magento_Checkout
 "You can create an account after checkout.","ניתן ליצור חשבון לקוח בסיום הרכישה.",module,Magento_Checkout
-"You already have an account with us. Sign in or continue as guest.","יש לך כבר חשבון אצלנו. היכנס או המשך כאורח.",module,Magento_Checkout
+"You already have an account with us. Sign in or continue as guest.","יש לך כבר חשבון אצלנו. התחבר או המשך כאורח.",module,Magento_Checkout
 Login,כניסה,module,Magento_Checkout
 Close,סגור,module,Magento_Checkout
 item,פריט,module,Magento_Checkout
@@ -4250,6 +4256,7 @@ Delete,מחק,module,Magento_GiftMessage
 "Place Order","בצע הזמנה",module,Magento_Payment
 "Forgot an Item?","שכחת פריט?",module,Magento_Payment
 "Edit Your Cart","ערוך את עגלת הקניות שלך",module,Magento_Payment
+"Continue to PayPal","המשך לפייפאל",module,Magento_Paypal
 "Check 'Remember Me' to access your shopping cart on this computer even if you are not signed in.","סמן את 'זכור אותי' כדי לגשת עגלת הקניות שלך במחשב זה, גם אם אתה לא מחובר.",module,Magento_Persistent
 "Apply Discount Code","להשתמש בקוד הנחה",module,Magento_SalesRule
 "Apply Discount",ממש,module,Magento_SalesRule

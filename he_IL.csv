@@ -971,7 +971,7 @@ Products,מוצרים,module,Magento_Catalog
 "This attribute set no longer exists.","קבוצת התכונות כבר לא קיימת.",module,Magento_Catalog
 "You saved the attribute set.","שמרת את קבוצת התכונות.",module,Magento_Catalog
 "Something went wrong while saving the attribute set.","משהו השתבש בעת שמירת קבוצת התכונות.",module,Magento_Catalog
-"You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
+"You added product %1 to the comparison list.","%1 נוסף לרשימת ההשוואה.",module,Magento_Catalog
 "You cleared the comparison list.","ניקית את רשימת ההשוואה.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","משהו השתבש  בעת ניקוי רשימת ההשוואה.",module,Magento_Catalog
 "You removed product %1 from the comparison list.","הסרת מוצר %1 מרשימת ההשוואה.",module,Magento_Catalog
@@ -1729,7 +1729,7 @@ Cancel,ביטול,module,Magento_ConfigurableProduct
 "Write Us","כתבו לנו",module,Magento_Contact
 "Jot us a note and we’ll get back to you as quickly as possible.","רשום לנו הודעה ואנחנו נחזור אליך בהקדם האפשרי.",module,Magento_Contact
 Name,שם,module,Magento_Contact
-Email,דואר,module,Magento_Contact
+Email,"דואר אלקטרוני",module,Magento_Contact
 "Phone Number","מספר טלפון",module,Magento_Contact
 "What’s on your mind?","מה מטריד אותך?",module,Magento_Contact
 Submit,שלח,module,Magento_Contact
@@ -1908,7 +1908,7 @@ Download,הורדה,module,Magento_Customer
 "The password doesn't match this account.","הסיסמה אינה תואמת את החשבון שהזנת.",module,Magento_Customer
 "Please correct the email address.","נא תקן את כתובת הדוא״ל.",module,Magento_Customer
 "We're unable to send the password reset email.","איננו יכולים לשלוח איפוס הסיסמה לדואר האלקטרוני.",module,Magento_Customer
-"Please enter your email.","הזן את כתובת הדוא""ל שלך.",module,Magento_Customer
+"Please enter your email.","נא הזן את כתובת הדואר האלקטרוני שלך.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","אם יש חשבון המשויך %1 תקבל הודעת דוא״ל עם קישור לאיפוס הסיסמה שלך.",module,Magento_Customer
 "My Account","החשבון שלי",module,Magento_Customer
 "This account is not confirmed. <a href=""%1"">Click here</a> to resend confirmation email.","חשבון זה אינו מאושר. "" ""<a href=""%1""> לחץ כאן</a> כדי לשלוח דוא״ל אישור מחדש.",module,Magento_Customer
@@ -2976,6 +2976,7 @@ Reviews,ביקורות,module,Magento_Review
 "Customer Reviews","חוות דעת של לקוחות",module,Magento_Review
 "We can't retrieve the product ID.","איננו יכולים לקבל את המספר המזהה של המוצר.",module,Magento_Review
 "My Product Reviews","ביקורות שלי",module,Magento_Review
+"You submitted your review for moderation.","הביקורת ממתינה לאישור.",module,Magento_Review
 "We can't post your review right now.","איננו יכולים לפרסם את הביקורת נכון לעכשיו.",module,Magento_Review
 "Please specify a rating title for a store, or we'll just use the default value.","אנא הזן את הכותרת עבור החנות אחרת נשתמש בערך ברירת המחדל.",module,Magento_Review
 "Product Name","שם מוצר",module,Magento_Review
@@ -4081,7 +4082,7 @@ Page,דף,module,Magento_Widget
 "We can't specify a product.","המוצר אינו זמין כעת.",module,Magento_Wishlist
 "We can't add the item to Wish List right now: %1.","לא ניתן להוסיף את הפריט ל-wishlist כעת: %1.",module,Magento_Wishlist
 "We can't add the item to Wish List right now.","לא ניתן להוסיף את המוצר ל-wishlist כעת.",module,Magento_Wishlist
-"You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Wishlist
+"You added %1 to your shopping cart.","%1 נוסף לעגלת הקניות.",module,Magento_Wishlist
 "This product(s) is out of stock.","המוצר(ים) לא במלאי.",module,Magento_Wishlist
 "We can't add the item to the cart right now.","לא ניתן להוסיף את הפריט לעגלה כעת.",module,Magento_Wishlist
 "We can't load the Wish List item right now.","לא ניתן לטעון את הפריט כעת.",module,Magento_Wishlist
@@ -4403,6 +4404,10 @@ Shipping,משלוח,module,Magento_Checkout
 "Generate Products","ליצור מוצרים",module,Magento_ConfigurableProduct
 "Something went wrong.","משהו השתבש.",module,Magento_ConfigurableProduct
 "Are you sure you want to do this?","אתה בטוח שאתה רוצה לעשות את זה?",module,Magento_Customer
+Weak,חלש,module,Magento_Customer
+Medium,בינוני,module,Magento_Customer
+Strong,חזק,module,Magento_Customer
+"Very Strong","חזק מאוד",module,Magento_Customer
 "We could not detect a size.","לא הצלחנו לזהות את הגודל.",module,Magento_Downloadable
 "We can't complete your order because you don't have a payment method set up.","אין אפשרות להשלים את ההזמנה שלך כי אין לך שיטת תשלום מוגדרת.",module,Magento_Multishipping
 "Please choose a payment method.","אנא בחר שיטת תשלום.",module,Magento_Multishipping

@@ -2950,8 +2950,10 @@ Next,הבא,module,Magento_Review
 "<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4"">(%4)</a>","<a href=""%1"" onclick=""this.target='blank'"">%2 %3</a> <a href=""mailto:%4""> (%4)</a>",module,Magento_Review
 Administrator,מנהל,module,Magento_Review
 Guest,אורח,module,Magento_Review
+Author,כותב,module,Magento_Review
 "Summary Rating","סיכום דירוג",module,Magento_Review
 "Detailed Rating","פירטי דירוגים",module,Magento_Review
+Created,נוצר,module,Magento_Review
 Title,כותרת,module,Magento_Review
 Type,סוג,module,Magento_Review
 SKU,מק''ט,module,Magento_Review
@@ -2959,8 +2961,12 @@ Action,פעולה,module,Magento_Review
 Edit,ערוך,module,Magento_Review
 Delete,מחק,module,Magento_Review
 "Are you sure?","האם אתה בטוח?",module,Magento_Review
+"Update Status","תאריך עדכון",module,Magento_Review
 Customer,לקוח,module,Magento_Review
+"Pending Reviews of Customer `%1`","'%1' חוות דעת ממתינות לאישור",module,Magento_Review
 "Pending Reviews","חוות דעת בהמתנה",module,Magento_Review
+"All Reviews of Customer `%1`","כל חוות הדעת של הלקוח '%1'",module,Magento_Review
+"All Reviews of Product `%1`","כל חוות הדעת של המוצר '%1'",module,Magento_Review
 "All Reviews","כל חוות הדעת",module,Magento_Review
 Name,שם,module,Magento_Review
 Price,מחיר,module,Magento_Review
@@ -2970,18 +2976,38 @@ Websites,אתרים,module,Magento_Review
 "Add New Rating","הוסף דירוג חדש",module,Magento_Review
 "Save Rating","שמור דירוג",module,Magento_Review
 "Delete Rating","מחק דירוג",module,Magento_Review
+"New Rating","דירוג חדש",module,Magento_Review
+"Rating Title","כותרת דירוג",module,Magento_Review
+"Default Value","ערך ברירת מחדל",module,Magento_Review
+"Rating Visibility","נראות דירוג",module,Magento_Review
+"Is Active",פעיל,module,Magento_Review
 "Sort Order","סדר מיון",module,Magento_Review
 "Product Reviews","חוות דעת מוצרים",module,Magento_Review
+"Pending product review(s)","חוות דעת בהמתנה של מוצר",module,Magento_Review
+"Product: <a href=""%1"" target=""_blank"">%2</a> <br/>","המוצר: <a href=""%1"" target=""_blank"">%2</a> <br/>",module,Magento_Review
+"Summary of review: %1 <br/>","תקציר חוות דעת: %1 <br/>",module,Magento_Review
+"Review: %1 <br/>","חוות דעת: %1 <br/>",module,Magento_Review
+"Reviews %1","%1 חוות דעת",module,Magento_Review
 Reviews,ביקורות,module,Magento_Review
 "Customer Reviews","חוות דעת של לקוחות",module,Magento_Review
+"Edit Review","עריכת חוות דעת",module,Magento_Review
 "We can't retrieve the product ID.","איננו יכולים לקבל את המספר המזהה של המוצר.",module,Magento_Review
+"You deleted the rating.","מחקת את הדירוג.",module,Magento_Review
+Ratings,דירוג,module,Magento_Review
 "My Product Reviews","ביקורות שלי",module,Magento_Review
 "You submitted your review for moderation.","הביקורת ממתינה לאישור.",module,Magento_Review
 "We can't post your review right now.","איננו יכולים לפרסם את הביקורת נכון לעכשיו.",module,Magento_Review
+Approved,אושרה,module,Magento_Review
+Pending,ממתינה,module,Magento_Review
+"Not Approved","לא אושרה",module,Magento_Review
+"Please enter a nickname.","נא הזן כינוי.",module,Magento_Review
+"Please enter a review.","נא הזן חוות דעת.",module,Magento_Review
+"Rating isn't Available","דירוג לא זמין",module,Magento_Review
 "Please specify a rating title for a store, or we'll just use the default value.","אנא הזן את הכותרת עבור החנות אחרת נשתמש בערך ברירת המחדל.",module,Magento_Review
 "Product Name","שם מוצר",module,Magento_Review
 Rating,דירוג,module,Magento_Review
 Actions,פעולות,module,Magento_Review
+"See Details","ראה פרטים",module,Magento_Review
 "You have submitted no reviews.","לא הגשת אף חוות דעת.",module,Magento_Review
 Back,חזור,module,Magento_Review
 "My Recent Reviews","חוות דעת אחרונות שלי",module,Magento_Review

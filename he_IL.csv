@@ -752,7 +752,7 @@ Products,מוצרים,module,Magento_Catalog
 "Manage Attribute Sets","ניהול קבוצות תכונות",module,Magento_Catalog
 "This attribute set no longer exists.","קבוצת התכונות כבר לא קיימת.",module,Magento_Catalog
 "You saved the attribute set.","שמרת את קבוצת התכונות.",module,Magento_Catalog
-"You added product %1 to the comparison list.","הוספת מוצר %1 לרשימת ההשוואה.",module,Magento_Catalog
+"You added product %1 to the comparison list.","%1 נוסף לרשימת ההשוואה.",module,Magento_Catalog
 "You cleared the comparison list.","ניקית את רשימת ההשוואה.",module,Magento_Catalog
 "Something went wrong  clearing the comparison list.","משהו השתבש  בעת ניקוי רשימת ההשוואה.",module,Magento_Catalog
 "You removed product %1 from the comparison list.","הסרת מוצר %1 מרשימת ההשוואה.",module,Magento_Catalog
@@ -1128,7 +1128,7 @@ Confirm,אישור,module,Magento_ConfigurableProduct
 Cancel,ביטול,module,Magento_ConfigurableProduct
 "* Required Fields","* שדות חובה",module,Magento_Contact
 Name,שם,module,Magento_Contact
-Email,דואר,module,Magento_Contact
+Email,"דואר אלקטרוני",module,Magento_Contact
 Submit,שלח,module,Magento_Contact
 Daily,יומי,module,Magento_Cron
 Weekly,שבועי,module,Magento_Cron
@@ -1244,7 +1244,7 @@ Download,הורדה,module,Magento_Customer
 "Account Information","פרטי חשבון",module,Magento_Customer
 "Invalid input","קלט שגוי",module,Magento_Customer
 "Please correct the email address.","נא תקן את כתובת הדוא״ל.",module,Magento_Customer
-"Please enter your email.","הזן את כתובת הדוא""ל שלך.",module,Magento_Customer
+"Please enter your email.","נא הזן את כתובת הדואר האלקטרוני שלך.",module,Magento_Customer
 "If there is an account associated with %1 you will receive an email with a link to reset your password.","אם יש חשבון המשויך %1 תקבל הודעת דוא״ל עם קישור לאיפוס הסיסמה שלך.",module,Magento_Customer
 "My Account","החשבון שלי",module,Magento_Customer
 "Invalid login or password.","משתמש או סיסמה שגויים.",module,Magento_Customer
@@ -1935,6 +1935,7 @@ Administrator,מנהל,module,Magento_Review
 Guest,אורח,module,Magento_Review
 "Summary Rating","סיכום דירוג",module,Magento_Review
 "Detailed Rating","פירטי דירוגים",module,Magento_Review
+Created,נוצר,module,Magento_Review
 Title,כותרת,module,Magento_Review
 Type,סוג,module,Magento_Review
 SKU,מק''ט,module,Magento_Review
@@ -1942,8 +1943,12 @@ Action,פעולה,module,Magento_Review
 Edit,ערוך,module,Magento_Review
 Delete,מחק,module,Magento_Review
 "Are you sure?","האם אתה בטוח?",module,Magento_Review
+"Update Status","תאריך עדכון",module,Magento_Review
 Customer,לקוח,module,Magento_Review
+"Pending Reviews of Customer `%1`","'%1' חוות דעת ממתינות לאישור",module,Magento_Review
 "Pending Reviews","חוות דעת בהמתנה",module,Magento_Review
+"All Reviews of Customer `%1`","כל חוות הדעת של הלקוח '%1'",module,Magento_Review
+"All Reviews of Product `%1`","כל חוות הדעת של המוצר '%1'",module,Magento_Review
 "All Reviews","כל חוות הדעת",module,Magento_Review
 Name,שם,module,Magento_Review
 Price,מחיר,module,Magento_Review
@@ -1953,11 +1958,23 @@ Websites,אתרים,module,Magento_Review
 "Add New Rating","הוסף דירוג חדש",module,Magento_Review
 "Save Rating","שמור דירוג",module,Magento_Review
 "Delete Rating","מחק דירוג",module,Magento_Review
+"New Rating","דירוג חדש",module,Magento_Review
+"Rating Title","כותרת דירוג",module,Magento_Review
+"Default Value","ערך ברירת מחדל",module,Magento_Review
+"Rating Visibility","נראות דירוג",module,Magento_Review
+"Is Active",פעיל,module,Magento_Review
 "Sort Order","סדר מיון",module,Magento_Review
 "Product Reviews","חוות דעת מוצרים",module,Magento_Review
 Reviews,ביקורות,module,Magento_Review
 "Customer Reviews","חוות דעת של לקוחות",module,Magento_Review
+"Edit Review","עריכת חוות דעת",module,Magento_Review
+"You deleted the rating.","מחקת את הדירוג.",module,Magento_Review
+Ratings,דירוג,module,Magento_Review
 "My Product Reviews","ביקורות שלי",module,Magento_Review
+Approved,אושרה,module,Magento_Review
+Pending,ממתינה,module,Magento_Review
+"Not Approved","לא אושרה",module,Magento_Review
+"Rating isn't Available","דירוג לא זמין",module,Magento_Review
 "Product Name","שם מוצר",module,Magento_Review
 Rating,דירוג,module,Magento_Review
 "You have submitted no reviews.","לא הגשת אף חוות דעת.",module,Magento_Review
@@ -2716,7 +2733,7 @@ Page,דף,module,Magento_Widget
 "Wish List Sharing","שיתוף wishlist",module,Magento_Wishlist
 "My Wish List","ה-Wishlist שלי",module,Magento_Wishlist
 "%1's Wish List","ה-wishlist של %1",module,Magento_Wishlist
-"You added %1 to your shopping cart.","הוספת %1 לעגלת הקניות.",module,Magento_Wishlist
+"You added %1 to your shopping cart.","%1 נוסף לעגלת הקניות.",module,Magento_Wishlist
 "This product(s) is out of stock.","המוצר(ים) לא במלאי.",module,Magento_Wishlist
 "%1 has been moved to your wish list.","%1 הועבר ל-wishlist שלך.",module,Magento_Wishlist
 "Message length must not exceed %1 symbols","אורך ההודעה מוגבל ל-%1 תווים",module,Magento_Wishlist

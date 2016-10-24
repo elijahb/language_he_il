@@ -1287,7 +1287,7 @@ Role,תפקיד,module,Magento_Catalog
 "Add to Wish List","הוסף ל Wish List",module,Magento_Catalog
 "You have no items to compare.","אין לך פריטים להשוואה.",module,Magento_Catalog
 "Remove This Item","הסר פריט זה",module,Magento_Catalog
-Compare,להשוות,module,Magento_Catalog
+Compare,השוואה,module,Magento_Catalog
 "Clear All","נקה הכל",module,Magento_Catalog
 Prev,הקודם,module,Magento_Catalog
 Next,הבא,module,Magento_Catalog
@@ -2709,7 +2709,7 @@ Newsletter,ניוזלטר,module,Magento_Newsletter
 "We can't delete this template right now.","איננו יכולים למחוק את התבנית הזו ברגע זה.",module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
-Subscribe,הירשם,module,Magento_Newsletter
+Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
 "Send Check to:","שלח כדי לבדוק ל-:",module,Magento_OfflinePayments
 "Purchase Order Number","מספר הזמנת הרכישה",module,Magento_OfflinePayments

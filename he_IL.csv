@@ -919,7 +919,7 @@ Role,תפקיד,module,Magento_Catalog
 "Out of stock","אזל מהמלאי",module,Magento_Catalog
 "You have no items to compare.","אין לך פריטים להשוואה.",module,Magento_Catalog
 "Remove This Item","הסר פריט זה",module,Magento_Catalog
-Compare,להשוות,module,Magento_Catalog
+Compare,השוואה,module,Magento_Catalog
 "Clear All","נקה הכל",module,Magento_Catalog
 Prev,הקודם,module,Magento_Catalog
 Next,הבא,module,Magento_Catalog

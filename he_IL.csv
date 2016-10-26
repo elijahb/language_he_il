@@ -5132,6 +5132,7 @@ Phone,טלפון,module,Magento_Customer
 Type,סוג,module,Magento_Customer
 "Account Dashboard","לוח ניהול",module,Magento_Customer
 "Edit Account Information","עריכת פרטי החשבון",module,Magento_Customer
+"Password forgotten","שכחתי סיסמה",module,Magento_Customer
 "My Dashboard","החשבון שלי",module,Magento_Customer
 "You are signed out","התנתקת בהצלחה",module,Magento_Customer
 "Frontend Development Workflow","תרשים עבודה של פיתוח צד-לקוח",module,Magento_Developer

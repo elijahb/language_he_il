@@ -1758,7 +1758,7 @@ Action,פעולה,module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
 "Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
-Subscribe,הירשם,module,Magento_Newsletter
+Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
 "Send Check to:","שלח כדי לבדוק ל-:",module,Magento_OfflinePayments
 "Purchase Order Number","מספר הזמנת הרכישה",module,Magento_OfflinePayments
@@ -1933,7 +1933,7 @@ Next,הבא,module,Magento_Review
 "Edit Review '%1'","עריכת ביקורת '%1'",module,Magento_Review
 Administrator,מנהל,module,Magento_Review
 Guest,אורח,module,Magento_Review
-"Summary Rating","סיכום דירוג",module,Magento_Review
+"Summary Rating","תקציר דירוג",module,Magento_Review
 "Detailed Rating","פירטי דירוגים",module,Magento_Review
 Created,נוצר,module,Magento_Review
 Title,כותרת,module,Magento_Review
@@ -1965,7 +1965,7 @@ Websites,אתרים,module,Magento_Review
 "Is Active",פעיל,module,Magento_Review
 "Sort Order","סדר מיון",module,Magento_Review
 "Product Reviews","חוות דעת מוצרים",module,Magento_Review
-Reviews,ביקורות,module,Magento_Review
+Reviews,"חוות דעת",module,Magento_Review
 "Customer Reviews","חוות דעת של לקוחות",module,Magento_Review
 "Edit Review","עריכת חוות דעת",module,Magento_Review
 "You deleted the rating.","מחקת את הדירוג.",module,Magento_Review
@@ -1986,7 +1986,7 @@ Back,חזור,module,Magento_Review
 "Write Your Own Review","כתוב חוות דעת שלך",module,Magento_Review
 "* Required Fields","* שדות חובה",module,Magento_Review
 "You're reviewing:","הנך סוקר:",module,Magento_Review
-Summary,סיכום,module,Magento_Review
+Summary,תקציר,module,Magento_Review
 "Submit Review","שלח חוות דעת מוצר",module,Magento_Review
 "Add Your Review","הוסף את חוות הדעת שלך",module,Magento_Review
 "Review by","חוות דעת של",module,Magento_Review
@@ -3208,7 +3208,8 @@ Phone,טלפון,module,Magento_Customer
 "First Name","שם פרטי",module,Magento_Customer
 "Last Name","שם משפחה",module,Magento_Customer
 Type,סוג,module,Magento_Customer
-"Edit Account Information","ערוך את פרטי החשבון",module,Magento_Customer
+"Edit Account Information","עריכת פרטי החשבון",module,Magento_Customer
+"Password forgotten","שכחתי סיסמה",module,Magento_Customer
 "My Dashboard","החשבון שלי",module,Magento_Customer
 "Front-end development workflow","תרשים עבודה של פיתוח צד-לקוח",module,Magento_Developer
 "Workflow type","סוג זרימת העבודה",module,Magento_Developer

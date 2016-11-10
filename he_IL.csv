@@ -1731,7 +1731,7 @@ Cancel,ביטול,module,Magento_ConfigurableProduct
 Name,שם,module,Magento_Contact
 Email,"דואר אלקטרוני",module,Magento_Contact
 "Phone Number","מספר טלפון",module,Magento_Contact
-"What’s on your mind?","מה מטריד אותך?",module,Magento_Contact
+"What’s on your mind?","הודעה",module,Magento_Contact
 Submit,שלח,module,Magento_Contact
 "Invalid domain name: %1","שם לא חוקי עבוד דומיין: %1",module,Magento_Cookie
 "Invalid cookie lifetime: %1","זמן תפוגה לא חוקי עבור cookie: %1",module,Magento_Cookie
@@ -2683,7 +2683,7 @@ Subtotal,"סכום ביניים",module,Magento_Multishipping
 Items,פריטים,module,Magento_Multishipping
 "Thanks for your order. We'll email you order details and tracking information.","תודה על הזמנתך. אנחנו בדוק באיימל את פרטי ההזמנה, מידע, ומעקב משלוח.",module,Magento_Multishipping
 "No New Relic Application ID configured, cannot continue with Cron Event reporting","אין יישום אשר הוגדר באמצעות מזהה חדש, אין אפשרות להמשיך עם דיווח אירוע ה-Cron",module,Magento_NewRelicReporting
-"The New Relic integration requires the newrelic-php5 agent, which is not installed. More 
+"The New Relic integration requires the newrelic-php5 agent, which is not installed. More
                         information on installing the agent is available <a target=""_blank"" href=""%1"">here</a>.","האינגרציה של השריד החדש מחייב את newrelic-php5 agent, אשר אינו מותקן. מידע נוסף על התקנת הagent זמין <a target=""_blank"" href=""%1""> כאן</a>.",module,Magento_NewRelicReporting
 "Delete Selected Problems","מחק את הבעיות שנבחרו",module,Magento_Newsletter
 "Unsubscribe Selected","לבטל הרשמה של המנוי שנבחר",module,Magento_Newsletter
@@ -2708,7 +2708,7 @@ Action,פעולה,module,Magento_Newsletter
 Newsletter,ניוזלטר,module,Magento_Newsletter
 "We can't delete this template right now.","איננו יכולים למחוק את התבנית הזו ברגע זה.",module,Magento_Newsletter
 "Newsletter Subscription","ניוזלטר - רישום",module,Magento_Newsletter
-"Enter your email address","הזן את כתובת הדוא""ל שלך",module,Magento_Newsletter
+"Enter your email address","הזן את כתובת המייל",module,Magento_Newsletter
 Subscribe,הרשמה,module,Magento_Newsletter
 "Make Check payable to:","כתוב את השיק לפקודת:",module,Magento_OfflinePayments
 "Send Check to:","שלח כדי לבדוק ל-:",module,Magento_OfflinePayments
@@ -5233,7 +5233,7 @@ Export,ייצוא,module,Magento_OfflineShipping
 "Varnish Configuration","קופיגורציה של Varnish",module,Magento_PageCache
 "Access list","רשימת גישה",module,Magento_PageCache
 "IPs access list separated with ',' that can purge Varnish configuration for config file generation.
-                            If field is empty default value localhost will be saved.","רשימת IP מורשים מופרדים באמצעות ',' יכולים לקבל אפשרויות ליצירה מחודשת של קבצי קונפיגורציה. אם השדה ריק אז ערך ברירת המחדל בסביבה המקומית יישמר.",module,Magento_PageCache
+"If field is empty default value localhost will be saved.","רשימת IP מורשים מופרדים באמצעות ',' יכולים לקבל אפשרויות ליצירה מחודשת של קבצי קונפיגורציה. אם השדה ריק אז ערך ברירת המחדל בסביבה המקומית יישמר.",module,Magento_PageCache
 "Backend host","מארח צד שרת",module,Magento_PageCache
 "Specify backend host for config file generation. If field is empty default value localhost will be saved.","ציין backend מארח ליצירת קובץ config. אם השדה ריק localhost יהיה ערך ברירת המחדל שישמר.",module,Magento_PageCache
 "Backend port","פורט Backend",module,Magento_PageCache
@@ -5246,6 +5246,8 @@ Position,מיקום,module,Magento_Paypal
 "Sort Order","סדר מיון",module,Magento_Paypal
 Enabled,פעיל,module,Magento_Paypal
 Login,כניסה,module,Magento_Paypal
+"You will be redirected to the PayPal website.","אנחנו מנתבים אותך לאתר פיי פאל",module,Magento_PayPal
+"What is PayPal?","מה זה פיי פאל",module,Magento_PayPal
 "Persistent Shopping Cart","עגלת הקניות תמידית",module,Magento_Persistent
 "General Options","אפשרויות כלליות",module,Magento_Persistent
 "Enable Persistence","לאפשר שימור נתונים",module,Magento_Persistent
